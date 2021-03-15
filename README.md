@@ -37,4 +37,5 @@
 # Work Done
 ___
 >## March 15th, 2021:
-- All
+- All: Divided up tasks
+- All: Set due dates for tasks
