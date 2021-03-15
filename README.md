@@ -34,7 +34,7 @@
 ---
 
 ### Content/text
-
+- [Google Fonts](https://fonts.google.com/?preview.text_type=custom) used: Monsterrat & Roboto, [Privacy Policy](https://policies.google.com/privacy?hl=en)
 # Work Done
 
 ---
@@ -43,6 +43,6 @@
 
 - All: Divided up tasks
 - All: Set due dates for tasks.
-- Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages
+- Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages. Google fonts imported. Nav styled, header section started.
 
 ## March 17th, 2021:

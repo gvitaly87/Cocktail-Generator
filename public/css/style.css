@@ -1,0 +1,59 @@
+body {
+  background-color: gray;
+}
+
+/* .wrapper {
+ background-image: url(../images/sm);
+} */
+
+/* Navigation */
+
+
+nav.primary {
+  display: flex;
+  flex-flow: row-reverse;
+  padding-right: 2rem;
+}
+
+nav.primary li {
+  display: inline-block;
+  list-style-type: none;
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+
+nav.primary a {
+  text-decoration: none;
+  padding: 0.25rem;
+}
+
+a.login {
+  background-color: #f76c6c;
+}
+
+nav.primary a:hover {
+  background-color: #9E4646;
+}
+
+
+.home-header {
+  display: flex;
+  flex-flow: column wrap;
+
+  width: 25rem;
+
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.home-title {
+  padding: 1rem;
+}
+
+.home-subtitle {
+  padding: 1rem;
+}
+
+.browse-recipies {
+  padding: 1rem;
+}
