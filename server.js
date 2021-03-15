@@ -8,7 +8,7 @@ const path = require('path');
 const routes = require('./routes');
 
 // Read the host address and the port from the environment
-const hostname = process.env.HOST || 'localhost';
+const hostname = process.env.HOST;
 const port = process.env.PORT || 3000;
 
 //Every time we see a app.use we apply a Middleware in express
