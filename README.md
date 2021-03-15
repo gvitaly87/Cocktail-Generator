@@ -10,7 +10,7 @@
   - [Vitaly Gins](https://github.com/gvitaly87)
 - Github Links:
   - [GH repo](https://github.com/gvitaly87/cpnt262-final)
-  - [Deployed Heroku URL]()
+  - [Deployed Heroku URL](https://cocktail-generator-262-final.herokuapp.com/)
 
 ### Context
 
