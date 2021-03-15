@@ -44,5 +44,6 @@
 
 - All: Divided up tasks
 - All: Set due dates for tasks.
+- Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages
 
 ## March 17th, 2021:
