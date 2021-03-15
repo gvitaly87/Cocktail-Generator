@@ -5,17 +5,24 @@ const app = express();
 
 const path = require('path');
 
-// Read the host address and the port from the environment
-const hostname = process.env.HOST;
-const port = process.env.PORT || 3000;
+const routes = require('./routes');
 
-//set ejs as the view engine for express
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, './views'));
+// Read the host address and the port from the environment
+const hostname = process.env.HOST || 'localhost';
+const port = process.env.PORT || 3000;
 
 //Every time we see a app.use we apply a Middleware in express
 //Returns the static asset as long as it is found in the specified folder.
 app.use(express.static(path.join(__dirname, './public')));
+
+//set ejs as the view engine for express
+app.set('view engine', 'ejs');
+
+app.use('/', (req, res, next) => {
+  res.locals.siteName = 'Cocktail Drink Generator';
+  next();
+});
+app.use('/', routes());
 
 //404 Not Found page.
 app.use((req, res) => res.status(404).redirect('404.html'));
