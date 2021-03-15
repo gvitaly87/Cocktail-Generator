@@ -28,8 +28,9 @@
 
 - error.jpg image by [alleksana](https://www.pexels.com/@alleksana) from [Pexels](https://www.pexels.com/photo/wood-dirty-writing-abstract-4271933/)
   - [Pexels License](https://www.pexels.com/license/)
-    - Cocktail image by [Adam Jaime](https://unsplash.com/@arobj) from [Unsplash](https://unsplash.com/photos/dmkmrNptMpw)
-     - [Unsplash License](https://unsplash.com/license)
+
+- Cocktail image by [Adam Jaime](https://unsplash.com/@arobj) from [Unsplash](https://unsplash.com/photos/dmkmrNptMpw)
+- [Unsplash License](https://unsplash.com/license)
 
 ---
 
