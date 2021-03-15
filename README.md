@@ -39,5 +39,6 @@ ___
 >## March 15th, 2021:
 - All: Divided up tasks
 - All: Set due dates for tasks.
+- Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css
 
 ## March 17th, 2021:
