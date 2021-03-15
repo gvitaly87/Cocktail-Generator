@@ -3,7 +3,7 @@
 nav.primary a {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: whitesmoke;
 }
 
@@ -15,10 +15,10 @@ nav.primary a {
   color: whitesmoke;
 }
 
-/* .home-subtitle {
-
+.home-subtitle {
+  
 }
 
 .browse-recipies {
 
-} */
+}

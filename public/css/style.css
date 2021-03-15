@@ -1,12 +1,15 @@
-body {
+/* body {
   background-color: gray;
-}
+} */
 
 /* .wrapper {
- background-image: url(../images/sm);
+ background-image: url(../images/gallery/home-page-hero.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
 } */
 
 /* Navigation */
+
 
 
 nav.primary {
@@ -33,6 +36,16 @@ a.login {
 
 nav.primary a:hover {
   background-color: #9E4646;
+}
+
+  .wrapper {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/gallery/home-page-hero.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
