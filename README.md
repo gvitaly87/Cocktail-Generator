@@ -38,4 +38,6 @@
 ___
 >## March 15th, 2021:
 - All: Divided up tasks
-- All: Set due dates for tasks
+- All: Set due dates for tasks.
+
+## March 17th, 2021:
