@@ -10,7 +10,7 @@
   - [Vitaly Gins](https://github.com/gvitaly87)
 - Github Links:
   - [GH repo](https://github.com/gvitaly87/cpnt262-final)
-  - [Deployed Heroku URL]()
+  - [Deployed Heroku URL](https://cocktail-generator-262-final.herokuapp.com/)
 
 ### Context
 
@@ -35,7 +35,7 @@
 ---
 
 ### Content/text
-
+- [Google Fonts](https://fonts.google.com/?preview.text_type=custom) used: Monsterrat & Roboto, [Privacy Policy](https://policies.google.com/privacy?hl=en)
 # Work Done
 
 ---
@@ -44,6 +44,6 @@
 
 - All: Divided up tasks
 - All: Set due dates for tasks.
-- Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages
+- Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages. Google fonts imported. Nav styled, header section started.
 
 ## March 17th, 2021:
