@@ -22,6 +22,7 @@ app.use('/', (req, res, next) => {
   res.locals.siteName = 'Cocktail Drink Generator';
   next();
 });
+
 app.use('/', routes());
 
 //404 Not Found page.
