@@ -29,3 +29,22 @@ nav.primary a {
   font-size: clamp(1rem, 4.25vw, 2.5rem);
   color: whitesmoke;
 }
+
+footer {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 200;
+  font-size: clamp(1rem, 4.25vw, 1.5rem);
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+/* Media Queries */
+@media screen and (max-width: 651px) {
+  .home-title {
+    font-size: 3rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.75rem;
+  }
+}

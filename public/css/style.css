@@ -42,9 +42,9 @@ a.login {
 .home-header {
   display: flex;
   flex-flow: column wrap;
-  margin-top: 25vh;
-  margin-left: 5vw;
-  max-width: 40vw;
+  margin-top: 20vh;
+  margin-left: 15vw;
+  width: 40vw;
   word-spacing: 0.15rem;
   text-align: left;
 }
@@ -68,9 +68,30 @@ a:hover {
   background-color: #9E4646;
 }
 
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  position: absolute;
+  bottom: 0;
+  min-width: 100vw;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1100px) {
   nav.primary {
     background-image: none;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .home-header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(68, 68, 68, 0.8);
+    padding: 2rem;
+    min-width: 100vw;
   }
 }
