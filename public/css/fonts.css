@@ -3,22 +3,29 @@
 nav.primary a {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
-  font-size: 1.75rem;
+  font-size: clamp(1rem, 4.25vw, 1.5rem);
   color: whitesmoke;
+  text-transform: uppercase;
 }
 
 .home-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 3.25rem;
+  font-size: clamp(1rem, 9.5vw, 5.25rem);
 
   color: whitesmoke;
 }
 
 .home-subtitle {
-  
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 200;
+   font-size: clamp(1rem, 4.25vw, 2.5rem);
+  color: whitesmoke;
 }
 
 .browse-recipies {
-
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 200;
+  font-size: clamp(1rem, 6.25vw, 2.5rem);
+  color: whitesmoke;
 }
