@@ -46,4 +46,5 @@
 - All: Set due dates for tasks.
 - Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages. Google fonts imported. Nav styled, header section started.
 
-## March 17th, 2021:
+## March 16th, 2021:
+- Kyle: @media's added to css, background added more mobile on text
