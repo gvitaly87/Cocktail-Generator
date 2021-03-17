@@ -1,0 +1,30 @@
+/* Navigation */
+nav.primary {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  background-color: rgba(68, 68, 68, 0.8);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-image: url(../images/logo/mixrcocktaillogo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav.primary li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1.5rem;
+}
+
+nav.primary a {
+  text-decoration: none;
+  margin: 0rem 2rem 0 0;
+  padding: 1.5rem;
+}
+
+a.login {
+  background-color: #f76c6c;
+  padding: 0.75rem;
+  padding: 0rem, 1rem, 0rem, 1rem;
+}
