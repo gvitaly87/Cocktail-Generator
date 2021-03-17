@@ -27,15 +27,24 @@
 ### Images
 
 - error.jpg image by [alleksana](https://www.pexels.com/@alleksana) from [Pexels](https://www.pexels.com/photo/wood-dirty-writing-abstract-4271933/)
+
   - [Pexels License](https://www.pexels.com/license/)
 
-- Cocktail image by [Adam Jaime](https://unsplash.com/@arobj) from [Unsplash](https://unsplash.com/photos/dmkmrNptMpw)
-- [Unsplash License](https://unsplash.com/license)
+- Hero Image [Adam Jaime](https://unsplash.com/@arobj) from [Unsplash](https://unsplash.com/photos/dmkmrNptMpw)
+  - [Unsplash License](https://unsplash.com/license)
+
+- Cocktail Images by [Isabella Mendes](https://www.pexels.com/@isabella-mendes-107313)
+
+- Cocktail Images by [Charlotte May](https://www.pexels.com/@charlotte-may)
+
+- Cocktail Images by [Geraud Pfeiffer](https://www.pexels.com/@geraud-pfeiffer)
 
 ---
 
 ### Content/text
+
 - [Google Fonts](https://fonts.google.com/?preview.text_type=custom) used: Monsterrat & Roboto, [Privacy Policy](https://policies.google.com/privacy?hl=en)
+
 # Work Done
 
 ---
@@ -47,4 +56,5 @@
 - Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages. Google fonts imported. Nav styled, header section started.
 
 ## March 16th, 2021:
-- Kyle: @media's added to css, background added more mobile on text
+
+Kyle: @media's added to css, background added more mobile on text
