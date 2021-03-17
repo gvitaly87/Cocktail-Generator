@@ -2,7 +2,7 @@
   "name": "cpnt-262-final",
   "version": "0.0.1",
   "description": "A cocktail generator",
-  "main": "server.js",
+  "main": "_connection.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -28,6 +28,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
   }
 }
