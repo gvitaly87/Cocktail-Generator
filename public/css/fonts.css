@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;600;700;800;900&display=swap');
 
+/* Navigation */
 nav.primary a {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
@@ -8,6 +9,7 @@ nav.primary a {
   text-transform: uppercase;
 }
 
+/* Main Page Title */
 .home-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -16,6 +18,7 @@ nav.primary a {
   color: whitesmoke;
 }
 
+/* Main Page Subtitle */
 .home-subtitle {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
@@ -23,6 +26,7 @@ nav.primary a {
   color: whitesmoke;
 }
 
+/* Main Page Recipie Link */
 .browse-recipies {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
@@ -30,6 +34,7 @@ nav.primary a {
   color: whitesmoke;
 }
 
+/* Footer */
 footer {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
