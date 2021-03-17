@@ -42,6 +42,7 @@ a.browse-recipies {
 
   padding: 1.5rem;
   border-radius: 1rem;
+  box-shadow: 0.25rem 0.5rem hsl(0, 39%, 75%);
 }
 
 a:hover {
