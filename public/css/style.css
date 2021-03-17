@@ -82,13 +82,8 @@ footer {
 /* Media Queries */
 @media screen and (max-width: 1175px) {
   nav.primary {
-<<<<<<< HEAD
     background-image: none;  
   } 
-=======
-    background-image: none;
->>>>>>> fd3a40224df5772e6e78f564830ee3c99c70c66c
-  }
 }
 
 @media screen and (max-width: 1135px) {
