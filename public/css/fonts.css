@@ -24,8 +24,11 @@ nav.primary a {
 /* Main Page Title */
 .home-title {
   font-size: clamp(1rem, 6.5vw, 5.25rem);
-
   color: var(--main-color);
+}
+
+.cocktail {
+  color: #f76c6c;
 }
 
 /* Main Page Subtitle */
