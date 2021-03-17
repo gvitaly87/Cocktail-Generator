@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+  --main-color: white;
+}
+body {
+  font-family: 'Monsterrat', sans-serif;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
 /* Navigation */
 nav.primary a {
-  font-family: 'Monsterrat', sans-serif;
   font-size: clamp(1rem, 4.25vw, 1.25rem);
-  color: #fff;
+  color: var(--main-color);
   text-transform: uppercase;
 }
 
 /* Main Page Title */
 .home-title {
-  font-family: 'Roboto', sans-serif;
   font-size: clamp(1rem, 6.5vw, 5.25rem);
 
-  color: #fff;
+  color: var(--main-color);
 }
 
 /* Main Page Subtitle */
 .home-subtitle {
   font-family: 'Monsterrat', sans-serif;
   font-size: clamp(0.5rem, 3.25vw, 1.5rem);
-  color: whitesmoke;
+  color: var(--main-color);
 }
 
 /* Main Page Recipie Link */
@@ -28,7 +40,7 @@ nav.primary a {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
   font-size: clamp(1rem, 4.25vw, 1.5rem);
-  color: whitesmoke;
+  color: var(--main-color);
 }
 
 /* Footer */
@@ -36,7 +48,7 @@ footer {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
   font-size: clamp(1rem, 4.25vw, 1.5rem);
-  color: whitesmoke;
+  color: var(--main-color);
   text-transform: uppercase;
 }
 
