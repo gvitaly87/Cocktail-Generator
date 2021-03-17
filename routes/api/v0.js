@@ -10,6 +10,7 @@ module.exports = () => {
     // looks for the page at the path, passes variable pageTitle
     res.json(galleryJSON);
   });
+
   router.get('/:version', (req, res) => {
     // render calls the view engine
     // looks for the page at the path, passes variable pageTitle
