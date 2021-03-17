@@ -49,11 +49,7 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1175px) {
-  nav.primary {
-    background-image: none;  
-  } 
-}
+
 
 @media screen and (max-width: 1135px) {
   /*Hamburger Style Goes Here*/
