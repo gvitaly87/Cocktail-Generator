@@ -3,26 +3,23 @@
 /* Navigation */
 nav.primary a {
   font-family: 'Monsterrat', sans-serif;
-  font-weight: 200;
-  font-size: clamp(1rem, 4.25vw, 1.5rem);
-  color: whitesmoke;
+  font-size: clamp(1rem, 4.25vw, 1.25rem);
+  color: #fff;
   text-transform: uppercase;
 }
 
 /* Main Page Title */
 .home-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: clamp(1rem, 6.5vw, 5.25rem);
 
-  color: whitesmoke;
+  color: #fff;
 }
 
 /* Main Page Subtitle */
 .home-subtitle {
   font-family: 'Monsterrat', sans-serif;
-  font-weight: 200;
-   font-size: clamp(1rem, 3.25vw, 2.5rem);
+  font-size: clamp(0.5rem, 3.25vw, 1.5rem);
   color: whitesmoke;
 }
 
@@ -30,7 +27,7 @@ nav.primary a {
 .browse-recipies {
   font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
-  font-size: clamp(1rem, 4.25vw, 2.5rem);
+  font-size: clamp(1rem, 4.25vw, 1.5rem);
   color: whitesmoke;
 }
 
