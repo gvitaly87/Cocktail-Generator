@@ -8,7 +8,7 @@
   - [Kyle Welsh](https://github.com/Kylewwelsh)
   - [Shivani Patel](https://github.com/Shi-stack)
   - [Vitaly Gins](https://github.com/gvitaly87)
-- Github Links:
+- GitHub Links:
   - [GH repo](https://github.com/gvitaly87/cpnt262-final)
   - [Deployed Heroku URL](https://cocktail-generator-262-final.herokuapp.com/)
 
