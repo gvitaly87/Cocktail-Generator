@@ -33,14 +33,12 @@ nav.primary a {
 
 /* Main Page Subtitle */
 .home-subtitle {
-  font-family: 'Monsterrat', sans-serif;
   font-size: clamp(0.5rem, 3.25vw, 1.5rem);
   color: var(--main-color);
 }
 
 /* Main Page Recipie Link */
 .browse-recipies {
-  font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
   font-size: clamp(1rem, 4.25vw, 1.5rem);
   color: var(--main-color);
@@ -48,7 +46,6 @@ nav.primary a {
 
 /* Footer */
 footer {
-  font-family: 'Monsterrat', sans-serif;
   font-weight: 200;
   font-size: clamp(1rem, 4.25vw, 1.5rem);
   color: var(--main-color);

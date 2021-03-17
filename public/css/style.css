@@ -39,7 +39,9 @@ a.browse-recipies {
   text-decoration: none;
 
   width: max-content;
-  padding: 0.5rem;
+
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
 
 a:hover {
@@ -53,7 +55,7 @@ footer {
 
   margin: auto;
   min-width: 100vw;
-  
+
   position: absolute;
   bottom: 0px;
 }
@@ -61,8 +63,8 @@ footer {
 /* Media Queries */
 @media screen and (max-width: 1175px) {
   nav.primary {
-    background-image: none;  
-  } 
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 1135px) {
