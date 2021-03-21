@@ -2,6 +2,13 @@ const express = require('express');
 
 const router = express.Router();
 
+const galleryRoute = require('./gallery');
+const teamRoute = require('./team');
+const loginRoute = require('./login');
+const registerRoute = require('./register');
+const adminRoute = require('./admin');
+const subscribeRoute = require('./subscribe');
+
 const apiRoute = require('./api/v0');
 
 const imgArr = require('../data/images');
@@ -13,24 +20,12 @@ module.exports = () => {
     res.render('pages/index', { pageTitle: 'Index' });
   });
 
-  router.get('/gallery', (req, res) => {
-    // render calls the view engine
-    // looks for the page at the path, passes variable pageTitle
-    res.render('pages/gallery', { pageTitle: 'Gallery' });
-  });
-
-  router.get('/our-team', (req, res) => {
-    // render calls the view engine
-    // looks for the page at the path, passes variable pageTitle
-    res.render('pages/our-team', { pageTitle: 'Our Team' });
-  });
-
-  router.get('/login', (req, res) => {
-    // render calls the view engine
-    // looks for the page at the path, passes variable pageTitle
-    res.render('pages/login', { pageTitle: 'Login' });
-  });
-
+  router.use('/subscribe', subscribeRoute());
+  router.use('/gallery', galleryRoute());
+  router.use('/team', teamRoute());
+  router.use('/admin', adminRoute());
+  router.use('/login', loginRoute());
+  router.use('/register', registerRoute());
   router.use('/api', apiRoute());
 
   return router;
