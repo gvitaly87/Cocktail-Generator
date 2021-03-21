@@ -26,7 +26,7 @@ module.exports = () => {
   router.use('/admin', adminRoute());
   router.use('/login', loginRoute());
   router.use('/register', registerRoute());
-  router.use('/api', apiRoute());
+  router.use('/api/v0', apiRoute());
 
   return router;
 };
