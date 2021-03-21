@@ -1,0 +1,99 @@
+:root {
+  --clr: hsl(0, 90%, 70%);
+  --clr2: hsl(325, 30%, 90%);
+  --clr3: hsla(0, 0%, 27%);
+  --clr4: white;
+  --clr-txt: hsl(0, 0%, 50%);
+  --clr-error: hsla(0, 65%, 51%, 0.6);
+}
+form {
+  min-height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+form label {
+  position: relative;
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  border: none;
+  appearance: none;
+  background: var(--clr2);
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+
+  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+  background: linear-gradient(90deg, var(--clr), var(--clr)) center bottom/0 0.15rem no-repeat,
+    linear-gradient(90deg, var(--clr3), var(--clr3)) left bottom/100% 0.15em no-repeat,
+    linear-gradient(90deg, var(--clr2), var(--clr2)) left bottom/100% no-repeat;
+
+  transition: background-size 0.3s ease;
+}
+form input:focus,
+form input:valid {
+  background: none;
+  border: 2px solid var(--clr);
+  transition: border-color 0.3s ease;
+}
+
+form input:invalid {
+  background-color: var(--clr-error);
+}
+form .placeholder {
+  position: absolute;
+  left: 12px;
+  top: calc(50% + 10px);
+
+  transform: translateY(-50%);
+
+  color: var(--clr-txt);
+  transition: top 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+form input:valid + .placeholder,
+form input:focus + .placeholder {
+  top: 10px;
+  font-size: 0.7rem;
+  color: var(--clr);
+  background-size: 100% 0.15em, 100% 0.1em, 100%;
+}
+
+.form-btn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: inherit;
+  border: 0;
+  background: none;
+  padding: 0.75em 1.5em;
+  margin: 1rem;
+
+  border: 2px solid var(--clr);
+  background: var(--clr);
+  color: var(--clr4);
+  outline: 2px solid var(--clr2);
+  transition: outline-offset 200ms ease;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  outline: 2px solid var(--clr2);
+  outline-offset: -6px;
+}
+
+form a {
+  color: var(--clr);
+}
