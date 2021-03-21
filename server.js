@@ -42,7 +42,7 @@ app.use((err, req, res, next) => {
   res.locals.status = status;
   res.status(status);
   // Render the error page using the default layout
-  res.render('pages/error', { pageTitle: `Error ${status}`, template: 'error' });
+  res.render('layout', { pageTitle: `Error ${status}`, template: 'error' });
 });
 
 // Start a TCP server listening for connections on the given port and host
