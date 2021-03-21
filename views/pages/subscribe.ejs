@@ -1,0 +1,11 @@
+<% if (success) { %>
+<h2>Thank you for subscribing</h2>
+<% } else { %>
+<form action="/subscribe" method="POST">
+  <label for="email">
+    <input type="email" name="email" id="email" required />
+    <span class="placeholder">Enter Email</span>
+  </label>
+  <button class="form-btn" type="submit">Subscribe</button>
+</form>
+<% } %>

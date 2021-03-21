@@ -1,34 +1,23 @@
+<% if (success == true) { %>
+<p>Thank you for your registration!</p>
+<%}%>
 <form class="register-form" method="POST" action="/register">
-  <label for="name">
-    <input type="text" name="name" id="name" required />
-    <span class="placeholder">Enter Name</span>
+  <label for="username">
+    <input type="text" name="username" id="username" required />
+    <span class="placeholder">Enter User Name</span>
   </label>
   <label for="email">
     <input type="email" name="email" id="email" required />
     <span class="placeholder">Enter Email</span>
   </label>
   <label for="password">
-    <input
-      type="password"
-      name="password"
-      pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-      id="password"
-      value=""
-      required
-    />
+    <input type="password" name="password" id="password" value="" required />
     <span class="placeholder">Enter password</span>
   </label>
-  <label for="conf-psw">
-    <input
-      type="password"
-      name="conf-psw"
-      pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-      id="conf-psw"
-      value=""
-      required
-    />
+  <!-- <label for="conf-psw">
+    <input type="password" name="conf-psw" id="conf-psw" value="" required />
     <span class="placeholder">Enter password</span>
-  </label>
+  </label> -->
   <button class="form-btn" type="submit">Register</button>
   <p class="message">Already registered? <a href="/login">Sign In</a></p>
 </form>
