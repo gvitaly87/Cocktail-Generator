@@ -12,15 +12,5 @@ module.exports = () => {
     });
   });
 
-  router.get('/definitions', (req, res) => {
-    // res.json(definitions);
-    Definition.find({}, (err, definitions) => {
-      if (err) {
-        res.sendStatus(404);
-      }
-      res.json(definitions);
-    });
-  });
-
   return router;
 };

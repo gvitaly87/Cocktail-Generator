@@ -8,7 +8,7 @@ const TeamMember = require('../../models/TeamMemberModel');
 
 // Export as a function so we can pass it args
 module.exports = () => {
-  router.get('/gallery', (req, res) => {
+  router.get('/gallery', async (req, res, next) => {
     try {
       const drinkList = await Drink.find({});
       res.json(drinkList);
