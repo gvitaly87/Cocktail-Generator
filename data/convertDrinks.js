@@ -51,7 +51,7 @@ const convertDrinks = async () => {
     }
     const drinkObj = new Drink(
       drink.strDrink,
-      baseAlcohol,
+      [baseAlcohol],
       ingredientList,
       drink.strGlass,
       drink.strInstructions,
