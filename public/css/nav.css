@@ -39,14 +39,12 @@ a.login {
   nav.primary {
     background-image: none;
   }
-  @media screen and (max-width: 1175px) {
-    nav.primary {
-      background-image: none;
-    }
-  }
-
+}
   @media screen and (max-width: 1135px) {
     /*Hamburger Style Goes Here*/
+    .wrapper{
+      grid-template-rows: 1fr 29px;
+    }
     .nav-list {
       text-align: left;
     }

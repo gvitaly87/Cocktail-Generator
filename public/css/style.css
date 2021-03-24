@@ -22,15 +22,23 @@
   z-index: -1;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 71px 1fr 29px;
+  min-height: 100vh;
+  /* flex-direction: column;
+  align-content: center;
+  justify-content: center; */
+}
+
 .home-header {
   display: flex;
   flex-flow: column wrap;
-
-  margin-top: 20vh;
-  margin-left: 15vw;
+  align-self: center;
 
   width: 40vw;
-
+  padding: 2rem;
   word-spacing: 0.15rem;
   text-align: left;
 }
