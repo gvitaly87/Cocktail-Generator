@@ -150,3 +150,15 @@ footer {
   color: #f8e276;
   background-color: #fff;
 }
+/* GALLERY STYLING */
+.generator {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: var(--clr);
+  max-width: 70vw;
+}
+.generator-text {
+  width: 25vw;
+  margin-left: 30px;
+}
