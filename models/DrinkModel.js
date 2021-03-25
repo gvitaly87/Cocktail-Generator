@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 const drinkSchema = mongoose.Schema({
-  name: String,
-  baseAlcohol: [{ name: String, quantity: Number, unit: String }],
-  Ingredients: [{ name: String, quantity: Number, unit: String }],
+  name: { type: String, required: true, trim: true, index: { unique: true } },
+  baseAlcohol: [{ name: { type: String, index: true }, measure: String }],
+  Ingredients: [{ name: { type: String, index: true }, measure: String }],
   glassType: String,
   Recipe: String,
   imagePath: String,

@@ -2,10 +2,10 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 // Import seed data
-const dbSeed = require(`./seeds/images`);
+const dbSeed = require(`./seeds/drinks`);
 
 // Define model
-const Image = require(`./models/ImageModel`);
+const Image = require(`./models/DrinkModel`);
 
 /*******************************/
 /* Mongoose/MongoDB Connection */
