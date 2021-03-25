@@ -1,6 +1,5 @@
 module.exports = [
   {
-    _id: '6057ac3bfc8e1d25c87c64b6',
     name: 'Vitaly',
     profilePic: '/images/sm/vit.jpg',
     title: 'The Real MVP',
@@ -9,7 +8,6 @@ module.exports = [
     github: 'github.com',
   },
   {
-    _id: '6058fc1bae9cb8a4fd1c4834',
     name: 'Kyle',
     profilePic: '',
     title: 'Drink Tester',
@@ -18,7 +16,6 @@ module.exports = [
     github: 'https://github.com/Kylewwelsh',
   },
   {
-    _id: '605b8e4ce78086f104ebb6e8',
     name: 'Erica Trinh',
     profilePic: '',
     title: 'One Shot Wonder',
@@ -27,7 +24,6 @@ module.exports = [
     github: 'https://github.com/ertrinhh',
   },
   {
-    _id: '605b8f02e78086f104ebb6e9',
     name: 'Shivani Patel',
     profilePic: '',
     title: 'Mojito',
