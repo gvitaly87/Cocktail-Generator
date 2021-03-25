@@ -1,18 +1,20 @@
-fetch("/api/v0/members")
+import getRequest from './git-json.mjs';
+// fetch("/api/v0/members")
 
-  .then(function (response) {
-    if (!response.ok) {
-      throw new Error("This is an error");
-    }
-    return response.json();
-  })
-  .then(function (data) {
-    console.log(data);
+//   .then(function (response) {
+//     if (!response.ok) {
+//       throw new Error("This is an error");
+//     }
+//     return response.json();
+//   })
+//   .then(function (data) {
+//     console.log(data);
+    const data = await getRequest('/api/v0/members');
     const teamMember = data;
     const card = document.querySelector(".card");
     //create output string for html
     let output='';
-    data.forEach(function(item){
+    teamMember.forEach(function(item){
       output += `
         <img class ="profile-image" src="${item.profilePic}" alt="${item.name}">
         <h2> ${item.name} </h2>
