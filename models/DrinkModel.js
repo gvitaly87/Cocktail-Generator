@@ -3,10 +3,10 @@ const mongoose = require('mongoose');
 const drinkSchema = mongoose.Schema({
   name: { type: String, required: true, trim: true, index: { unique: true } },
   baseAlcohol: [{ name: { type: String, index: true }, measure: String }],
-  Ingredients: [{ name: { type: String, index: true }, measure: String }],
+  ingredients: [{ name: { type: String, index: true }, measure: String }],
   glassType: String,
-  Recipe: String,
-  imagePath: String,
+  recipe: String,
+  imgPath: String,
   width: Number,
   height: Number,
   meta: {
