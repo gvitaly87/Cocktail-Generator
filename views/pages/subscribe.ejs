@@ -1,7 +1,7 @@
 <% if (success) { %>
 <h2>Thank you for subscribing</h2>
 <% } else { %>
-<form action="/subscribe" method="POST">
+<form class="form" action="/subscribe" method="POST">
   <label for="name">
     <input type="text" name="name" id="name" required />
     <span class="placeholder">Enter Name</span>
@@ -12,4 +12,5 @@
   </label>
   <button class="form-btn" type="submit">Subscribe</button>
 </form>
+<script src="/public/js/subscribe.js"></script>
 <% } %>

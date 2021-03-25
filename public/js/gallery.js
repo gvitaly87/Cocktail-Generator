@@ -9,10 +9,12 @@ let drink =[
     recipe:'Muddle mint leaves with sugar and lime juice.Add splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw', 
   } 
 ];
+const image = document.querySelector("image");
+const button = document.querySelector("button");
 let output='';
 
 
-nature.forEach(function(item){
+drink.forEach(function(item){
   output += `
   <figure>
     <img class ="image" src="${item.imageURL}" alt="${item.drinkName}"  ${item.drinkName} width="${item.width}" height="${item.height}">
