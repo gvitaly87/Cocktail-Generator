@@ -17,10 +17,11 @@
   },
   {
     "name": "ABC",
-    "baseAlcohol": [{ "name": "Amaretto", "measure": "1/3 " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Amaretto", "measure": "1/3 " },
       { "name": "Baileys irish cream", "measure": "1/3 " },
       { "name": "Cognac", "measure": "1/3 " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Shot glass",
     "recipe": "Layered in a shot glass.",
@@ -58,10 +59,11 @@
   },
   {
     "name": "AT&T",
-    "baseAlcohol": [{ "name": "Absolut Vodka", "measure": "1 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Absolut Vodka", "measure": "1 oz " },
       { "name": "Gin", "measure": "1 oz " },
       { "name": "Tonic water", "measure": "4 oz " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Highball Glass",
     "recipe": "Pour Vodka and Gin over ice, add Tonic and Stir",
@@ -71,8 +73,11 @@
   },
   {
     "name": "ACID",
-    "baseAlcohol": [{ "name": "151 proof rum", "measure": "1 oz Bacardi " }],
-    "ingredients": [{ "name": "Wild Turkey", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "151 proof rum", "measure": "1 oz Bacardi " },
+      { "name": "Wild Turkey", "measure": "1 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Shot glass",
     "recipe": "Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/xuxpxt1479209317.jpg",
@@ -119,9 +124,10 @@
   },
   {
     "name": "Avalon",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "3 parts" }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "3 parts" },
+      { "name": "Pisang Ambon", "measure": "1 part " }
+    ],
     "ingredients": [
-      { "name": "Pisang Ambon", "measure": "1 part " },
       { "name": "Apple juice", "measure": "6 parts " },
       { "name": "Lemon juice", "measure": "1 1/2 part " },
       { "name": "Lemonade", "measure": null }
@@ -147,9 +153,10 @@
   },
   {
     "name": "Almeria",
-    "baseAlcohol": [{ "name": "Dark rum", "measure": "2 oz " }],
+    "baseAlcohol": [{ "name": "Dark rum", "measure": "2 oz " },
+      { "name": "Kahlua", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Kahlua", "measure": "1 oz " },
       { "name": "Egg white", "measure": "1 " }
     ],
     "glassType": "Cocktail glass",
@@ -160,8 +167,11 @@
   },
   {
     "name": "Addison",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 shot " }],
-    "ingredients": [{ "name": "Vermouth", "measure": "1 1/2 shot " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 shot " },
+      { "name": "Vermouth", "measure": "1 1/2 shot " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Martini Glass",
     "recipe": "Shake together all the ingredients and strain into a cold glass.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg",
@@ -170,9 +180,10 @@
   },
   {
     "name": "Acapulco",
-    "baseAlcohol": [{ "name": "Light rum", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Light rum", "measure": "1 1/2 oz " },
+      { "name": "Triple sec", "measure": "1 1/2 tsp " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1 1/2 tsp " },
       { "name": "Lime juice", "measure": "1 tblsp " },
       { "name": "Sugar", "measure": "1 tsp " },
       { "name": "Egg white", "measure": "1 " },
@@ -186,10 +197,11 @@
   },
   {
     "name": "Affinity",
-    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " },
       { "name": "Sweet Vermouth", "measure": "1 oz " },
-      { "name": "Dry Vermouth", "measure": "1 oz " },
+      { "name": "Dry Vermouth", "measure": "1 oz " }
+    ],
+    "ingredients": [
       { "name": "Orange bitters", "measure": "2 dashes " }
     ],
     "glassType": "Cocktail glass",
@@ -200,9 +212,10 @@
   },
   {
     "name": "Applecar",
-    "baseAlcohol": [{ "name": "Applejack", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Applejack", "measure": "1 oz " },
+      { "name": "Triple sec", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1 oz " },
       { "name": "Lemon juice", "measure": "1 oz " }
     ],
     "glassType": "Cocktail glass",
@@ -213,10 +226,11 @@
   },
   {
     "name": "Aviation",
-    "baseAlcohol": [{ "name": "Gin", "measure": "4.5 cl" }],
-    "ingredients": [
-      { "name": "lemon juice", "measure": "1.5 cl" },
+    "baseAlcohol": [{ "name": "Gin", "measure": "4.5 cl" },
       { "name": "maraschino liqueur", "measure": "1.5 cl" }
+    ],
+    "ingredients": [
+      { "name": "lemon juice", "measure": "1.5 cl" }
     ],
     "glassType": "Cocktail glass",
     "recipe": "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry.",
@@ -226,9 +240,10 @@
   },
   {
     "name": "Alexander",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "1/2 oz " },
+      { "name": "Creme de Cacao", "measure": "1/2 oz white " }
+    ],
     "ingredients": [
-      { "name": "Creme de Cacao", "measure": "1/2 oz white " },
       { "name": "Light cream", "measure": "2 oz " },
       { "name": "Nutmeg", "measure": null }
     ],
@@ -240,9 +255,10 @@
   },
   {
     "name": "Algonquin",
-    "baseAlcohol": [{ "name": "Blended whiskey", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Blended whiskey", "measure": "1 1/2 oz " },
+      { "name": "Dry Vermouth", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Dry Vermouth", "measure": "1 oz " },
       { "name": "Pineapple juice", "measure": "1 oz " }
     ],
     "glassType": "Cocktail glass",
@@ -253,10 +269,11 @@
   },
   {
     "name": "Allegheny",
-    "baseAlcohol": [{ "name": "Dry Vermouth", "measure": "1 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Dry Vermouth", "measure": "1 oz " },
       { "name": "Bourbon", "measure": "1 oz " },
-      { "name": "Blackberry brandy", "measure": "1 1/2 tsp " },
+      { "name": "Blackberry brandy", "measure": "1 1/2 tsp " }
+    ],
+    "ingredients": [
       { "name": "Lemon juice", "measure": "1 1/2 tsp " },
       { "name": "Lemon peel", "measure": "1 twist of " }
     ],
@@ -268,9 +285,10 @@
   },
   {
     "name": "Artillery",
-    "baseAlcohol": [{ "name": "Sweet Vermouth", "measure": "1 1/2 tsp " }],
+    "baseAlcohol": [{ "name": "Sweet Vermouth", "measure": "1 1/2 tsp " },
+      { "name": "Gin", "measure": "1 1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Gin", "measure": "1 1/2 oz " },
       { "name": "Bitters", "measure": "2 dashes " }
     ],
     "glassType": "Cocktail glass",
@@ -307,10 +325,11 @@
   },
   {
     "name": "Afternoon",
-    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 cl " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 cl " },
       { "name": "Baileys irish cream", "measure": "1 cl " },
-      { "name": "Frangelico", "measure": "1 1/2 " },
+      { "name": "Frangelico", "measure": "1 1/2 " }
+    ],
+    "ingredients": [
       { "name": "Coffee", "measure": "4 cl hot " },
       { "name": "Cream", "measure": null }
     ],
@@ -322,9 +341,10 @@
   },
   {
     "name": "After sex",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "2 cl " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "2 cl " },
+      { "name": "Creme de Banane", "measure": "1 cl " }
+    ],
     "ingredients": [
-      { "name": "Creme de Banane", "measure": "1 cl " },
       { "name": "Orange juice", "measure": null }
     ],
     "glassType": "Highball glass",
@@ -335,10 +355,11 @@
   },
   {
     "name": "B-53",
-    "baseAlcohol": [{ "name": "Kahlua", "measure": "1/3 shot " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Kahlua", "measure": "1/3 shot " },
       { "name": "Sambuca", "measure": "1/3 shot " },
       { "name": "Grand Marnier", "measure": "1/3 shot " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Collins Glass",
     "recipe": "Layer the Kahlua, Sambucca and Grand Marnier into a shot glas in that order. Better than B-52",
@@ -348,10 +369,11 @@
   },
   {
     "name": "B-52",
-    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "1/3 " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "1/3 " },
       { "name": "Grand Marnier", "measure": "1/3 " },
       { "name": "Kahlua", "measure": "1/4 " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Shot glass",
     "recipe": "Layer ingredients into a shot glass. Serve with a stirrer.",
@@ -361,11 +383,12 @@
   },
   {
     "name": "Bijou",
-    "baseAlcohol": [{ "name": "Orange Bitters", "measure": "1 dash" }],
-    "ingredients": [
-      { "name": "Green Chartreuse", "measure": "1 oz" },
+    "baseAlcohol": [{ "name": "Green Chartreuse", "measure": "1 oz" },
       { "name": "Gin", "measure": "1 oz" },
       { "name": "Sweet Vermouth", "measure": "1 oz" }
+    ],
+    "ingredients": [
+      { "name": "Orange Bitters", "measure": "1 dash" }
     ],
     "glassType": "Cocktail glass",
     "recipe": "Stir in mixing glass with ice and strain\r\n",
@@ -375,9 +398,10 @@
   },
   {
     "name": "Boxcar",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " },
+      { "name": "Triple sec", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1 oz " },
       { "name": "Lemon juice", "measure": "1 tsp " },
       { "name": "Grenadine", "measure": "1/2 tsp " },
       { "name": "Egg white", "measure": "1 " }
@@ -390,8 +414,11 @@
   },
   {
     "name": "Big Red",
-    "baseAlcohol": [{ "name": "Irish cream", "measure": "1/2 oz " }],
-    "ingredients": [{ "name": "Goldschlager", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Irish cream", "measure": "1/2 oz " },
+      { "name": "Goldschlager", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Shot glass",
     "recipe": "Pour ingredients into 1 ounce shot glass",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/yqwuwu1441248116.jpg",
@@ -400,8 +427,11 @@
   },
   {
     "name": "Bellini",
-    "baseAlcohol": [{ "name": "Champagne", "measure": "6 oz " }],
-    "ingredients": [{ "name": "Peach schnapps", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Champagne", "measure": "6 oz " },
+      { "name": "Peach schnapps", "measure": "1 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Champagne Flute",
     "recipe": "Pour peach purée into chilled flute, add sparkling wine. Stir gently.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg",
@@ -410,11 +440,12 @@
   },
   {
     "name": "Bramble",
-    "baseAlcohol": [{ "name": "Gin", "measure": "4 cl" }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "4 cl" },
+      { "name": "Creme de Mure", "measure": "1.5 cl" }
+    ],
     "ingredients": [
       { "name": "lemon juice", "measure": "1.5 cl" },
-      { "name": "Sugar syrup", "measure": "1 cl" },
-      { "name": "Creme de Mure", "measure": "1.5 cl" }
+      { "name": "Sugar syrup", "measure": "1 cl" }
     ],
     "glassType": "Old-Fashioned glass",
     "recipe": "Fill glass with crushed ice. Build gin, lemon juice and simple syrup over. Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect. Garnish with two blackberries and lemon slice.",
@@ -424,10 +455,11 @@
   },
   {
     "name": "Balmoral",
-    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " },
       { "name": "Sweet Vermouth", "measure": "1/2 oz " },
-      { "name": "Dry Vermouth", "measure": "1/2 oz " },
+      { "name": "Dry Vermouth", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
       { "name": "Bitters", "measure": "2 dashes " }
     ],
     "glassType": "Cocktail glass",
@@ -438,10 +470,11 @@
   },
   {
     "name": "Bluebird",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " },
       { "name": "Triple sec", "measure": "1/2 oz " },
-      { "name": "Blue Curacao", "measure": "1/2 oz " },
+      { "name": "Blue Curacao", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
       { "name": "Bitters", "measure": "2 dashes " },
       { "name": "Maraschino cherry", "measure": "1 " },
       { "name": "Lemon peel", "measure": "1 twist of " }
@@ -454,10 +487,11 @@
   },
   {
     "name": "Brooklyn",
-    "baseAlcohol": [{ "name": "Rye Whiskey", "measure": "2 oz" }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Rye Whiskey", "measure": "2 oz" },
       { "name": "Dry Vermouth", "measure": "1 oz" },
-      { "name": "Maraschino Liqueur", "measure": "1/4 oz" },
+      { "name": "Maraschino Liqueur", "measure": "1/4 oz" }
+    ],
+    "ingredients": [
       { "name": "Angostura Bitters", "measure": "3 dashes" },
       { "name": "Maraschino Cherry", "measure": "1" }
     ],
@@ -469,11 +503,12 @@
   },
   {
     "name": "Boomerang",
-    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " },
       { "name": "Dry Vermouth", "measure": "1/2 oz " },
+      { "name": "Maraschino liqueur", "measure": "1/2 tsp " }
+    ],
+    "ingredients": [
       { "name": "Bitters", "measure": "2 dashes " },
-      { "name": "Maraschino liqueur", "measure": "1/2 tsp " },
       { "name": "Maraschino cherry", "measure": "1 " }
     ],
     "glassType": "Cocktail glass",
@@ -498,12 +533,13 @@
   },
   {
     "name": "Barracuda",
-    "baseAlcohol": [{ "name": "Rum", "measure": "4.5 cl" }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Rum", "measure": "4.5 cl" },
       { "name": "Galliano", "measure": "1.5 cl" },
-      { "name": "Pineapple Juice", "measure": "6 cl" },
-      { "name": "Lime Juice", "measure": " 1 dash" },
       { "name": "Prosecco", "measure": "top up " }
+    ],
+    "ingredients": [
+      { "name": "Pineapple Juice", "measure": "6 cl" },
+      { "name": "Lime Juice", "measure": " 1 dash" }
     ],
     "glassType": "Margarita glass",
     "recipe": "Shake pour ingredients with ice. Strain into glass, top with Sparkling wine.",
@@ -513,8 +549,11 @@
   },
   {
     "name": "Buccaneer",
-    "baseAlcohol": [{ "name": "Corona", "measure": "1 " }],
-    "ingredients": [{ "name": "Bacardi Limon", "measure": "1 shot " }],
+    "baseAlcohol": [{ "name": "Corona", "measure": "1 " },
+      { "name": "Bacardi Limon", "measure": "1 shot " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Beer pilsner",
     "recipe": "Pour the corona into an 18oz beer glass pour the bacardi limon into the beer stir very gently",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/upvtyt1441249023.jpg",
@@ -523,10 +562,11 @@
   },
   {
     "name": "Brigadier",
-    "baseAlcohol": [{ "name": "Hot Chocolate", "measure": "4 oz" }],
-    "ingredients": [
-      { "name": "Green Chartreuse", "measure": "1 oz" },
+    "baseAlcohol": [{ "name": "Green Chartreuse", "measure": "4 oz" },
       { "name": "Cherry Heering", "measure": "1 oz" }
+    ],
+    "ingredients": [
+      { "name": "Hot Chocolate", "measure": "1 oz" }
     ],
     "glassType": "Coupe Glass",
     "recipe": "Mix ingredients in a warmed mug and stir.",
@@ -536,14 +576,13 @@
   },
   {
     "name": "Broadside",
-    "baseAlcohol": [{ "name": "151 proof rum", "measure": "1 shot" }],
+    "baseAlcohol": [{ "name": "151 proof rum", "measure": "1 shot" },
+      { "name": "Scotch", "measure": "1/2 shot" }
+    ],
     "ingredients": [
-      { "name": "Scotch", "measure": "1/2 shot" },
       { "name": "Bitters", "measure": "3 drops" },
       { "name": "Wormwood", "measure": "1 Fresh" },
-      { "name": "Ice", "measure": "cubes" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" }
+      { "name": "Ice", "measure": "cubes" }
     ],
     "glassType": "Highball glass",
     "recipe": "Half fill the glass with ice cubes. Crush the wormwood and add to ice. Pour rum, scotch and butters, then serve!",
@@ -553,9 +592,10 @@
   },
   {
     "name": "Blackthorn",
-    "baseAlcohol": [{ "name": "Sweet Vermouth", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Sweet Vermouth", "measure": "1 oz " },
+      { "name": "Sloe gin", "measure": "1 1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Sloe gin", "measure": "1 1/2 oz " },
       { "name": "Lemon peel", "measure": "1 twist of " }
     ],
     "glassType": "Cocktail glass",
@@ -566,10 +606,11 @@
   },
   {
     "name": "Bob Marley",
-    "baseAlcohol": [{ "name": "Midori melon liqueur", "measure": "1/2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Midori melon liqueur", "measure": "1/2 oz " },
       { "name": "Jägermeister", "measure": "1/2 oz " },
       { "name": "Goldschlager", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Shot glass",
     "recipe": "Layer in a 2 oz shot glass or pony glass",
@@ -579,10 +620,11 @@
   },
   {
     "name": "Bumble Bee",
-    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "1/3 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "1/3 oz " },
       { "name": "Kahlua", "measure": "1/3 oz " },
       { "name": "Sambuca", "measure": "1/3 oz " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Shot glass",
     "recipe": "This is a layered shot. First pour the Bailey's into the shot glass. Then take an upside down spoon and touch it to the inside wall of the glass. Carefully add the Kahlua. Repeat this process for the Sambuca. If done properly, the alcohol will stay separated and resemble a bumble bee. Enjoy!!!",
@@ -592,11 +634,12 @@
   },
   {
     "name": "Bubble Gum",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1/4 " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1/4 " },
       { "name": "Banana liqueur", "measure": "1/4 " },
-      { "name": "Orange juice", "measure": "1/4 " },
       { "name": "Peach schnapps", "measure": "1/4 " }
+    ],
+    "ingredients": [
+      { "name": "Orange juice", "measure": "1/4 " }
     ],
     "glassType": "Shot glass",
     "recipe": "Layer in order into a shot glass.",
@@ -606,9 +649,10 @@
   },
   {
     "name": "Bible Belt",
-    "baseAlcohol": [{ "name": "Southern Comfort", "measure": "2 oz " }],
+    "baseAlcohol": [{ "name": "Southern Comfort", "measure": "2 oz " },
+      { "name": "Triple sec", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1/2 oz " },
       { "name": "Lime", "measure": "2 wedges " },
       { "name": "Sour mix", "measure": "2 oz " }
     ],
@@ -620,13 +664,14 @@
   },
   {
     "name": "Brain Fart",
-    "baseAlcohol": [{ "name": "Everclear", "measure": "1 fifth " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Everclear", "measure": "1 fifth " },
       { "name": "Vodka", "measure": "1 fifth Smirnoff red label " },
+      { "name": "Rum", "measure": "1 pint " }
+    ],
+    "ingredients": [
       { "name": "Mountain Dew", "measure": "2 L " },
       { "name": "Surge", "measure": "2 L " },
-      { "name": "Lemon juice", "measure": "1 small bottle " },
-      { "name": "Rum", "measure": "1 pint " }
+      { "name": "Lemon juice", "measure": "1 small bottle " }
     ],
     "glassType": "Punch bowl",
     "recipe": "Mix all ingredients together. Slowly and gently. Works best if ice is added to punch bowl and soda's are very cold.",
@@ -652,9 +697,10 @@
   },
   {
     "name": "Blue Lagoon",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " },
+      { "name": "Blue Curacao", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Blue Curacao", "measure": "1 oz " },
       { "name": "Lemonade", "measure": null },
       { "name": "Cherry", "measure": null }
     ],
@@ -682,9 +728,10 @@
   },
   {
     "name": "Casino",
-    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " },
+      { "name": "Maraschino liqueur", "measure": "1/4 tsp " }
+    ],
     "ingredients": [
-      { "name": "Maraschino liqueur", "measure": "1/4 tsp " },
       { "name": "Lemon juice", "measure": "1/4 tsp " },
       { "name": "Orange bitters", "measure": "2 dashes " },
       { "name": "Cherry", "measure": "1 " }
@@ -697,10 +744,11 @@
   },
   {
     "name": "Caipirinha",
-    "baseAlcohol": [{ "name": "Sugar", "measure": "2 tsp" }],
-    "ingredients": [
-      { "name": "Lime", "measure": "1 " },
+    "baseAlcohol": [{ "name": "Sugar", "measure": "2 tsp" },
       { "name": "Cachaca", "measure": "2 1/2 oz " }
+    ],
+    "ingredients": [
+      { "name": "Lime", "measure": "1 " }
     ],
     "glassType": "Old-fashioned glass",
     "recipe": "Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with ice and add the Cachaça.",
@@ -710,9 +758,10 @@
   },
   {
     "name": "Cherry Rum",
-    "baseAlcohol": [{ "name": "Light rum", "measure": "1 1/4 oz " }],
+    "baseAlcohol": [{ "name": "Light rum", "measure": "1 1/4 oz " },
+      { "name": "Cherry brandy", "measure": "1 1/2 tsp " }
+    ],
     "ingredients": [
-      { "name": "Cherry brandy", "measure": "1 1/2 tsp " },
       { "name": "Light cream", "measure": "1 tblsp " }
     ],
     "glassType": "Cocktail glass",
@@ -750,11 +799,12 @@
   },
   {
     "name": "Cafe Savoy",
-    "baseAlcohol": [{ "name": "Coffee", "measure": null }],
-    "ingredients": [
-      { "name": "Milk", "measure": "1/2 oz " },
-      { "name": "Triple sec", "measure": "1/2 oz " },
+    "baseAlcohol": [{ "name": "Triple sec", "measure": "1/2 oz " },
       { "name": "Brandy", "measure": null }
+    ],
+    "ingredients": [
+      { "name": "Coffee", "measure": null },
+      { "name": "Milk", "measure": "1/2 oz " }
     ],
     "glassType": "Coffee mug",
     "recipe": "Fill mug almost to top with coffee.Add milk, triple sec and brandy. Stir.",
@@ -774,12 +824,13 @@
   },
   {
     "name": "Corn n Oil",
-    "baseAlcohol": [{ "name": "Lime", "measure": "1/2" }],
-    "ingredients": [
-      { "name": "Falernum", "measure": "1/3 oz" },
-      { "name": "Angostura Bitters", "measure": "2 dashes" },
+    "baseAlcohol": [{ "name": "Falernum", "measure": "1/3 oz" },
       { "name": "Añejo rum", "measure": "1 oz" },
       { "name": "blackstrap rum", "measure": "1 oz" }
+    ],
+    "ingredients": [
+      { "name": "Lime", "measure": "1/2" },
+      { "name": "Angostura Bitters", "measure": "2 dashes" }
     ],
     "glassType": "Old-fashioned glass",
     "recipe": "Cut the half lime in half again. Add the lime, falernum, and bitters to a rocks glass. Muddle. Add the rum. (Aged Barbados rum such as Plantation 5 Year is recommended). Add ice and stir. Float the blackstrap rum on top. Serve with a straw.",
@@ -789,11 +840,12 @@
   },
   {
     "name": "Casa Blanca",
-    "baseAlcohol": [{ "name": "Light rum", "measure": "2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Light rum", "measure": "2 oz " },
       { "name": "Triple sec", "measure": "1 1/2 tsp " },
-      { "name": "Lime juice", "measure": "1 1/2 tsp " },
       { "name": "Maraschino liqueur", "measure": "1 1/2 tsp " }
+    ],
+    "ingredients": [
+      { "name": "Lime juice", "measure": "1 1/2 tsp " }
     ],
     "glassType": "Cocktail glass",
     "recipe": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -827,9 +879,10 @@
   },
   {
     "name": "Chicago Fizz",
-    "baseAlcohol": [{ "name": "Light rum", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Light rum", "measure": "1 oz " },
+      { "name": "Port", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Port", "measure": "1 oz " },
       { "name": "Lemon", "measure": "Juice of 1/2 " },
       { "name": "Powdered sugar", "measure": "1 tsp " },
       { "name": "Egg white", "measure": "1 " },
@@ -843,9 +896,10 @@
   },
   {
     "name": "City Slicker",
-    "baseAlcohol": [{ "name": "Brandy", "measure": "2 oz " }],
+    "baseAlcohol": [{ "name": "Brandy", "measure": "2 oz " },
+      { "name": "Triple sec", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1/2 oz " },
       { "name": "Lemon juice", "measure": "1 tblsp " }
     ],
     "glassType": "Cocktail glass",
@@ -856,12 +910,14 @@
   },
   {
     "name": "Coffee-Vodka",
-    "baseAlcohol": [{ "name": "Water", "measure": "2 cups " }],
+    "baseAlcohol": [
+      { "name": "Vodka", "measure": "1 1/2 cup" }
+    ],
     "ingredients": [
+      { "name": "Water", "measure": "2 cups " },
       { "name": "Sugar", "measure": "2 cups white " },
       { "name": "Coffee", "measure": "1/2 cup instant " },
       { "name": "Vanilla", "measure": "1/2" },
-      { "name": "Vodka", "measure": "1 1/2 cup" },
       { "name": "Caramel coloring", "measure": null }
     ],
     "glassType": "Collins Glass",
@@ -872,10 +928,10 @@
   },
   {
     "name": "Caipirissima",
-    "baseAlcohol": [{ "name": "Lime", "measure": "2 " }],
+    "baseAlcohol": [{ "name": "White rum", "measure": "2-3 oz " }],
     "ingredients": [
+      { "name": "Lime", "measure": "2 " },
       { "name": "Sugar", "measure": "2 tblsp " },
-      { "name": "White rum", "measure": "2-3 oz " },
       { "name": "Ice", "measure": "crushed " }
     ],
     "glassType": "Collins Glass",
@@ -886,8 +942,11 @@
   },
   {
     "name": "Campari Beer",
-    "baseAlcohol": [{ "name": "Lager", "measure": "1 bottle " }],
-    "ingredients": [{ "name": "Campari", "measure": "1 1/2 cl " }],
+    "baseAlcohol": [{ "name": "Lager", "measure": "1 bottle " },
+      { "name": "Campari", "measure": "1 1/2 cl " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Beer mug",
     "recipe": "Use a 15 oz glass. Add Campari first. Fill with beer.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/xsqrup1441249130.jpg",
@@ -896,10 +955,11 @@
   },
   {
     "name": "Cosmopolitan",
-    "baseAlcohol": [{ "name": "Absolut Citron", "measure": "1 1/4 oz " }],
+    "baseAlcohol": [{ "name": "Absolut Citron", "measure": "1 1/4 oz " },
+      { "name": "Cointreau", "measure": "1/4 oz " }
+    ],
     "ingredients": [
       { "name": "Lime juice", "measure": "1/4 oz " },
-      { "name": "Cointreau", "measure": "1/4 oz " },
       { "name": "Cranberry juice", "measure": "1/4 cup " }
     ],
     "glassType": "Cocktail glass",
@@ -910,10 +970,11 @@
   },
   {
     "name": "Casino Royale",
-    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " },
+      { "name": "Maraschino liqueur", "measure": "1 tsp " }
+    ],
     "ingredients": [
       { "name": "Lemon juice", "measure": "1/2 oz " },
-      { "name": "Maraschino liqueur", "measure": "1 tsp " },
       { "name": "Orange bitters", "measure": "1 dash " },
       { "name": "Egg yolk", "measure": "1 " }
     ],
@@ -925,10 +986,11 @@
   },
   {
     "name": "Clove Cocktail",
-    "baseAlcohol": [{ "name": "Sweet Vermouth", "measure": "1 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Sweet Vermouth", "measure": "1 oz " },
       { "name": "Sloe gin", "measure": "1/2 oz " },
       { "name": "Wine", "measure": "1/2 oz Muscatel " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Cocktail glass",
     "recipe": "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -938,11 +1000,12 @@
   },
   {
     "name": "Coffee Liqueur",
-    "baseAlcohol": [{ "name": "Coffee", "measure": "10 tblsp instant " }],
+    "baseAlcohol": [
+      { "name": "Vodka", "measure": "1 qt " }],
     "ingredients": [
+      { "name": "Coffee", "measure": "10 tblsp instant " },
       { "name": "Vanilla extract", "measure": "4 tblsp " },
       { "name": "Sugar", "measure": "2 1/2 cups " },
-      { "name": "Vodka", "measure": "1 qt " },
       { "name": "Water", "measure": "2 1/2 cups " }
     ],
     "glassType": "Collins Glass",
@@ -953,10 +1016,11 @@
   },
   {
     "name": "Chocolate Milk",
-    "baseAlcohol": [{ "name": "Chocolate liqueur", "measure": "1/2 shot " }],
-    "ingredients": [
-      { "name": "Milk", "measure": "1/2 shot " },
+    "baseAlcohol": [{ "name": "Chocolate liqueur", "measure": "1/2 shot " },
       { "name": "Amaretto", "measure": "1 dash " }
+    ],
+    "ingredients": [
+      { "name": "Milk", "measure": "1/2 shot " }
     ],
     "glassType": "Shot Glass",
     "recipe": "Put the milk in the bottom, pour the Liquer on top and add the dash of amaretto. Do not mix. SLAM IT!",
@@ -976,12 +1040,13 @@
   },
   {
     "name": "Corpse Reviver",
-    "baseAlcohol": [{ "name": "Gin", "measure": "3/4 oz" }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Gin", "measure": "3/4 oz" },
       { "name": "Triple Sec", "measure": "3/4 oz" },
       { "name": "Lillet Blanc", "measure": "3/4 oz" },
-      { "name": "Lemon Juice", "measure": "3/4 oz" },
       { "name": "Absinthe", "measure": "1 dash" }
+    ],
+    "ingredients": [
+      { "name": "Lemon Juice", "measure": "3/4 oz" }
     ],
     "glassType": "Cocktail glass",
     "recipe": "Shake, strain, straight up, cocktail glass rinsed with absinthe\r\n",
@@ -1004,10 +1069,11 @@
   },
   {
     "name": "Creme de Menthe",
-    "baseAlcohol": [{ "name": "Sugar", "measure": "8 cups " }],
+    "baseAlcohol": [{ "name": "Grain alcohol", "measure": "1 pint " }
+    ],
     "ingredients": [
+      { "name": "Sugar", "measure": "8 cups " },
       { "name": "Water", "measure": "6 cups " },
-      { "name": "Grain alcohol", "measure": "1 pint " },
       { "name": "Peppermint extract", "measure": "1 oz pure " },
       { "name": "Food coloring", "measure": "1 tblsp green " }
     ],
@@ -1032,10 +1098,11 @@
   },
   {
     "name": "Diesel",
-    "baseAlcohol": [{ "name": "Lager", "measure": "1/2 pint " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Lager", "measure": "1/2 pint " },
       { "name": "Cider", "measure": "1/2 pint " },
       { "name": "Blackcurrant cordial", "measure": "1 dash " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Pint glass",
     "recipe": "Pour the lager first then add the blackcurrant cordial. Top up with the cider. The colour sholud be very dark approaching the colour of Guiness.",
@@ -1058,8 +1125,8 @@
   },
   {
     "name": "Danbooka",
-    "baseAlcohol": [{ "name": "Coffee", "measure": "3 parts " }],
-    "ingredients": [{ "name": "Everclear", "measure": "1 part " }],
+    "baseAlcohol": [{ "name": "Everclear", "measure": "1 part " }],
+    "ingredients": [{ "name": "Coffee", "measure": "3 parts " }],
     "glassType": "Coffee Mug",
     "recipe": "pour it in and mix it.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/vurrxr1441246074.jpg",
@@ -1081,11 +1148,12 @@
   },
   {
     "name": "Downshift",
-    "baseAlcohol": [{ "name": "Fruit punch", "measure": "2 part " }],
+    "baseAlcohol": [{ "name": "Tequila", "measure": "2 shots " },
+      { "name": "151 proof rum", "measure": "Float Bacardi " }
+    ],
     "ingredients": [
       { "name": "Sprite", "measure": "1 part " },
-      { "name": "Tequila", "measure": "2 shots " },
-      { "name": "151 proof rum", "measure": "Float Bacardi " }
+      { "name": "Fruit punch", "measure": "2 part " }
     ],
     "glassType": "Hurricane glass",
     "recipe": "Start with the Sprite. Next comes the tequila. After that, add the Minute Maid Fruit Punch, then float the 151. Rocks optional.",
@@ -1095,9 +1163,10 @@
   },
   {
     "name": "Dry Rob Roy",
-    "baseAlcohol": [{ "name": "Scotch", "measure": "2 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Scotch", "measure": "2 1/2 oz " },
+      { "name": "Dry Vermouth", "measure": "1 1/2 tsp " }
+    ],
     "ingredients": [
-      { "name": "Dry Vermouth", "measure": "1 1/2 tsp " },
       { "name": "Lemon peel", "measure": "1 twist of " }
     ],
     "glassType": "Cocktail glass",
@@ -1108,9 +1177,10 @@
   },
   {
     "name": "Dry Martini",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 2/3 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 2/3 oz " },
+      { "name": "Dry Vermouth", "measure": "1/3 oz " }
+    ],
     "ingredients": [
-      { "name": "Dry Vermouth", "measure": "1/3 oz " },
       { "name": "Olive", "measure": "1 " }
     ],
     "glassType": "Cocktail glass",
@@ -1121,10 +1191,11 @@
   },
   {
     "name": "Dirty Nipple",
-    "baseAlcohol": [{ "name": "Kahlua", "measure": null }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Kahlua", "measure": null },
       { "name": "Sambuca", "measure": null },
       { "name": "Baileys irish cream", "measure": null }
+    ],
+    "ingredients": [
     ],
     "glassType": "Shot glass",
     "recipe": "This is a layered shot - the Bailey's must be on top",
@@ -1134,9 +1205,10 @@
   },
   {
     "name": "Dirty Martini",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "70ml/2fl oz" }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "70ml/2fl oz" },
+      { "name": "Dry Vermouth", "measure": "1 tbsp" }
+    ],
     "ingredients": [
-      { "name": "Dry Vermouth", "measure": "1 tbsp" },
       { "name": "Olive Brine", "measure": "2 tbsp" },
       { "name": "Lemon", "measure": "1 wedge" },
       { "name": "Olive", "measure": "1" }
@@ -1163,10 +1235,11 @@
   },
   {
     "name": "Dark Caipirinha",
-    "baseAlcohol": [{ "name": "demerara Sugar", "measure": "2 tsp " }],
-    "ingredients": [
-      { "name": "Lime", "measure": "1" },
+    "baseAlcohol": [{ "name": "demerara Sugar", "measure": "2 tsp " },
       { "name": "Cachaca", "measure": "2 1/2 oz" }
+    ],
+    "ingredients": [
+      { "name": "Lime", "measure": "1" }
     ],
     "glassType": "Highball glass",
     "recipe": "Muddle the sugar into the lime wedges in an old-fashioned glass.\r\nFill the glass with ice cubes.\r\nPour the cachaca into the glass.\r\nStir well.",
@@ -1176,11 +1249,12 @@
   },
   {
     "name": "Duchamp's Punch",
-    "baseAlcohol": [{ "name": "Pisco", "measure": "5 cl" }],
+    "baseAlcohol": [{ "name": "Pisco", "measure": "5 cl" },
+      { "name": "St. Germain", "measure": "1.5 cl" }
+    ],
     "ingredients": [
       { "name": "Lime Juice", "measure": "2.5 cl" },
       { "name": "Pineapple Syrup", "measure": "2.5 cl" },
-      { "name": "St. Germain", "measure": "1.5 cl" },
       { "name": "Angostura Bitters", "measure": "2 Dashes" },
       { "name": "Pepper", "measure": "Pinch" },
       { "name": "Lavender", "measure": "2 sprigs" }
@@ -1193,8 +1267,11 @@
   },
   {
     "name": "Dark and Stormy",
-    "baseAlcohol": [{ "name": "Dark Rum", "measure": "5 cl" }],
-    "ingredients": [{ "name": "Ginger Beer", "measure": "10 cl" }],
+    "baseAlcohol": [{ "name": "Dark Rum", "measure": "5 cl" },
+      { "name": "Ginger Beer", "measure": "10 cl" }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Highball glass",
     "recipe": "In a highball glass filled with ice add 6cl dark rum and top with ginger beer. Garnish with lime wedge.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
@@ -1203,8 +1280,10 @@
   },
   {
     "name": "Damned if you do",
-    "baseAlcohol": [{ "name": "Whiskey", "measure": "0.75 oz " }],
-    "ingredients": [{ "name": "Hot Damn", "measure": "0.25 oz " }],
+    "baseAlcohol": [{ "name": "Whiskey", "measure": "0.75 oz " },
+    { "name": "Hot Damn", "measure": "0.25 oz " }],
+    "ingredients": [
+    ],
     "glassType": "Shot glass",
     "recipe": "Pour into shot glass. Put in mouth. Repeat as deemed necessary.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/ql7bmx1503565106.jpg",
@@ -1213,9 +1292,10 @@
   },
   {
     "name": "Dubonnet Cocktail",
-    "baseAlcohol": [{ "name": "Dubonnet Rouge", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Dubonnet Rouge", "measure": "1 1/2 oz " },
+      { "name": "Gin", "measure": "3/4 oz " }
+    ],
     "ingredients": [
-      { "name": "Gin", "measure": "3/4 oz " },
       { "name": "Bitters", "measure": "1 dash " },
       { "name": "Lemon peel", "measure": "1 twist of " }
     ],
@@ -1243,8 +1323,11 @@
   },
   {
     "name": "Death in the Afternoon",
-    "baseAlcohol": [{ "name": "Absinthe", "measure": "2 shots" }],
-    "ingredients": [{ "name": "Champagne", "measure": "Top" }],
+    "baseAlcohol": [{ "name": "Absinthe", "measure": "2 shots" },
+      { "name": "Champagne", "measure": "Top" }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Margarita glass",
     "recipe": "Easy as you like, pour the absinthe into a chilled glass, top with champagne. Must be drunk mid afternoon for the optimum effect.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/y7s3rh1598719574.jpg",
@@ -1266,12 +1349,13 @@
   },
   {
     "name": "Egg Nog #4",
-    "baseAlcohol": [{ "name": "Egg yolk", "measure": "6 " }],
+    "baseAlcohol": [{ "name": "Egg yolk", "measure": "6 " },
+      { "name": "Light rum", "measure": "1/2 cup " },
+      { "name": "Bourbon", "measure": "1/2 cup " }
+    ],
     "ingredients": [
       { "name": "Sugar", "measure": "1/4 cup " },
       { "name": "Milk", "measure": "2 cups " },
-      { "name": "Light rum", "measure": "1/2 cup " },
-      { "name": "Bourbon", "measure": "1/2 cup " },
       { "name": "Vanilla extract", "measure": "1 tsp " },
       { "name": "Salt", "measure": "1/4 tsp " },
       { "name": "Whipping cream", "measure": "1 cup " },
@@ -1287,10 +1371,11 @@
   },
   {
     "name": "English Highball",
-    "baseAlcohol": [{ "name": "Brandy", "measure": "3/4 oz " }],
+    "baseAlcohol": [{ "name": "Brandy", "measure": "3/4 oz " },
+      { "name": "Sweet Vermouth", "measure": "3/4 oz " }
+    ],
     "ingredients": [
       { "name": "Gin", "measure": "3/4 oz " },
-      { "name": "Sweet Vermouth", "measure": "3/4 oz " },
       { "name": "Carbonated water", "measure": null },
       { "name": "Lemon peel", "measure": null }
     ],
@@ -1302,9 +1387,10 @@
   },
   {
     "name": "Espresso Martini",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "5 cl" }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "5 cl" },
+      { "name": "Kahlua", "measure": "1 cl" }
+    ],
     "ingredients": [
-      { "name": "Kahlua", "measure": "1 cl" },
       { "name": "Sugar syrup", "measure": "1 dash" }
     ],
     "glassType": "Cocktail glass",
@@ -1329,13 +1415,14 @@
   },
   {
     "name": "Egg Nog - Healthy",
-    "baseAlcohol": [{ "name": "Egg", "measure": "1/2 cup " }],
+    "baseAlcohol": [{ "name": "Rum", "measure": "1 tsp " }
+    ],
     "ingredients": [
+      { "name": "Egg", "measure": "1/2 cup " },
       { "name": "Sugar", "measure": "3 tblsp " },
       { "name": "Condensed milk", "measure": "13 oz skimmed " },
       { "name": "Milk", "measure": "3/4 cup skimmed " },
       { "name": "Vanilla extract", "measure": "1 tsp " },
-      { "name": "Rum", "measure": "1 tsp " },
       { "name": "Nutmeg", "measure": "\n" }
     ],
     "glassType": "Collins Glass",
@@ -1346,10 +1433,11 @@
   },
   {
     "name": "English Rose Cocktail",
-    "baseAlcohol": [{ "name": "Apricot brandy", "measure": "3/4 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Apricot brandy", "measure": "3/4 oz " },
       { "name": "Gin", "measure": "1 1/2 oz " },
-      { "name": "Dry Vermouth", "measure": "3/4 oz " },
+      { "name": "Dry Vermouth", "measure": "3/4 oz " }
+    ],
+    "ingredients": [
       { "name": "Grenadine", "measure": "1 tsp " },
       { "name": "Lemon juice", "measure": "1/4 tsp " },
       { "name": "Cherry", "measure": "1 " }
@@ -1365,11 +1453,7 @@
     "baseAlcohol": [{ "name": "Cachaca", "measure": "60 ml" }],
     "ingredients": [
       { "name": "Lime", "measure": "1" },
-      { "name": "Elderflower cordial", "measure": "3 cl" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" }
+      { "name": "Elderflower cordial", "measure": "3 cl" }
     ],
     "glassType": "Collins glass",
     "recipe": "Take the glass and muddle the lime in it. Fill the glass with crushed ice and add the Cachaca. Stir well and top with some more crushed ice. Garnish with lime and enjoy!",
@@ -1394,10 +1478,11 @@
   },
   {
     "name": "Empellón Cocina's Fat-Washed Mezcal",
-    "baseAlcohol": [{ "name": "Mezcal", "measure": "2 oz" }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Mezcal", "measure": "2 oz" },
       { "name": "Chocolate liqueur", "measure": "3/4 oz" },
       { "name": "Coffee liqueur", "measure": "1/2 oz" }
+    ],
+    "ingredients": [
     ],
     "glassType": "Beer Glass",
     "recipe": "To ensure that your pork fat is just as delicious as theirs, here’s their adobo marinade and what to do with it (you’ll also need a rack of ribs):\r\n\r\n4 ancho chiles, 8 guajillo chiles and 4 chipotle chiles, plus 4 cloves roasted garlic, half a cup of cider vinegar, a quarter teaspoon of Mexican oregano, 1 teaspoon of ground black pepper, a whole clove, a quarter teaspoon of ground cinnamon and a half teaspoon of ground cumin.\r\n\r\nToast the dried chiles and soak in water for at least an hour until they are rehydrated. Drain and discard the soaking liquid. Combine the soaked chiles with the remaining ingredients and purée until smooth.\r\n\r\nCold smoke a rack of baby back pork ribs by taking a large hotel pan with woodchips on one side and charcoal on the other. Place another, smaller, pan with pork ribs, above the charcoal/woodchip pan. Ignite the charcoal, being careful to not ignite the woodchips. Cover both pans with foil and allow to smoke for 10-15 minutes, until desired level of smoke is achieved, then coat with adobo marinade and wrap in tin foil prior to placing ribs in a 300 degree oven for 7 hours. When the ribs have cooled, strain off the fat and use for the infusion.\r\n\r\nIf you’re having a hard time coming up to the same kind of volume of fat, make up the balance with pork lard from a butcher. To get the same depth of flavor without the ribs, heat up the fat in a pot with a few spoons of the marinade.\r\n\r\nOnce you’ve got your tub of seasoned pork fat in cooled liquid form, pour equal amounts of Ilegal Joven mezcal and fat into a sealable container. Seal the container and give it a really good shake, then put it in the freezer overnight. When the whole thing is separated and congealed, pour it through a fine mesh chinoise. If you don’t have a chinoise, try a fine mesh strainer, or if you don’t have one of those, try spooning off most of the fat. There will be some beads of orange fat left in the strained mezcal: run that through a few layers of cheesecloth (or coffee filters in a pinch) to get rid of the last of it.\r\n\r\nThe mezcal is now ready for drinking, straight-up or in a cocktail. \r\n\r\nHabanero tincture\r\n\r\nSlice habaneros and add 2 ounces Ilegal Joven mezcal.\r\nAllow to sit overnight or until desired level of heat is achieved.\r\nCocktail\r\n\r\nCombine mezcal and chocolate liqueur in a mixing glass with ice and stir for 45 seconds.\r\nStrain into chilled coupe.\r\nCarefully \"sink\" the coffee liqueur down the inside of the coupe over a spoon.\r\nGarnish with 5 drops habanero tincture.",
@@ -1420,9 +1505,10 @@
   },
   {
     "name": "Foxy Lady",
-    "baseAlcohol": [{ "name": "Amaretto", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Amaretto", "measure": "1/2 oz " },
+      { "name": "Creme de Cacao", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Creme de Cacao", "measure": "1/2 oz " },
       { "name": "Light cream", "measure": "2 oz " }
     ],
     "glassType": "Cocktail glass",
@@ -1433,11 +1519,12 @@
   },
   {
     "name": "French 75",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " },
+      { "name": "Champagne", "measure": "4 oz Chilled " }
+    ],
     "ingredients": [
       { "name": "Sugar", "measure": "2 tsp superfine " },
       { "name": "Lemon juice", "measure": "1 1/2 oz " },
-      { "name": "Champagne", "measure": "4 oz Chilled " },
       { "name": "Orange", "measure": "1 " },
       { "name": "Maraschino cherry", "measure": "1 " }
     ],
@@ -1449,9 +1536,10 @@
   },
   {
     "name": "Frisco Sour",
-    "baseAlcohol": [{ "name": "Blended whiskey", "measure": "2 oz " }],
+    "baseAlcohol": [{ "name": "Blended whiskey", "measure": "2 oz " },
+      { "name": "Benedictine", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Benedictine", "measure": "1/2 oz " },
       { "name": "Lemon", "measure": "Juice of 1/4 " },
       { "name": "Lime", "measure": "Juice of 1/2 " },
       { "name": "Lemon", "measure": "1 slice " },
@@ -1486,8 +1574,7 @@
       { "name": "Figs", "measure": "3" },
       { "name": "Thyme", "measure": "1 Sprig" },
       { "name": "Angostura Bitters", "measure": "2 dashes" },
-      { "name": "Tonic Water", "measure": "Top" },
-      { "name": "", "measure": "" }
+      { "name": "Tonic Water", "measure": "Top" }
     ],
     "glassType": "Highball glass",
     "recipe": "In a lewis bag, crush up some ice like a baller/maniac (@glacioice). Pour your precious ice into a collins glass. In a cocktail shaker, muddle the figs and thyme together. Add honey vodka, lemon juice, and a large ice cube (@glacioice). Shake until well chilled, and strain into glass. Add tonic water and finally 2 dashes of angostura bitters. Garnish with sliced figs and thyme.",
@@ -1514,10 +1601,11 @@
   },
   {
     "name": "Freddy Kruger",
-    "baseAlcohol": [{ "name": "Jägermeister", "measure": "1/2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Jägermeister", "measure": "1/2 oz " },
       { "name": "Sambuca", "measure": "1/2 oz " },
       { "name": "Vodka", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Shot glass",
     "recipe": "make it an ample size shot!!",
@@ -1527,8 +1615,11 @@
   },
   {
     "name": "Fuzzy Asshole",
-    "baseAlcohol": [{ "name": "Coffee", "measure": "1/2 " }],
-    "ingredients": [{ "name": "Peach schnapps", "measure": "1/2 " }],
+    "baseAlcohol": [{ "name": "Coffee", "measure": "1/2 " },
+      { "name": "Peach schnapps", "measure": "1/2 " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Coffee mug",
     "recipe": "fill coffe mug half full of coffee. Fill the other half full of Peach Schnapps. Stir and drink while hot.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/wrvpuu1472667898.jpg",
@@ -1542,9 +1633,7 @@
       { "name": "Apricot Nectar", "measure": "1 shot" },
       { "name": "Pomegranate juice", "measure": "1 shot" },
       { "name": "lemon", "measure": "Juice of 1/2" },
-      { "name": "Soda Water", "measure": "Top" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" }
+      { "name": "Soda Water", "measure": "Top" }
     ],
     "glassType": "Collins glass",
     "recipe": "Mix all ingredients together and strain into a Collins glass. Use Jamaican rum where possible for a more authentic taste.",
@@ -1554,9 +1643,10 @@
   },
   {
     "name": "French Martini",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "4.5 cl" }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "4.5 cl" },
+      { "name": "Raspberry Liqueur", "measure": "1.5 cl" }
+    ],
     "ingredients": [
-      { "name": "Raspberry Liqueur", "measure": "1.5 cl" },
       { "name": "pineapple juice", "measure": "1.5 cl" }
     ],
     "glassType": "Cocktail glass",
@@ -1567,10 +1657,11 @@
   },
   {
     "name": "French Negroni",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 oz" }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 oz" },
       { "name": "Lillet", "measure": "1 oz" },
-      { "name": "Sweet Vermouth", "measure": "1 oz" },
+      { "name": "Sweet Vermouth", "measure": "1 oz" }
+    ],
+    "ingredients": [
       { "name": "Orange Peel", "measure": "1" }
     ],
     "glassType": "Martini Glass",
@@ -1581,8 +1672,11 @@
   },
   {
     "name": "Flying Dutchman",
-    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " }],
-    "ingredients": [{ "name": "Triple sec", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " },
+      { "name": "Triple sec", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Old-fashioned glass",
     "recipe": "In an old-fashioned glass almost filled with ice cubes, combine the gin and triple sec. Stir well.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg",
@@ -1591,9 +1685,10 @@
   },
   {
     "name": "Frozen Daiquiri",
-    "baseAlcohol": [{ "name": "Light rum", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Light rum", "measure": "1 1/2 oz " },
+      { "name": "Triple sec", "measure": "1 tblsp " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1 tblsp " },
       { "name": "Lime juice", "measure": "1 1/2 oz " },
       { "name": "Sugar", "measure": "1 tsp " },
       { "name": "Cherry", "measure": "1 " },
@@ -1630,9 +1725,10 @@
   },
   {
     "name": "Flying Scotchman",
-    "baseAlcohol": [{ "name": "Scotch", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Scotch", "measure": "1 oz " },
+      { "name": "Sweet Vermouth", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Sweet Vermouth", "measure": "1 oz " },
       { "name": "Bitters", "measure": "1 dash " },
       { "name": "Sugar syrup", "measure": "1/4 tsp " }
     ],
@@ -1644,8 +1740,11 @@
   },
   {
     "name": "French Connection",
-    "baseAlcohol": [{ "name": "Cognac", "measure": "1 1/2 oz " }],
-    "ingredients": [{ "name": "Amaretto", "measure": "3/4 oz " }],
+    "baseAlcohol": [{ "name": "Cognac", "measure": "1 1/2 oz " },
+      { "name": "Amaretto", "measure": "3/4 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Old-fashioned glass",
     "recipe": "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg",
@@ -1654,12 +1753,13 @@
   },
   {
     "name": "Flaming Dr. Pepper",
-    "baseAlcohol": [{ "name": "Amaretto", "measure": "1 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Amaretto", "measure": "1 oz " },
       { "name": "Vodka", "measure": "1 oz " },
       { "name": "151 proof rum", "measure": "1 oz Bacardi " },
-      { "name": "Dr. Pepper", "measure": "1 oz " },
       { "name": "Beer", "measure": "1 oz " }
+    ],
+    "ingredients": [
+      { "name": "Dr. Pepper", "measure": "1 oz " }
     ],
     "glassType": "Collins Glass",
     "recipe": "Add Amaretto, Bacardi, and vodka. Mix in the Dr. Pepper and beer",
@@ -1679,11 +1779,12 @@
   },
   {
     "name": "Flaming Lamborghini",
-    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 oz " },
       { "name": "Sambuca", "measure": "1 oz " },
       { "name": "Blue Curacao", "measure": "1 oz " },
       { "name": "Baileys irish cream", "measure": "1 oz " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Cocktail glass",
     "recipe": "Pour the Sambuca and Kahlua into the Cocktail Glass and give the drinker a straw. Pour the Baileys and Blue Curacao into two sepsrate shot glasses either side of the cocktail glass. Set light the concotion in the cocktail glass and start to drink through the straw (this drink should be drunk in one) , as the bottom of the glass is reached put out the fire by pouring the Baileys and Blue Curacao into the cocktail glass and keep drinking till it's all gone!!",
@@ -1777,9 +1878,10 @@
   },
   {
     "name": "Godchild",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " },
+      { "name": "Amaretto", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Amaretto", "measure": "1 oz " },
       { "name": "Heavy cream", "measure": "1 oz " }
     ],
     "glassType": "Champagne flute",
@@ -1851,8 +1953,11 @@
   },
   {
     "name": "Godfather",
-    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " }],
-    "ingredients": [{ "name": "Amaretto", "measure": "3/4 oz " }],
+    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " },
+      { "name": "Amaretto", "measure": "3/4 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Old-fashioned glass",
     "recipe": "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/e5zgao1582582378.jpg",
@@ -1861,8 +1966,11 @@
   },
   {
     "name": "Godmother",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1 1/2 oz " }],
-    "ingredients": [{ "name": "Amaretto", "measure": "3/4 oz " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 1/2 oz " },
+      { "name": "Amaretto", "measure": "3/4 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Old-fashioned glass",
     "recipe": "Pour vodka and amaretto into an old-fashioned glass over ice and serve.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/quksqg1582582597.jpg",
@@ -1871,10 +1979,11 @@
   },
   {
     "name": "Gagliardo",
-    "baseAlcohol": [{ "name": "Peach Vodka", "measure": "5 parts " }],
+    "baseAlcohol": [{ "name": "Peach Vodka", "measure": "5 parts " },
+      { "name": "Galliano", "measure": "1 part " }
+    ],
     "ingredients": [
       { "name": "Lemon juice", "measure": "3 parts " },
-      { "name": "Galliano", "measure": "1 part " },
       { "name": "Sirup of roses", "measure": "1 part " }
     ],
     "glassType": "Cocktail glass",
@@ -1942,11 +2051,12 @@
   },
   {
     "name": "Grand Blue",
-    "baseAlcohol": [{ "name": "Malibu rum", "measure": "1 1/2 cl " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Malibu rum", "measure": "1 1/2 cl " },
       { "name": "Peach schnapps", "measure": "1 1/2 cl " },
       { "name": "Blue Curacao", "measure": "1 1/2 cl " },
       { "name": "Sweet and sour", "measure": "3 cl " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Old-fashioned glass",
     "recipe": "Serve in an old fashioned glass.",
@@ -1971,10 +2081,11 @@
   },
   {
     "name": "Gin Swizzle",
-    "baseAlcohol": [{ "name": "Lime juice", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Lime juice", "measure": "1 1/2 oz " },
+      { "name": "Gin", "measure": "2 oz " }
+    ],
     "ingredients": [
       { "name": "Sugar", "measure": "1 tsp superfine " },
-      { "name": "Gin", "measure": "2 oz " },
       { "name": "Bitters", "measure": "1 dash " },
       { "name": "Club soda", "measure": "3 oz " }
     ],
@@ -1986,9 +2097,10 @@
   },
   {
     "name": "Grass Skirt",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " },
+      { "name": "Triple sec", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1 oz " },
       { "name": "Pineapple juice", "measure": "1 oz " },
       { "name": "Grenadine", "measure": "1/2 tsp " },
       { "name": "Pineapple", "measure": "1 " }
@@ -2001,9 +2113,10 @@
   },
   {
     "name": "Grim Reaper",
-    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 oz " },
+      { "name": "151 proof rum", "measure": "1 oz Bacardi " }
+    ],
     "ingredients": [
-      { "name": "151 proof rum", "measure": "1 oz Bacardi " },
       { "name": "Grenadine", "measure": "1 dash " }
     ],
     "glassType": "Old-fashioned glass",
@@ -2014,9 +2127,10 @@
   },
   {
     "name": "Grasshopper",
-    "baseAlcohol": [{ "name": "Green Creme de Menthe", "measure": "3/4 oz " }],
+    "baseAlcohol": [{ "name": "Green Creme de Menthe", "measure": "3/4 oz " },
+      { "name": "Creme de Cacao", "measure": "3/4 oz white " }
+    ],
     "ingredients": [
-      { "name": "Creme de Cacao", "measure": "3/4 oz white " },
       { "name": "Light cream", "measure": "3/4 oz " }
     ],
     "glassType": "Cocktail glass",
@@ -2027,10 +2141,11 @@
   },
   {
     "name": "Grizzly Bear",
-    "baseAlcohol": [{ "name": "Amaretto", "measure": "1 part " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Amaretto", "measure": "1 part " },
       { "name": "Jägermeister", "measure": "1 part " },
-      { "name": "Kahlua", "measure": "1 part " },
+      { "name": "Kahlua", "measure": "1 part " }
+    ],
+    "ingredients": [
       { "name": "Milk", "measure": "2 1/2 parts " }
     ],
     "glassType": "Collins Glass",
@@ -2041,10 +2156,11 @@
   },
   {
     "name": "Green Goblin",
-    "baseAlcohol": [{ "name": "Cider", "measure": "1/2 pint hard " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Cider", "measure": "1/2 pint hard " },
       { "name": "Lager", "measure": "1/2 pint " },
       { "name": "Blue Curacao", "measure": "1 shot " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Pint glass",
     "recipe": "Cider First, Lager then Curacao",
@@ -2054,9 +2170,10 @@
   },
   {
     "name": "Golden dream",
-    "baseAlcohol": [{ "name": "Galliano", "measure": "2 parts" }],
+    "baseAlcohol": [{ "name": "Galliano", "measure": "2 parts" },
+      { "name": "Triple Sec", "measure": "2 parts" }
+    ],
     "ingredients": [
-      { "name": "Triple Sec", "measure": "2 parts" },
       { "name": "orange juice", "measure": "2 parts" },
       { "name": "Cream", "measure": "1 part" }
     ],
@@ -2068,9 +2185,10 @@
   },
   {
     "name": "H.D.",
-    "baseAlcohol": [{ "name": "Whisky", "measure": "4 cl " }],
+    "baseAlcohol": [{ "name": "Whisky", "measure": "4 cl " },
+      { "name": "Baileys irish cream", "measure": "8 cl " }
+    ],
     "ingredients": [
-      { "name": "Baileys irish cream", "measure": "8 cl " },
       { "name": "Coffee", "measure": null }
     ],
     "glassType": "Beer mug",
@@ -2084,11 +2202,7 @@
     "baseAlcohol": [{ "name": "White Rum", "measure": "6 cl" }],
     "ingredients": [
       { "name": "Honey", "measure": "2 cl" },
-      { "name": "Lemon Juice", "measure": "2 cl" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" }
+      { "name": "Lemon Juice", "measure": "2 cl" }
     ],
     "glassType": "Margarita glass",
     "recipe": "Shake ingredients with crushed ice\r\n",
@@ -2103,9 +2217,7 @@
       { "name": "Honey", "measure": "15 ml" },
       { "name": "Cinnamon", "measure": "1" },
       { "name": "lemon", "measure": "1" },
-      { "name": "Cloves", "measure": "2" },
-      { "name": "", "measure": "" },
-      { "name": "", "measure": "" }
+      { "name": "Cloves", "measure": "2" }
     ],
     "glassType": "Irish coffee cup",
     "recipe": "STEP 1\r\nWhisk the whisky and honey together and split between 2 heatproof glasses. Add half of the cinnamon stick to each, then top up with 200ml boiling water.\r\n\r\nSTEP 2\r\nAdd a splash of lemon juice to each, then taste and add more to your preference. Finish each with a slice of lemon, studded with a clove, and serve immediately.",
@@ -2125,9 +2237,10 @@
   },
   {
     "name": "Horse's Neck",
-    "baseAlcohol": [{ "name": "Lemon peel", "measure": "1 long strip " }],
+    "baseAlcohol": [{ "name": "Lemon peel", "measure": "1 long strip " },
+      { "name": "Brandy", "measure": "2 oz " }
+    ],
     "ingredients": [
-      { "name": "Brandy", "measure": "2 oz " },
       { "name": "Ginger ale", "measure": "5 oz " },
       { "name": "Bitters", "measure": "2 dashes " }
     ],
@@ -2195,9 +2308,10 @@
   },
   {
     "name": "Hot Creamy Bush",
-    "baseAlcohol": [{ "name": "Irish whiskey", "measure": "1 shot " }],
+    "baseAlcohol": [{ "name": "Irish whiskey", "measure": "1 shot " },
+      { "name": "Baileys irish cream", "measure": "3/4 shot " }
+    ],
     "ingredients": [
-      { "name": "Baileys irish cream", "measure": "3/4 shot " },
       { "name": "Coffee", "measure": "6 oz hot " }
     ],
     "glassType": "Irish coffee cup",
@@ -2208,13 +2322,13 @@
   },
   {
     "name": "Homemade Kahlua",
-    "baseAlcohol": [{ "name": "Sugar", "measure": "2 1/2 cups " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 fifth " }],
     "ingredients": [
       { "name": "Corn syrup", "measure": "1 cup " },
       { "name": "Coffee", "measure": "1 1/2 oz instant " },
       { "name": "Vanilla extract", "measure": "2 oz " },
       { "name": "Water", "measure": "3 cups boiling " },
-      { "name": "Vodka", "measure": "1 fifth " }
+      { "name": "Sugar", "measure": "2 1/2 cups " }
     ],
     "glassType": "Collins Glass",
     "recipe": "Dissolve sugar in 2 cups of boiling water and add corn syrup. Dissolve the instant coffee in the remaining water. Pour syrup and coffee in a gallon jug. Let it cool. Add vodka and vanilla when cold. For the best result, let the mixture \"mature\" for 4-5 weeks.",
@@ -2224,14 +2338,13 @@
   },
   {
     "name": "Halloween Punch",
-    "baseAlcohol": [{ "name": "Cherry Juice", "measure": "1 bottle" }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "20 cl" }],
     "ingredients": [
       { "name": "Orange Peel", "measure": "3" },
       { "name": "Red Chili Flakes", "measure": "1" },
       { "name": "Cloves", "measure": "10" },
       { "name": "Ginger", "measure": "6" },
-      { "name": "Vodka", "measure": "20 cl" },
-      { "name": "", "measure": "" }
+      { "name": "Cherry Juice", "measure": "1 bottle" }
     ],
     "glassType": "Punch bowl",
     "recipe": "Tip the cherry juice, orange peel, chilli, cinnamon sticks, cloves and ginger into a large saucepan. Simmer for 5 mins, then turn off the heat. Leave to cool, then chill for at least 4 hrs, or up to 2 days – the longer you leave it the more intense the flavours. If serving to young children, take the chilli out after a few hours.\r\n\r\nWhen you’re ready to serve, pour the juice into a jug. Serve in glass bottles or glasses and pop a straw in each. If you're adding vodka, do so at this stage. Dangle a fangs sweet from each glass.",
@@ -2241,9 +2354,10 @@
   },
   {
     "name": "Harvey Wallbanger",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " },
+      { "name": "Galliano", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Galliano", "measure": "1/2 oz " },
       { "name": "Orange juice", "measure": "4 oz " }
     ],
     "glassType": "Collins glass",
@@ -2254,9 +2368,10 @@
   },
   {
     "name": "Hawaiian Cocktail",
-    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "2 oz " },
+      { "name": "Triple sec", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1/2 oz " },
       { "name": "Pineapple juice", "measure": "1 tblsp " }
     ],
     "glassType": "Cocktail glass",
@@ -2267,10 +2382,11 @@
   },
   {
     "name": "Hemingway Special",
-    "baseAlcohol": [{ "name": "Rum", "measure": "12 parts" }],
+    "baseAlcohol": [{ "name": "Rum", "measure": "12 parts" },
+      { "name": "Maraschino Liqueur", "measure": "3 parts" }
+    ],
     "ingredients": [
       { "name": "Grapefruit Juice", "measure": "8 parts" },
-      { "name": "Maraschino Liqueur", "measure": "3 parts" },
       { "name": "Lime Juice", "measure": "3 parts" }
     ],
     "glassType": "Cocktail glass",
@@ -2281,9 +2397,10 @@
   },
   {
     "name": "Highland Fling Cocktail",
-    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " }],
+    "baseAlcohol": [{ "name": "Scotch", "measure": "1 1/2 oz " },
+      { "name": "Sweet Vermouth", "measure": "3/4 oz " }
+    ],
     "ingredients": [
-      { "name": "Sweet Vermouth", "measure": "3/4 oz " },
       { "name": "Orange bitters", "measure": "2 dashes " },
       { "name": "Olive", "measure": "1 " }
     ],
@@ -2367,11 +2484,12 @@
   },
   {
     "name": "Irish Spring",
-    "baseAlcohol": [{ "name": "Irish whiskey", "measure": "1 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Irish whiskey", "measure": "1 oz " },
       { "name": "Peach brandy", "measure": "1/2 oz " },
+      { "name": "Sweet and sour", "measure": "1 oz " }
+    ],
+    "ingredients": [
       { "name": "Orange juice", "measure": "1 oz " },
-      { "name": "Sweet and sour", "measure": "1 oz " },
       { "name": "Orange", "measure": "1 slice " },
       { "name": "Cherry", "measure": "1 " }
     ],
@@ -2397,9 +2515,10 @@
   },
   {
     "name": "Imperial Fizz",
-    "baseAlcohol": [{ "name": "Light rum", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Light rum", "measure": "1/2 oz " },
+      { "name": "Blended whiskey", "measure": "1 1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Blended whiskey", "measure": "1 1/2 oz " },
       { "name": "Lemon", "measure": "Juice of 1/2 " },
       { "name": "Powdered sugar", "measure": "1 tsp " },
       { "name": "Carbonated water", "measure": null }
@@ -2412,11 +2531,12 @@
   },
   {
     "name": "Irish Russian",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1 shot " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 shot " },
       { "name": "Kahlua", "measure": "1 shot " },
-      { "name": "Coca-Cola", "measure": "1 dash " },
       { "name": "Guinness stout", "measure": "Fill with " }
+    ],
+    "ingredients": [
+      { "name": "Coca-Cola", "measure": "1 dash " }
     ],
     "glassType": "Highball glass",
     "recipe": "Add the ingredients in the order listed in the recipe. Care must be taken when adding the Guinness to prevent an excess of foam. Do Not add ice.",
@@ -2426,10 +2546,10 @@
   },
   {
     "name": "Imperial Cocktail",
-    "baseAlcohol": [{ "name": "Lime juice", "measure": "4 cl " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "2 cl " },
+      { "name": "Aperol", "measure": "4 cl " }],
     "ingredients": [
-      { "name": "Gin", "measure": "2 cl " },
-      { "name": "Aperol", "measure": "4 cl " }
+      { "name": "Lime juice", "measure": "4 cl " }
     ],
     "glassType": "Cocktail glass",
     "recipe": "Shake with ice and strain into cocktail glass.",
@@ -2449,10 +2569,11 @@
   },
   {
     "name": "Irish Curdling Cow",
-    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "3/4 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "3/4 oz " },
       { "name": "Bourbon", "measure": "3/4 oz " },
-      { "name": "Vodka", "measure": "3/4 oz " },
+      { "name": "Vodka", "measure": "3/4 oz " }
+    ],
+    "ingredients": [
       { "name": "Orange juice", "measure": "2-3 oz " }
     ],
     "glassType": "Highball glass",
@@ -2463,9 +2584,10 @@
   },
   {
     "name": "Jitterbug",
-    "baseAlcohol": [{ "name": "Gin", "measure": "2 jiggers " }],
+    "baseAlcohol": [{ "name": "Gin", "measure": "2 jiggers " },
+      { "name": "Vodka", "measure": "1 jigger " }
+    ],
     "ingredients": [
-      { "name": "Vodka", "measure": "1 jigger " },
       { "name": "Grenadine", "measure": "3 dashes " },
       { "name": "Lime juice", "measure": "1 shot " },
       { "name": "Sugar", "measure": "Around rim put 1 pinch " },
@@ -2480,9 +2602,10 @@
   },
   {
     "name": "Jam Donut",
-    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "2/3 oz" }],
+    "baseAlcohol": [{ "name": "Baileys irish cream", "measure": "2/3 oz" },
+      { "name": "Chambord raspberry liqueur", "measure": "1/3 oz" }
+    ],
     "ingredients": [
-      { "name": "Chambord raspberry liqueur", "measure": "1/3 oz" },
       { "name": "Sugar syrup", "measure": "1 tsp" },
       { "name": "Sugar", "measure": "2 pinches" }
     ],
@@ -2504,8 +2627,11 @@
   },
   {
     "name": "Jackhammer",
-    "baseAlcohol": [{ "name": "Jack Daniels", "measure": "1 oz " }],
-    "ingredients": [{ "name": "Amaretto", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Jack Daniels", "measure": "1 oz " },
+      { "name": "Amaretto", "measure": "1 oz " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Collins Glass",
     "recipe": "Serve over ice- Warning,Deadly!",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/9von5j1504388896.jpg",
@@ -2543,9 +2669,10 @@
   },
   {
     "name": "Jamaica Kiss",
-    "baseAlcohol": [{ "name": "Coffee liqueur", "measure": "1 shot " }],
+    "baseAlcohol": [{ "name": "Coffee liqueur", "measure": "1 shot " },
+      { "name": "Light rum", "measure": "1 shot Jamaican " }
+    ],
     "ingredients": [
-      { "name": "Light rum", "measure": "1 shot Jamaican " },
       { "name": "Ice", "measure": "cubes" },
       { "name": "Milk", "measure": null }
     ],
@@ -2600,10 +2727,11 @@
   },
   {
     "name": "Jewel Of The Nile",
-    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Gin", "measure": "1 1/2 oz " },
       { "name": "Green Chartreuse", "measure": "1/2 oz " },
       { "name": "Yellow Chartreuse", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
     ],
     "glassType": "Cocktail glass",
     "recipe": "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -2626,9 +2754,10 @@
   },
   {
     "name": "Jack's Vanilla Coke",
-    "baseAlcohol": [{ "name": "Ice", "measure": "4-5 " }],
+    "baseAlcohol": [{ "name": "Ice", "measure": "4-5 " },
+      { "name": "Tennessee whiskey", "measure": "2 oz " }
+    ],
     "ingredients": [
-      { "name": "Tennessee whiskey", "measure": "2 oz " },
       { "name": "Vanilla extract", "measure": "1 tsp " },
       { "name": "Coca-Cola", "measure": "10-12 oz " }
     ],
@@ -2640,8 +2769,11 @@
   },
   {
     "name": "Kir",
-    "baseAlcohol": [{ "name": "Creme de Cassis", "measure": "1 part " }],
-    "ingredients": [{ "name": "Champagne", "measure": "5 parts " }],
+    "baseAlcohol": [{ "name": "Creme de Cassis", "measure": "1 part " },
+      { "name": "Champagne", "measure": "5 parts " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Wine Glass",
     "recipe": "Add the crème de cassis to the bottom of the glass, then top up with wine.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg",
@@ -2650,8 +2782,8 @@
   },
   {
     "name": "Karsk",
-    "baseAlcohol": [{ "name": "Coffee", "measure": "1 part " }],
-    "ingredients": [{ "name": "Grain alcohol", "measure": "2 parts " }],
+    "baseAlcohol": [{ "name": "Grain alcohol", "measure": "2 parts " }],
+    "ingredients": [{ "name": "Coffee", "measure": "1 part " }],
     "glassType": "Highball glass",
     "recipe": "Put a copper coin in a coffe-cup and fill up with coffee until you no longer see the coin, then add alcohol until you see the coin. Norwegian speciality.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/808mxk1487602471.jpg",
@@ -2660,9 +2792,10 @@
   },
   {
     "name": "Kamikaze",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 oz " },
+      { "name": "Triple sec", "measure": "1 oz " }
+    ],
     "ingredients": [
-      { "name": "Triple sec", "measure": "1 oz " },
       { "name": "Lime juice", "measure": "1 oz " }
     ],
     "glassType": "Cocktail glass",
@@ -2673,8 +2806,11 @@
   },
   {
     "name": "Kir Royale",
-    "baseAlcohol": [{ "name": "Creme de Cassis", "measure": "1 part " }],
-    "ingredients": [{ "name": "Champagne", "measure": "5 parts " }],
+    "baseAlcohol": [{ "name": "Creme de Cassis", "measure": "1 part " },
+      { "name": "Champagne", "measure": "5 parts " }
+    ],
+    "ingredients": [
+    ],
     "glassType": "Champagne Flute",
     "recipe": "Pour Creme de cassis in glass, gently pour champagne on top",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/yt9i7n1504370388.jpg",
@@ -2709,9 +2845,10 @@
   },
   {
     "name": "Kioki Coffee",
-    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 oz " }],
+    "baseAlcohol": [{ "name": "Kahlua", "measure": "1 oz " },
+      { "name": "Brandy", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Brandy", "measure": "1/2 oz " },
       { "name": "Coffee", "measure": null }
     ],
     "glassType": "Coffee mug",
@@ -2722,11 +2859,12 @@
   },
   {
     "name": "Kool-Aid Shot",
-    "baseAlcohol": [{ "name": "Vodka", "measure": "1 shot " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1 shot " },
       { "name": "Amaretto", "measure": "1 shot " },
       { "name": "Sloe gin", "measure": "1 shot " },
-      { "name": "Triple sec", "measure": "1 shot " },
+      { "name": "Triple sec", "measure": "1 shot " }
+    ],
+    "ingredients": [
       { "name": "Cranberry juice", "measure": null }
     ],
     "glassType": "Old-fashioned glass",
@@ -2737,10 +2875,11 @@
   },
   {
     "name": "Kiss me Quick",
-    "baseAlcohol": [{ "name": "Cranberry vodka", "measure": "4 cl " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Cranberry vodka", "measure": "4 cl " },
       { "name": "Apfelkorn", "measure": "2 cl " },
-      { "name": "Schweppes Russchian", "measure": "7 cl " },
+      { "name": "Schweppes Russchian", "measure": "7 cl " }
+    ],
+    "ingredients": [
       { "name": "Apple juice", "measure": "8 cl " },
       { "name": "Ice", "measure": "cubes" }
     ],
@@ -2762,8 +2901,10 @@
   },
   {
     "name": "Kentucky B And B",
-    "baseAlcohol": [{ "name": "Bourbon", "measure": "2 oz " }],
-    "ingredients": [{ "name": "Benedictine", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Bourbon", "measure": "2 oz " },
+      { "name": "Benedictine", "measure": "1/2 oz " }],
+    "ingredients": [
+    ],
     "glassType": "Brandy snifter",
     "recipe": "Pour the bourbon and Benedictine into a brandy snifter.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/sqxsxp1478820236.jpg",
@@ -2772,9 +2913,10 @@
   },
   {
     "name": "Kentucky Colonel",
-    "baseAlcohol": [{ "name": "Bourbon", "measure": "3 oz " }],
+    "baseAlcohol": [{ "name": "Bourbon", "measure": "3 oz " },
+      { "name": "Benedictine", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Benedictine", "measure": "1/2 oz " },
       { "name": "Lemon peel", "measure": "1 twist of " }
     ],
     "glassType": "Cocktail glass",
@@ -2785,8 +2927,8 @@
   },
   {
     "name": "Kool-Aid Slammer",
-    "baseAlcohol": [{ "name": "Kool-Aid", "measure": "1/2 oz Grape " }],
-    "ingredients": [{ "name": "Vodka", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Vodka", "measure": "1/2 oz " }],
+    "ingredients": [{ "name": "Kool-Aid", "measure": "1/2 oz Grape " }],
     "glassType": "Shot glass",
     "recipe": "Fill half the shot glass with the kool-aid first. Then put a paper towel over the top of the glass and slowly pour in the vodka. If you do it right, you should be able to see that the two liquids are separated, with the vodka on top. Now slam it! The last thing you'll taste is the kool-aid.",
     "imgPath": "https://www.thecocktaildb.com/images/media/drink/kugu2m1504735473.jpg",
@@ -2832,9 +2974,10 @@
   },
   {
     "name": "Lunch Box",
-    "baseAlcohol": [{ "name": "Beer", "measure": "3/4 bottle " }],
+    "baseAlcohol": [{ "name": "Beer", "measure": "3/4 bottle " },
+      { "name": "Amaretto", "measure": "1 shot " }
+    ],
     "ingredients": [
-      { "name": "Amaretto", "measure": "1 shot " },
       { "name": "Orange juice", "measure": "1 oz " }
     ],
     "glassType": "Pint glass",
@@ -2845,9 +2988,10 @@
   },
   {
     "name": "Lemon Shot",
-    "baseAlcohol": [{ "name": "Galliano", "measure": "1/2 oz " }],
+    "baseAlcohol": [{ "name": "Galliano", "measure": "1/2 oz " },
+      { "name": "Absolute Citron", "measure": "1/2 oz " }
+    ],
     "ingredients": [
-      { "name": "Absolut Citron", "measure": "1/2 oz " },
       { "name": "Lemon", "measure": " wedge\n" },
       { "name": "Sugar", "measure": "Bacardi " },
       { "name": "151 proof rum", "measure": null }
@@ -2875,9 +3019,10 @@
   },
   {
     "name": "Lemon Drop",
-    "baseAlcohol": [{ "name": "Absolut Vodka", "measure": "1 1/2 shot " }],
+    "baseAlcohol": [{ "name": "Absolut Vodka", "measure": "1 1/2 shot " },
+      { "name": "Cointreau", "measure": "1 1/2 shot " }
+    ],
     "ingredients": [
-      { "name": "Cointreau", "measure": "1 1/2 shot " },
       { "name": "Lemon", "measure": "Juice of 1 wedge " }
     ],
     "glassType": "Cocktail glass",
@@ -2888,10 +3033,11 @@
   },
   {
     "name": "Loch Lomond",
-    "baseAlcohol": [{ "name": "Scotch", "measure": "2 oz " }],
-    "ingredients": [
+    "baseAlcohol": [{ "name": "Scotch", "measure": "2 oz " },
       { "name": "Drambuie", "measure": "1/2 oz " },
-      { "name": "Dry Vermouth", "measure": "1/2 oz " },
+      { "name": "Dry Vermouth", "measure": "1/2 oz " }
+    ],
+    "ingredients": [
       { "name": "Lemon peel", "measure": "1 twist of " }
     ],
     "glassType": "Cocktail glass",
