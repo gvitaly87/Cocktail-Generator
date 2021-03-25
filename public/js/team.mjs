@@ -9,6 +9,7 @@ import getRequest from './git-json.mjs';
 //   })
 //   .then(function (data) {
 //     console.log(data);
+const getTeam = async () => {
     const data = await getRequest('/api/v0/members');
     const teamMember = data;
     const card = document.querySelector(".card");
@@ -24,8 +25,9 @@ import getRequest from './git-json.mjs';
   
       document.querySelector('.card').innerHTML= output;
   });
+}
 
-})
-.catch(function (error) {
-  console.log(error);
-});
+getTeam();
+// .catch(function (error) {
+//   console.log(error);
+// });
