@@ -9,7 +9,7 @@ module.exports = [
   },
   {
     name: 'Kyle',
-    profilePic: '',
+    profilePic: '/images/avatars/kyle.jpg',
     title: 'Drink Tester',
     bio: "kyle's bio",
     favoriteDrink: 'Scotch on the Rocks',
