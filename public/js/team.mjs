@@ -1,4 +1,4 @@
-import getRequest from './git-json.mjs';
+import getRequest from '/js/get-json.mjs';
 // fetch("/api/v0/members")
 
 //   .then(function (response) {
