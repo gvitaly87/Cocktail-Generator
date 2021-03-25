@@ -48,7 +48,7 @@ nav.primary a {
 footer {
   font-weight: 200;
   font-size: clamp(1rem, 4.25vw, 1.5rem);
-  color: var(--main-color);
+  /* color: var(--main-color); */
   text-transform: uppercase;
 }
 
