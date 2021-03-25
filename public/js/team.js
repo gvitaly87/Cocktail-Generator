@@ -1,4 +1,5 @@
-fetch("/api/v0/")
+fetch("/api/v0/members")
+
   .then(function (response) {
     if (!response.ok) {
       throw new Error("This is an error");
@@ -6,11 +7,12 @@ fetch("/api/v0/")
     return response.json();
   })
   .then(function (data) {
+    console.log(data);
     const teamMember = data;
     const card = document.querySelector(".card");
     //create output string for html
     let output='';
-    teamMember.forEach(function(item){
+    data.forEach(function(item){
       output += `
         <img class ="profile-image" src="${item.profilePic}" alt="${item.name}">
         <h2> ${item.name} </h2>

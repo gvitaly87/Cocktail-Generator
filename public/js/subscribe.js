@@ -1,4 +1,4 @@
-fetch("/api/v0/")
+fetch("/api/v0/subscribers")
   .then(function (response) {
     if (!response.ok) {
       throw new Error("This is an error");
@@ -10,7 +10,7 @@ fetch("/api/v0/")
     const card = document.querySelector(".form");
     //create output string for html
     let output='';
-    subs.forEach(function(input){
+    data.forEach(function(input){
       output += `
       <form action="/subscribe" method="POST">
       <label for="name">
