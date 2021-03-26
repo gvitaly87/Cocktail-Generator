@@ -1,29 +1,32 @@
-<div class="drink">
-  <h2 class="name"><%=drink.name%></h2>
-  <div class="image">
-    <img
-      src="<%=drink.imgPath%>"
-      alt="<%=drink.name%>"
-      width="<%=drink.width%>"
-      height="<%=drink.height%>"
-    />
+<div class="single-page-container">
+  <h1 class="single-title">And Tonight's Drink is...</h1>
+  <div class="single-drink">
+    <div class="single-image">
+      <img
+        src="<%=drink.imgPath%>"
+        alt="<%=drink.name%>"
+        width="<%=drink.width%>"
+        height="<%=drink.height%>"
+      />
+    </div>
+    <h2 class="single-name"><%=drink.name%></h2>
+    <div class="baseAlcohol">
+      <h3>Alcohol ingredients</h3>
+      <ul>
+        <% if (drink.baseAlcohol[0].name) { %> <% drink.baseAlcohol.forEach(alcohol => { %>
+        <li><%=alcohol.name%> | <%=alcohol.measure%></li>
+        <% }) %> <% } %>
+      </ul>
+    </div>
+    <div class="ingredients">
+      <h3>Regular ingredients</h3>
+      <ul>
+        <% if (drink.ingredients[0].name) { %> <% drink.ingredients.forEach(ingredient => { %>
+        <li><%=ingredient.name%> | <%=ingredient.measure%></li>
+        <% }) %> <% } %>
+      </ul>
+    </div>
+    <div class="glassType">Glass: <%=drink.glassType%></div>
+    <div class="recipe"><p>-<%=drink.recipe%></p></div>
   </div>
-  <div class="baseAlcohol">
-    <h3>Alcohol ingredients</h3>
-    <ul>
-      <% if (drink.baseAlcohol[0].name) { %> <% drink.baseAlcohol.forEach(alcohol => { %>
-      <li><%=alcohol.name%> | <%=alcohol.measure%></li>
-      <% }) %> <% } %>
-    </ul>
-  </div>
-  <div class="ingredients">
-    <h3>Regular ingredients</h3>
-    <ul>
-      <% if (drink.ingredients[0].name) { %> <% drink.ingredients.forEach(ingredient => { %>
-      <li><%=ingredient.name%> | <%=ingredient.measure%></li>
-      <% }) %> <% } %>
-    </ul>
-  </div>
-  <div class="glassType">Glass: <%=drink.glassType%></div>
-  <div class="recipe"><p><%=drink.recipe%></p></div>
 </div>

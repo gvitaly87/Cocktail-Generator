@@ -1,0 +1,44 @@
+.single-page-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--clr2);
+}
+
+.single-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.25rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.single-drink {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 2rem;
+
+  background-color: var(--clr4);  
+  width: 30rem;
+
+  box-shadow: 6px 6px 29px -12px rgba(0,0,0,0.63);
+  border-radius: 16px;
+}
+
+.single-image img {
+  margin: 0;
+  overflow: hidden;
+  width: 30rem;
+  height: 400px;
+}
+
+.single-name {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+li {
+  list-style-type: disc;
+}
