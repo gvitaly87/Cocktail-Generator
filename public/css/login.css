@@ -1,4 +1,4 @@
-form {
+.login-form, .register-form, .sub-form {
   min-height: 40vh;  
   display: flex;
   flex-flow: column wrap;
@@ -33,10 +33,10 @@ form input {
 
   transition: background-size 0.3s ease;
 }
-form input:focus,
+
+.form input:focus,
 form input:valid {
-  background: none;
-  border: 2px solid var(--clr);
+  background: var(--clr2);
   transition: border-color 0.3s ease;
 }
 
@@ -149,4 +149,44 @@ form a {
 .message {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 4rem;
+  padding-top: 1.5rem;
+
+}
+
+.search-label {
+display: flex;
+flex-direction: row;
+width: 10rem;
+padding-top: 0px;
+}
+
+.search-button, .search-input {
+  background-repeat: no-repeat;
+  height: 2rem;
+  width: 8rem;
+  border: none;
+  outline: none;
+  background-color: var(--clr2);
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.search-button {
+  background-image: url(../images/forms/search-button.svg);
+  width: 2rem;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.search-title {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
 }
