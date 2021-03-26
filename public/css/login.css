@@ -1,9 +1,7 @@
 form {
-  /* min-height: 40vh; */
-
+  min-height: 40vh;  
   display: flex;
   flex-flow: column wrap;
-
   justify-content: center;
   align-items: center;
 }
@@ -12,7 +10,7 @@ form label {
   position: relative;
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -88,38 +86,59 @@ form input:focus + .placeholder {
 }
 
 form a {
-  color: var(--clr);
+  color: var(--clr2);
 }
 
 .login-container {
+  background-image: url(../images/forms/martini-glass.svg);
+  background-repeat: no-repeat;
+  background-size: 50rem 45rem;
+  
+
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
   margin: auto;
 
-  background-color: hsla(201, 54%, 71%, 70%);
-  border-radius: 35px;
 
-  width: 30rem;
-  height: 25rem;
+  width: 50rem;
+  height: 45rem;
 
-  margin-top: 20vh;
+  margin-top: 5rem;
 }
 
 .register-subscribe-container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.register-container {
+  background-image: url(../images/forms/beer-mug.svg);
+  background-repeat: no-repeat;
+  background-size: 50rem 45rem;
+  background-position: center;
+
+  width: 50rem;
+  height: 45rem;
+
   justify-content: center;
   margin: auto;
-
-  background-color: hsla(201, 54%, 71%, 70%);
-  border-radius: 35px;
-
-  width: 30rem;
-  height: 46rem;
-
-  margin-top: 2rem;
 }
+
+.sub-container {
+  background-image: url(../images/forms/wine-glass.svg);
+  background-repeat: no-repeat;
+  background-size: 50rem 45rem;
+  background-position: center;
+
+  width: 50rem;
+  height: 45rem;
+
+  justify-content: center;
+  margin: auto;
+}
+
 
 .login-title {
   font-family: 'Monsterrat', sans-serif;
@@ -130,19 +149,4 @@ form a {
 .message {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
-}
-
-.register-or {
-  font-family: 'Monsterrat', sans-serif;
-  font-weight: 500;
-  font-size: 1.5vw;
-
-  text-align: center;
-  border-left: 13rem solid black;
-  border-right: 13rem solid black;
-  width: 30rem;
-  line-height: 2px;
-
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }

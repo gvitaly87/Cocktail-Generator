@@ -3,38 +3,41 @@
   <% if (success == true) { %>
   <p>Thank you for your registration!</p>
   <%}%>
-  <form class="register-form" method="POST" action="/register">
-    <h1 class="login-title">Register Below</h1>
-    <label for="username">
-      <input type="text" name="username" id="username" required />
-      <span class="placeholder">Enter User Name</span>
-    </label>
-    <label for="email">
-      <input type="email" name="email" id="email" required />
-      <span class="placeholder">Enter Email</span>
-    </label>
-    <label for="password">
-      <input type="password" name="password" id="password" value="" required />
-      <span class="placeholder">Enter password</span>
-    </label>
-    <!-- <label for="conf-psw">
-      <input type="password" name="conf-psw" id="conf-psw" value="" required />
-      <span class="placeholder">Enter password</span>
-    </label> -->
-    <button class="form-btn" type="submit">Register</button>
-    <p class="message">Already registered? <a href="/login">Sign In</a></p>
-  </form>
-  <h1 class="register-or">Or</h1>
-  <form class="register-form" method="POST" action="/subscribe">
-    <h1 class="login-title">Subscribe For Drink Updates</h1>
-    <label for="username">
-      <input type="text" name="firstname" id="firstname" required />
-      <span class="placeholder">Enter User Name</span>
-    </label>
-    <label for="email">
-      <input type="email" name="email-subscribe" id="email-subscribe" required />
-      <span class="placeholder">Enter Email</span>
-    </label>
-    <button class="form-btn" type="submit">Subscribe</button>
-  </form>
+  <div class="register-container">
+    <form class="register-form" method="POST" action="/register">
+      <h1 class="login-title">Register Below</h1>
+      <label for="username">
+        <input type="text" name="username" id="username" required />
+        <span class="placeholder">Enter User Name</span>
+      </label>
+      <label for="email">
+        <input type="email" name="email" id="email" required />
+        <span class="placeholder">Enter Email</span>
+      </label>
+      <label for="password">
+        <input type="password" name="password" id="password" value="" required />
+        <span class="placeholder">Enter password</span>
+      </label>
+      <!-- <label for="conf-psw">
+        <input type="password" name="conf-psw" id="conf-psw" value="" required />
+        <span class="placeholder">Enter password</span>
+      </label> -->
+      <button class="form-btn" type="submit">Register</button>
+      <p class="message">Already registered? <a href="/login">Sign In</a></p>
+    </form>
+  </div>
+  <div class="sub-container">
+    <form class="sub-form" method="POST" action="/subscribe">
+      <h1 class="login-title">Subscribe For Drink Updates</h1>
+      <label for="username">
+        <input type="text" name="firstname" id="firstname" required />
+        <span class="placeholder">Enter User Name</span>
+      </label>
+      <label for="email">
+        <input type="email" name="email-subscribe" id="email-subscribe" required />
+        <span class="placeholder">Enter Email</span>
+      </label>
+      <button class="form-btn" type="submit">Subscribe</button>
+    </form>
+  </div>
 </div>
