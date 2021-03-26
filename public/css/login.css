@@ -33,8 +33,7 @@ form input {
 
   transition: background-size 0.3s ease;
 }
-
-.form input:focus,
+form input:focus,
 form input:valid {
   background: var(--clr2);
   transition: border-color 0.3s ease;
@@ -163,7 +162,6 @@ form a {
 .search-label {
 display: flex;
 flex-direction: row;
-width: 10rem;
 padding-top: 0px;
 }
 
@@ -172,9 +170,7 @@ padding-top: 0px;
   height: 2rem;
   width: 8rem;
   border: none;
-  outline: none;
   background-color: var(--clr2);
-  padding: 0px;
   border-radius: 0px;
 }
 
@@ -182,7 +178,6 @@ padding-top: 0px;
   background-image: url(../images/forms/search-button.svg);
   width: 2rem;
   cursor: pointer;
-  padding: 0px;
 }
 
 .search-title {
@@ -190,3 +185,11 @@ padding-top: 0px;
   font-weight: 500;
   font-size: 1rem;
 }
+/* overwtie for the above focus,valid,invalid */
+.search-form input:focus,
+.search-form input:valid {
+  background-color: var(--clr2);
+  border: none;
+  transition: border-color 0.3s ease;
+}
+

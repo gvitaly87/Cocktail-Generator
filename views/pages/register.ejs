@@ -15,7 +15,12 @@
         <span class="placeholder">Enter Email</span>
       </label>
       <label for="password">
-        <input type="password" name="password" id="password" value="" required />
+        <input         
+        type="password"
+        name="password"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        id="password"
+        required/>
         <span class="placeholder">Enter password</span>
       </label>
       <!-- <label for="conf-psw">
