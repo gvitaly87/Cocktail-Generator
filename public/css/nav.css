@@ -78,6 +78,7 @@ a.login {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      z-index: 2;
     }
 
     /*To display that 3 Lines in Hamburger Menu we have to work on class=line*/
@@ -117,6 +118,7 @@ a.login {
       align-items: center;
       border-radius: 20% 0 0 50%;
       transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+      z-index: 1;
     }
 
     .change {
