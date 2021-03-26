@@ -11,7 +11,6 @@ const subscribeRoute = require('./subscribe');
 
 const apiRoute = require('./api/v0');
 
-const imgArr = require('../data/images');
 // Export as a function so we can pass it args
 module.exports = () => {
   router.get('/', (req, res) => {
