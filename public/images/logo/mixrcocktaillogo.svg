@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+	 viewBox="0 0 1041 512" style="enable-background:new 0 0 1041 512;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F76C6C;}
 	.st1{fill:#9E4646;}
@@ -10,10 +10,13 @@
 	.st4{fill:#374785;}
 	.st5{fill:#FFC61B;}
 	.st6{fill:#EAA22F;}
+	.st7{fill:none;}
+	.st8{font-family:'ArialRoundedMTBold';}
+	.st9{font-size:110px;}
 </style>
 <circle class="st0" cx="256" cy="256" r="256"/>
 <path class="st1" d="M221.9,402.7l97.4,101.4C430.1,475.9,512,375.5,512,256c0-11.9-0.8-23.7-2.4-35.2L398.2,109.5l-2.9,4.3H352
-	l-2.6-2.6l-1.6,2.6h-9.2v15l-25.7,41.9l26.1,26.1l-38.6,56.8l-24.6-24.6l-91.2,14.5l68.1,70.2v10.4l-0.8,1.2l0.8,0.8v75.8
+	l-2.6-2.6l-1.6,2.6h-9.2v15l-25.7,41.9l26.1,26.1l-38.6,56.8L275.8,229l-91.2,14.5l68.1,70.2v10.4l-0.8,1.2l0.8,0.8v75.8
 	L221.9,402.7z"/>
 <path class="st2" d="M361.2,166.3c0,58.1-47.1,105.2-105.2,105.2s-105.2-47.1-105.2-105.2H361.2z"/>
 <path class="st3" d="M361.2,166.3H256.6v105.1C314.4,271.1,361.2,224.1,361.2,166.3z"/>
@@ -22,4 +25,6 @@
 	c0,3.8,3.1,6.8,6.8,6.8h59.2c3.8,0,6.8-3.1,6.8-6.8s-3.1-6.8-6.8-6.8h-22.8V271.2C305.6,268.4,341.5,240.1,355.2,201.3z"/>
 <path class="st6" d="M355.2,201.3h-98.6v203.1h29c3.8,0,6.8-3.1,6.8-6.8s-3.1-6.8-6.8-6.8h-22.8V271.2
 	C305.6,268.4,341.5,240.1,355.2,201.3z"/>
+<rect x="546" y="237.3" class="st7" width="395" height="109"/>
+<text transform="matrix(1 0 0 1 546 317.3557)" class="st2 st8 st9">mixr</text>
 </svg>
