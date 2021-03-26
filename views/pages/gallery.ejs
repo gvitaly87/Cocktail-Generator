@@ -2,11 +2,19 @@
   <div class="generator-text">
     <h1 class="login-title">Thirsty but don't know where to start?</h1>
     <p class="message">Our drink generator will help you decide!</p>
-    <div class="generator-button"><button class="drink-button">Fetch me a Drink!!</button></div>
+    <div class="generator-button">
+      <a href="/gallery?random=true" class="drink-button">Fetch me a Drink!!</a>
+    </div>
     <form class="search-form" method="POST" action="/gallery">
       <p class="search-title">Looking for something specific?</p>
       <label class="search-label" for="search">
-        <input class="search-input" type="search-box" name="search" id="search" placeholder="Search..."/>
+        <input
+          class="search-input"
+          type="search-box"
+          name="search"
+          id="search"
+          placeholder="Search..."
+        />
         <button type="submit" class="search-button"></button>
       </label>
     </form>
@@ -14,7 +22,7 @@
   <div class="image">
     <img src="/images/gallery/pexels-charlotte-may-5947019.jpg" alt="pink drink" />
   </div>
-  <div class=drink>
+  <div class="drink">
     <!--All gallery.mjs data goes here-->
   </div>
 </div>
