@@ -5,7 +5,7 @@ module.exports = [
     title: 'The Real MVP',
     bio: 'Vitaly Bio',
     favoriteDrink: '',
-    github: 'github.com',
+    github: 'https://github.com/gvitaly87',
   },
   {
     name: 'Kyle',
@@ -29,6 +29,6 @@ module.exports = [
     title: 'Mojito',
     bio: "Shivani's Bio",
     favoriteDrink: 'Mojito',
-    github: 'ttps://github.com/Shi-stack',
+    github: 'https://github.com/Shi-stack',
   },
 ];

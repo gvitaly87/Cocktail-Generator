@@ -11,15 +11,16 @@
     </div>
     <h2 class="single-name"><%=drink.name%></h2>
     <div class="column">
+      <% if (drink.baseAlcohol.length) { %>
       <div class="baseAlcohol">
         <h3>Alcohol:</h3>
-
         <ul>
           <% for( let i = 0; i < drink.baseAlcohol.length; i++ ) { %>
           <li><%=drink.baseAlcohol[i].name%> | <%=drink.baseAlcohol[i].measure%></li>
           <% } %>
         </ul>
       </div>
+      <% } %> <% if (drink.ingredients.length) { %>
       <div class="ingredients">
         <h3>Ingredients:</h3>
         <ul>
@@ -28,8 +29,9 @@
           <% } %>
         </ul>
       </div>
+      <% } %>
       <div class="glassType">
-        <h3>Glass Type:</h3> 
+        <h3>Glass Type:</h3>
         <ul>
           <li><%=drink.glassType%></li>
         </ul>

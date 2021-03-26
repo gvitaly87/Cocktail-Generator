@@ -2,10 +2,12 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 // Import seed data
-const dbSeed = require(`./seeds/drinks`);
+const drinkSeed = require(`./seeds/drinks`);
+const teamSeed = require(`./seeds/team`);
 
 // Define model
 const Image = require(`./models/DrinkModel`);
+const TeamMember = require(`./models/TeamMemberModel`);
 
 /*******************************/
 /* Mongoose/MongoDB Connection */
@@ -26,7 +28,7 @@ db.once('open', function () {
   console.log('Connected to DB...');
 });
 
-Image.insertMany(dbSeed, function (error, definition) {
+Image.insertMany(drinkSeed, function (error, definition) {
   console.log('Data import completed.');
   mongoose.connection.close();
 });

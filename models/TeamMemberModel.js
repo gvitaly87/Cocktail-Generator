@@ -5,6 +5,7 @@ const teamMemberSchema = mongoose.Schema({
   profilePic: String,
   title: String,
   bio: String,
+  favoriteDrink: String,
   github: String,
 });
 
