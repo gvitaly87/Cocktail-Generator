@@ -10,24 +10,31 @@
       />
     </div>
     <h2 class="single-name"><%=drink.name%></h2>
-    <div class="baseAlcohol">
-      <h3>Alcohol ingredients</h3>
+    <div class="column">
+      <div class="baseAlcohol">
+        <h3>Alcohol:</h3>
 
-      <ul>
-        <% for( let i = 0; i < drink.baseAlcohol.length; i++ ) { %>
-        <li><%=drink.baseAlcohol[i].name%> | <%=drink.baseAlcohol[i].measure%></li>
-        <% } %>
-      </ul>
+        <ul>
+          <% for( let i = 0; i < drink.baseAlcohol.length; i++ ) { %>
+          <li><%=drink.baseAlcohol[i].name%> | <%=drink.baseAlcohol[i].measure%></li>
+          <% } %>
+        </ul>
+      </div>
+      <div class="ingredients">
+        <h3>Ingredients:</h3>
+        <ul>
+          <% for( let i = 0; i < drink.ingredients.length; i++ ) { %>
+          <li><%=drink.ingredients[i].name%> | <%=drink.ingredients[i].measure%></li>
+          <% } %>
+        </ul>
+      </div>
+      <div class="glassType">
+        <h3>Glass Type:</h3> 
+        <ul>
+          <li><%=drink.glassType%></li>
+        </ul>
+      </div>
+      <div class="recipe"><p>-<%=drink.recipe%></p></div>
     </div>
-    <div class="ingredients">
-      <h3>Regular ingredients</h3>
-      <ul>
-        <% for( let i = 0; i < drink.ingredients.length; i++ ) { %>
-        <li><%=drink.ingredients[i].name%> | <%=drink.ingredients[i].measure%></li>
-        <% } %>
-      </ul>
-    </div>
-    <div class="glassType">Glass: <%=drink.glassType%></div>
-    <div class="recipe"><p>-<%=drink.recipe%></p></div>
   </div>
 </div>

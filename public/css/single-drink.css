@@ -21,11 +21,10 @@
   margin: auto;
   margin-top: 2rem;
 
-  background-color: var(--clr4);  
+  background-color: var(--clr4);
   width: 35rem;
   border-radius: 16px;
-  box-shadow: 6px 6px 29px -12px rgba(0,0,0,0.63);
-
+  box-shadow: 6px 6px 29px -12px rgba(0, 0, 0, 0.63);
 }
 
 .single-image img {
@@ -33,7 +32,7 @@
   overflow: hidden;
   width: 35rem;
   height: 35rem;
-  box-shadow: 6px 6px 29px -12px rgba(0,0,0,0.63);
+  box-shadow: 6px 6px 29px -12px rgba(0, 0, 0, 0.63);
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
@@ -44,11 +43,46 @@
   font-size: 3rem;
 }
 
+.column {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
 .baseAlcohol {
   display: flex;
-  
+  flex-flow: column wrap;
+  padding: 5px;
+}
+
+.ingredients {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 5px;
+}
+
+.glassType {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 5px;
+}
+
+.recipe {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 li {
   list-style-type: disc;
+}
+
+h3 {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.single-drink li {
+  max-width: 25ch;
 }
