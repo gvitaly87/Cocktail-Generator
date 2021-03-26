@@ -9,7 +9,7 @@ nav.primary {
   background-image: url(../images/logo/mixrcocktaillogo.svg);
   background-size: contain;
   background-repeat: no-repeat; */
-  background: left/contain no-repeat url(../images/logo/mixrcocktaillogo.svg),
+  background: left/contain no-repeat url(../images/logo/mixrlogo-text.svg),
     linear-gradient(rgba(68, 68, 68, 0.8), rgba(68, 68, 68, 0.3));
   border-top-left-radius: 35.5px;
   border-bottom-left-radius: 35.5px;
