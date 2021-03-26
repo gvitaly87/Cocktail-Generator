@@ -30,16 +30,16 @@ db.once('open', function () {
   console.log('Connected to DB...');
 });
 
-// Image.insertMany(drinkSeed, function (error, definition) {
-//   console.log('Data import completed.');
-//   mongoose.connection.close();
-// });
+Image.insertMany(drinkSeed, function (error, definition) {
+  console.log('Data import completed.');
+  mongoose.connection.close();
+});
 
 // TeamMember.insertMany(teamSeed, function (error, definition) {
 //   console.log('Data import completed.');
 //   mongoose.connection.close();
 // });
-Subscriber.insertMany(subsSeed, function (error, definition) {
-  console.log('Data import completed.');
-  mongoose.connection.close();
-});
+// Subscriber.insertMany(subsSeed, function (error, definition) {
+//   console.log('Data import completed.');
+//   mongoose.connection.close();
+// });
