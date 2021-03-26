@@ -102,7 +102,7 @@ module.exports = [
     ingredients: [
       { name: 'Orange juice', measure: '2 oz ' },
       { name: 'Cranberry juice', measure: '2 oz ' },
-      { name: 'Club soda', measure: null },
+      { name: 'Club soda', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -134,7 +134,7 @@ module.exports = [
     ingredients: [
       { name: 'Apple juice', measure: '6 parts ' },
       { name: 'Lemon juice', measure: '1 1/2 part ' },
-      { name: 'Lemonade', measure: null },
+      { name: 'Lemonade', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -253,7 +253,7 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Light cream', measure: '2 oz ' },
-      { name: 'Nutmeg', measure: null },
+      { name: 'Nutmeg', measure: '' },
     ],
     glassType: 'Cocktail glass',
     recipe:
@@ -325,7 +325,7 @@ module.exports = [
     baseAlcohol: [{ name: 'Vodka', measure: '4 cl ' }],
     ingredients: [
       { name: 'Lime juice', measure: '1 dash ' },
-      { name: 'Soda water', measure: null },
+      { name: 'Soda water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -343,7 +343,7 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Coffee', measure: '4 cl hot ' },
-      { name: 'Cream', measure: null },
+      { name: 'Cream', measure: '' },
     ],
     glassType: 'Collins Glass',
     recipe: 'Build into a suiting glass, with no ice. Cream on top if wanted. Served directly.',
@@ -357,7 +357,7 @@ module.exports = [
       { name: 'Vodka', measure: '2 cl ' },
       { name: 'Creme de Banane', measure: '1 cl ' },
     ],
-    ingredients: [{ name: 'Orange juice', measure: null }],
+    ingredients: [{ name: 'Orange juice', measure: '' }],
     glassType: 'Highball glass',
     recipe:
       'Pour the vodka and creme over some ice cubes in a tall glass and fill up with juice. to make it beuty full make the top of the glass with a grenadine and sugar',
@@ -731,8 +731,8 @@ module.exports = [
       { name: 'Blue Curacao', measure: '1 oz ' },
     ],
     ingredients: [
-      { name: 'Lemonade', measure: null },
-      { name: 'Cherry', measure: null },
+      { name: 'Lemonade', measure: '' },
+      { name: 'Cherry', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -808,7 +808,7 @@ module.exports = [
     baseAlcohol: [{ name: 'Light rum', measure: '2 oz ' }],
     ingredients: [
       { name: 'Lime', measure: 'Juice of 1/2 ' },
-      { name: 'Coca-Cola', measure: null },
+      { name: 'Coca-Cola', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe: 'Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge.',
@@ -822,7 +822,7 @@ module.exports = [
     ingredients: [
       { name: 'Lime', measure: 'Squeeze ' },
       { name: 'Coca-Cola', measure: 'Fill with ' },
-      { name: 'Ice', measure: null },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -835,10 +835,10 @@ module.exports = [
     name: 'Cafe Savoy',
     baseAlcohol: [
       { name: 'Triple sec', measure: '1/2 oz ' },
-      { name: 'Brandy', measure: null },
+      { name: 'Brandy', measure: '' },
     ],
     ingredients: [
-      { name: 'Coffee', measure: null },
+      { name: 'Coffee', measure: '' },
       { name: 'Milk', measure: '1/2 oz ' },
     ],
     glassType: 'Coffee mug',
@@ -850,7 +850,7 @@ module.exports = [
   {
     name: 'Cream Soda',
     baseAlcohol: [{ name: 'Spiced rum', measure: '1 oz ' }],
-    ingredients: [{ name: 'Ginger ale', measure: null }],
+    ingredients: [{ name: 'Ginger ale', measure: '' }],
     glassType: 'Highball glass',
     recipe: 'Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale.',
     imgPath: 'https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg',
@@ -924,7 +924,7 @@ module.exports = [
       { name: 'Lemon', measure: 'Juice of 1/2 ' },
       { name: 'Powdered sugar', measure: '1 tsp ' },
       { name: 'Egg white', measure: '1 ' },
-      { name: 'Carbonated water', measure: null },
+      { name: 'Carbonated water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -955,7 +955,7 @@ module.exports = [
       { name: 'Sugar', measure: '2 cups white ' },
       { name: 'Coffee', measure: '1/2 cup instant ' },
       { name: 'Vanilla', measure: '1/2' },
-      { name: 'Caramel coloring', measure: null },
+      { name: 'Caramel coloring', measure: '' },
     ],
     glassType: 'Collins Glass',
     recipe:
@@ -1101,7 +1101,7 @@ module.exports = [
     baseAlcohol: [{ name: 'Chocolate', measure: '125 gr' }],
     ingredients: [
       { name: 'Milk', measure: '3/4 L ' },
-      { name: 'Water', measure: null },
+      { name: 'Water', measure: '' },
     ],
     glassType: 'Coffee mug',
     recipe:
@@ -1241,9 +1241,9 @@ module.exports = [
   {
     name: 'Dirty Nipple',
     baseAlcohol: [
-      { name: 'Kahlua', measure: null },
-      { name: 'Sambuca', measure: null },
-      { name: 'Baileys irish cream', measure: null },
+      { name: 'Kahlua', measure: '' },
+      { name: 'Sambuca', measure: '' },
+      { name: 'Baileys irish cream', measure: '' },
     ],
     ingredients: [],
     glassType: 'Shot glass',
@@ -1439,8 +1439,8 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Gin', measure: '3/4 oz ' },
-      { name: 'Carbonated water', measure: null },
-      { name: 'Lemon peel', measure: null },
+      { name: 'Carbonated water', measure: '' },
+      { name: 'Lemon peel', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -1665,7 +1665,7 @@ module.exports = [
       { name: 'Lemon', measure: '1 ' },
       { name: 'Apple', measure: '1 ' },
       { name: 'Soda water', measure: '1 L ' },
-      { name: 'Ice', measure: null },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Highball Glass',
     recipe:
@@ -1910,8 +1910,8 @@ module.exports = [
     name: 'GG',
     baseAlcohol: [{ name: 'Galliano', measure: '2 1/2 shots ' }],
     ingredients: [
-      { name: 'Ginger ale', measure: null },
-      { name: 'Ice', measure: null },
+      { name: 'Ginger ale', measure: '' },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Collins Glass',
     recipe:
@@ -1941,7 +1941,7 @@ module.exports = [
     ingredients: [
       { name: 'Lemon', measure: 'Juice of 1/2 ' },
       { name: 'Powdered sugar', measure: '1 tsp ' },
-      { name: 'Carbonated water', measure: null },
+      { name: 'Carbonated water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -2121,10 +2121,10 @@ module.exports = [
     name: 'Gin Cooler',
     baseAlcohol: [{ name: 'Gin', measure: '2 oz ' }],
     ingredients: [
-      { name: 'Carbonated water', measure: null },
-      { name: 'Powdered sugar', measure: null },
-      { name: 'Orange spiral', measure: null },
-      { name: 'Lemon peel', measure: null },
+      { name: 'Carbonated water', measure: '' },
+      { name: 'Powdered sugar', measure: '' },
+      { name: 'Orange spiral', measure: '' },
+      { name: 'Lemon peel', measure: '' },
     ],
     glassType: 'Collins glass',
     recipe:
@@ -2141,7 +2141,7 @@ module.exports = [
       { name: 'Powdered sugar', measure: '1 tblsp ' },
       { name: 'Pineapple', measure: '3 chunks' },
       { name: 'Strawberries', measure: '2 ' },
-      { name: 'Carbonated water', measure: null },
+      { name: 'Carbonated water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -2295,7 +2295,7 @@ module.exports = [
       { name: 'Whisky', measure: '4 cl ' },
       { name: 'Baileys irish cream', measure: '8 cl ' },
     ],
-    ingredients: [{ name: 'Coffee', measure: null }],
+    ingredients: [{ name: 'Coffee', measure: '' }],
     glassType: 'Beer mug',
     recipe:
       'Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.',
@@ -2364,9 +2364,9 @@ module.exports = [
     name: 'Happy Skipper',
     baseAlcohol: [{ name: 'Spiced rum', measure: '1 1/2 cl ' }],
     ingredients: [
-      { name: 'Ginger ale', measure: null },
-      { name: 'Lime', measure: null },
-      { name: 'Ice', measure: null },
+      { name: 'Ginger ale', measure: '' },
+      { name: 'Lime', measure: '' },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -2407,11 +2407,11 @@ module.exports = [
   },
   {
     name: 'Holloween Punch',
-    baseAlcohol: [{ name: 'Grape juice', measure: null }],
+    baseAlcohol: [{ name: 'Grape juice', measure: '' }],
     ingredients: [
       { name: 'Carbonated soft drink', measure: ', orange\n' },
-      { name: 'Sherbet', measure: null },
-      { name: 'Sherbet', measure: null },
+      { name: 'Sherbet', measure: '' },
+      { name: 'Sherbet', measure: '' },
     ],
     glassType: 'Punch bowl',
     recipe:
@@ -2645,7 +2645,7 @@ module.exports = [
     ingredients: [
       { name: 'Lemon', measure: 'Juice of 1/2 ' },
       { name: 'Powdered sugar', measure: '1 tsp ' },
-      { name: 'Carbonated water', measure: null },
+      { name: 'Carbonated water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -2806,7 +2806,7 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Ice', measure: 'cubes' },
-      { name: 'Milk', measure: null },
+      { name: 'Milk', measure: '' },
     ],
     glassType: 'Hurricane glass',
     recipe:
@@ -2823,7 +2823,7 @@ module.exports = [
       { name: 'Powdered sugar', measure: '1 tsp ' },
       { name: 'Port', measure: '1 tblsp' },
       { name: 'Egg white', measure: '1 ' },
-      { name: 'Carbonated water', measure: null },
+      { name: 'Carbonated water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -2836,8 +2836,8 @@ module.exports = [
     name: 'Just a Moonmint',
     baseAlcohol: [{ name: 'Milk', measure: '2 cups ' }],
     ingredients: [
-      { name: 'Chocolate syrup', measure: null },
-      { name: 'Mint syrup', measure: null },
+      { name: 'Chocolate syrup', measure: '' },
+      { name: 'Mint syrup', measure: '' },
     ],
     glassType: 'Highball Glass',
     recipe:
@@ -2852,7 +2852,7 @@ module.exports = [
     ingredients: [
       { name: 'Coffee', measure: '1/6 glass strong black ' },
       { name: 'Water', measure: '1/2 glass cold ' },
-      { name: 'Whipped cream', measure: null },
+      { name: 'Whipped cream', measure: '' },
     ],
     glassType: 'Champagne flute',
     recipe:
@@ -2989,7 +2989,7 @@ module.exports = [
       { name: 'Kahlua', measure: '1 oz ' },
       { name: 'Brandy', measure: '1/2 oz ' },
     ],
-    ingredients: [{ name: 'Coffee', measure: null }],
+    ingredients: [{ name: 'Coffee', measure: '' }],
     glassType: 'Coffee mug',
     recipe: 'Stir. Add whipped cream to the top.',
     imgPath: 'https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg',
@@ -3004,7 +3004,7 @@ module.exports = [
       { name: 'Sloe gin', measure: '1 shot ' },
       { name: 'Triple sec', measure: '1 shot ' },
     ],
-    ingredients: [{ name: 'Cranberry juice', measure: null }],
+    ingredients: [{ name: 'Cranberry juice', measure: '' }],
     glassType: 'Old-fashioned glass',
     recipe: 'Pour into a large glass with ice and stir. Add a little cranberry juice to taste.',
     imgPath: 'https://www.thecocktaildb.com/images/media/drink/fegm621503564966.jpg',
@@ -3105,7 +3105,7 @@ module.exports = [
     ingredients: [
       { name: 'Sugar', measure: '1 tblsp ' },
       { name: 'Soda water', measure: ' (seltzer water)\n' },
-      { name: 'Lime peel', measure: null },
+      { name: 'Lime peel', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -3137,7 +3137,7 @@ module.exports = [
     ingredients: [
       { name: 'Lemon', measure: ' wedge\n' },
       { name: 'Sugar', measure: 'Bacardi ' },
-      { name: '151 proof rum', measure: null },
+      { name: '151 proof rum', measure: '' },
     ],
     glassType: 'Shot glass',
     recipe:
@@ -3225,9 +3225,9 @@ module.exports = [
     ingredients: [
       { name: 'Yoghurt', measure: '2 cups ' },
       { name: 'Ice', measure: '4-6 ' },
-      { name: 'Sugar', measure: null },
-      { name: 'Lime', measure: null },
-      { name: 'Salt', measure: null },
+      { name: 'Sugar', measure: '' },
+      { name: 'Lime', measure: '' },
+      { name: 'Salt', measure: '' },
     ],
     glassType: 'Highball Glass',
     recipe:
@@ -3321,7 +3321,7 @@ module.exports = [
       { name: 'Powdered sugar', measure: '1 tsp ' },
       { name: 'Lemon', measure: 'Juice of 1/2' },
       { name: 'Egg white', measure: '1 ' },
-      { name: 'Carbonated water', measure: null },
+      { name: 'Carbonated water', measure: '' },
     ],
     glassType: 'Cocktail glass',
     recipe:
@@ -3352,14 +3352,14 @@ module.exports = [
   {
     name: 'Lone Tree Cooler',
     baseAlcohol: [
-      { name: 'Gin', measure: null },
-      { name: 'Dry Vermouth', measure: null },
+      { name: 'Gin', measure: '' },
+      { name: 'Dry Vermouth', measure: '' },
     ],
     ingredients: [
-      { name: 'Carbonated water', measure: null },
-      { name: 'Powdered sugar', measure: null },
-      { name: 'Orange spiral', measure: null },
-      { name: 'Lemon peel', measure: null },
+      { name: 'Carbonated water', measure: '' },
+      { name: 'Powdered sugar', measure: '' },
+      { name: 'Orange spiral', measure: '' },
+      { name: 'Lemon peel', measure: '' },
     ],
     glassType: 'Collins glass',
     recipe:
@@ -3435,9 +3435,9 @@ module.exports = [
     name: 'Melya',
     baseAlcohol: [],
     ingredients: [
-      { name: 'Espresso', measure: null },
+      { name: 'Espresso', measure: '' },
       { name: 'Honey', measure: 'Unsweetened ' },
-      { name: 'Cocoa powder', measure: null },
+      { name: 'Cocoa powder', measure: '' },
     ],
     glassType: 'Coffee mug',
     recipe:
@@ -3453,7 +3453,7 @@ module.exports = [
       { name: 'Lime', measure: 'Juice of 1 ' },
       { name: 'Sugar', measure: '2 tsp ' },
       { name: 'Mint', measure: '2-4 ' },
-      { name: 'Soda water', measure: null },
+      { name: 'Soda water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -3511,7 +3511,7 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Lime juice', measure: '1 oz ' },
-      { name: 'Salt', measure: null },
+      { name: 'Salt', measure: '' },
     ],
     glassType: 'Cocktail glass',
     recipe:
@@ -3638,7 +3638,7 @@ module.exports = [
       { name: 'Cinnamon', measure: '1 piece ' },
       { name: 'Black pepper', measure: '1-2 whole ' },
       { name: 'Sugar', measure: ' to taste\n' },
-      { name: 'Milk', measure: null },
+      { name: 'Milk', measure: '' },
     ],
     glassType: 'Coffee Mug',
     recipe:
@@ -3687,7 +3687,7 @@ module.exports = [
     ingredients: [
       { name: 'Coffee', measure: '6 oz ' },
       { name: 'Cocoa powder', measure: '2 tblsp ' },
-      { name: 'Whipped cream', measure: null },
+      { name: 'Whipped cream', measure: '' },
     ],
     glassType: 'Irish coffee cup',
     recipe:
@@ -3843,8 +3843,8 @@ module.exports = [
     ingredients: [
       { name: 'Lemon', measure: 'Juice of 1/2 ' },
       { name: 'Sugar', measure: '1 tsp ' },
-      { name: 'Lemon', measure: null },
-      { name: 'Cherry', measure: null },
+      { name: 'Lemon', measure: '' },
+      { name: 'Cherry', measure: '' },
     ],
     glassType: 'Whiskey sour glass',
     recipe:
@@ -3953,7 +3953,7 @@ module.exports = [
       { name: 'Lemon juice', measure: '5 cl ' },
       { name: 'Orange juice', measure: '15 cl ' },
       { name: 'Sugar syrup', measure: '2-3 cl ' },
-      { name: 'Soda water', measure: null },
+      { name: 'Soda water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -3987,7 +3987,7 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Orange juice', measure: '4 oz ' },
-      { name: 'Ginger ale', measure: null },
+      { name: 'Ginger ale', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -4197,7 +4197,7 @@ module.exports = [
       { name: 'Lemon juice', measure: '1 oz ' },
       { name: 'Sugar', measure: '1-2 tblsp ' },
       { name: 'Ice', measure: '1' },
-      { name: 'Egg White', measure: null },
+      { name: 'Egg White', measure: '' },
     ],
     glassType: 'Cocktail glass',
     recipe:
@@ -4324,7 +4324,7 @@ module.exports = [
       { name: 'Light cream', measure: '2 tsp ' },
       { name: 'Powdered sugar', measure: '1 tsp ' },
       { name: 'Egg', measure: '1 whole ' },
-      { name: 'Nutmeg', measure: null },
+      { name: 'Nutmeg', measure: '' },
     ],
     glassType: 'Whiskey sour glass',
     recipe:
@@ -4397,7 +4397,7 @@ module.exports = [
       { name: 'Orange juice', measure: '1 part ' },
       { name: 'Apple juice', measure: '1 part ' },
       { name: 'Pineapple juice', measure: '1 part ' },
-      { name: 'Ice', measure: null },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Collins Glass',
     recipe: 'Shake with ice.',
@@ -4506,7 +4506,7 @@ module.exports = [
     baseAlcohol: [{ name: 'Red wine', measure: '2 oz ' }],
     ingredients: [
       { name: 'Grenadine', measure: '1 oz ' },
-      { name: 'Lemon-lime soda', measure: null },
+      { name: 'Lemon-lime soda', measure: '' },
     ],
     glassType: 'Collins glass',
     recipe:
@@ -4568,7 +4568,7 @@ module.exports = [
     ingredients: [
       { name: 'Grenadine', measure: '1 tsp ' },
       { name: 'Lemon juice', measure: '1/2 tsp ' },
-      { name: 'Powdered sugar', measure: null },
+      { name: 'Powdered sugar', measure: '' },
     ],
     glassType: 'Cocktail glass',
     recipe:
@@ -4639,7 +4639,7 @@ module.exports = [
     ingredients: [
       { name: 'Sweet and sour', measure: '2 oz ' },
       { name: 'Egg', measure: '1 whole ' },
-      { name: 'Coca-Cola', measure: null },
+      { name: 'Coca-Cola', measure: '' },
     ],
     glassType: 'Collins glass',
     recipe:
@@ -4768,8 +4768,8 @@ module.exports = [
     baseAlcohol: [],
     ingredients: [
       { name: 'Sugar syrup', measure: '2 tsp ' },
-      { name: 'Lemon juice', measure: null },
-      { name: 'Ginger ale', measure: null },
+      { name: 'Lemon juice', measure: '' },
+      { name: 'Ginger ale', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe: 'Mix sugar syrup with lemon juice in a tall glass. Fill up with ginger ale.',
@@ -4801,7 +4801,7 @@ module.exports = [
       { name: 'Lemon', measure: 'Juice of 1/2 ' },
       { name: 'Powdered sugar', measure: '1 tsp ' },
       { name: 'Egg', measure: '1 whole ' },
-      { name: 'Carbonated water', measure: null },
+      { name: 'Carbonated water', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -4816,7 +4816,7 @@ module.exports = [
     ingredients: [
       { name: 'Milk', measure: '1 cup ' },
       { name: 'Powdered sugar', measure: '1 tsp ' },
-      { name: 'Nutmeg', measure: null },
+      { name: 'Nutmeg', measure: '' },
     ],
     glassType: 'Collins glass',
     recipe:
@@ -4854,7 +4854,7 @@ module.exports = [
     baseAlcohol: [{ name: 'Raspberry vodka', measure: '2 oz ' }],
     ingredients: [
       { name: 'Lemon-lime soda', measure: '4 oz ' },
-      { name: 'Ice', measure: null },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -4999,8 +4999,8 @@ module.exports = [
       { name: 'Sugar', measure: '1/2 cup ' },
       { name: 'Orange juice', measure: '1 cup ' },
       { name: 'Lemon juice', measure: '1 cup ' },
-      { name: 'Cloves', measure: null },
-      { name: 'Cinnamon', measure: null },
+      { name: 'Cloves', measure: '' },
+      { name: 'Cinnamon', measure: '' },
     ],
     glassType: 'Pitcher',
     recipe:
@@ -5151,7 +5151,7 @@ module.exports = [
   {
     name: 'Screwdriver',
     baseAlcohol: [{ name: 'Vodka', measure: '2 oz ' }],
-    ingredients: [{ name: 'Orange juice', measure: null }],
+    ingredients: [{ name: 'Orange juice', measure: '' }],
     glassType: 'Highball glass',
     recipe: 'Mix in a highball glass with ice. Garnish and serve.',
     imgPath: 'https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg',
@@ -5165,7 +5165,7 @@ module.exports = [
       { name: 'Light cream', measure: '2 tsp ' },
       { name: 'Powdered sugar', measure: '1 tsp ' },
       { name: 'Egg', measure: '1 whole ' },
-      { name: 'Nutmeg', measure: null },
+      { name: 'Nutmeg', measure: '' },
     ],
     glassType: 'Nick and Nora Glass',
     recipe:
@@ -5177,7 +5177,7 @@ module.exports = [
   {
     name: 'Sweet Tooth',
     baseAlcohol: [{ name: 'Godiva liqueur', measure: '2 shots ' }],
-    ingredients: [{ name: 'Milk', measure: null }],
+    ingredients: [{ name: 'Milk', measure: '' }],
     glassType: 'Highball Glass',
     recipe:
       'Put 2 shots Godiva Liquour into a glass, add as much or as little milk as you would like.',
@@ -5216,8 +5216,8 @@ module.exports = [
     ingredients: [
       { name: 'Powdered sugar', measure: '1 tsp ' },
       { name: 'Egg', measure: '1 whole ' },
-      { name: 'Milk', measure: null },
-      { name: 'Nutmeg', measure: null },
+      { name: 'Milk', measure: '' },
+      { name: 'Nutmeg', measure: '' },
     ],
     glassType: 'Collins glass',
     recipe:
@@ -5250,8 +5250,8 @@ module.exports = [
       { name: 'Apple', measure: '1 cup' },
       { name: 'Orange', measure: ' wedges\n' },
       { name: 'Lime', measure: ' wedges\n' },
-      { name: 'Lemon', measure: null },
-      { name: 'Fresca', measure: null },
+      { name: 'Lemon', measure: '' },
+      { name: 'Fresca', measure: '' },
     ],
     glassType: 'Pitcher',
     recipe:
@@ -5267,8 +5267,8 @@ module.exports = [
       { name: 'Creme de Banane', measure: '2 cl ' },
     ],
     ingredients: [
-      { name: 'Grenadine', measure: null },
-      { name: 'Orange juice', measure: null },
+      { name: 'Grenadine', measure: '' },
+      { name: 'Orange juice', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -5285,9 +5285,9 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Pineapple juice', measure: '1 shot ' },
-      { name: 'Orange juice', measure: null },
-      { name: 'Grenadine', measure: null },
-      { name: 'Cherries', measure: null },
+      { name: 'Orange juice', measure: '' },
+      { name: 'Grenadine', measure: '' },
+      { name: 'Cherries', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -5410,9 +5410,9 @@ module.exports = [
       { name: 'Coffee', measure: '6 tblsp ground' },
       { name: 'Coriander', measure: '1/4 tsp ' },
       { name: 'Cardamom', measure: '4-5 whole green ' },
-      { name: 'Sugar', measure: null },
-      { name: 'Whipping cream', measure: null },
-      { name: 'Ice', measure: null },
+      { name: 'Sugar', measure: '' },
+      { name: 'Whipping cream', measure: '' },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -5443,7 +5443,7 @@ module.exports = [
       { name: 'Lemon juice', measure: '1 tblsp ' },
       { name: 'Grenadine', measure: '3/4 oz ' },
       { name: 'Egg white', measure: '1 ' },
-      { name: 'Ginger ale', measure: null },
+      { name: 'Ginger ale', measure: '' },
     ],
     glassType: 'Collins glass',
     recipe:
@@ -5486,7 +5486,7 @@ module.exports = [
     ],
     ingredients: [
       { name: 'Coffee', measure: '8 oz ' },
-      { name: 'Whipped cream', measure: null },
+      { name: 'Whipped cream', measure: '' },
     ],
     glassType: 'Coffee Mug',
     recipe: 'Mix Coffee, Jack Daniels and Amaretto. Add Cream on top.',
@@ -5585,8 +5585,8 @@ module.exports = [
     name: 'Tequila Sunrise',
     baseAlcohol: [{ name: 'Tequila', measure: '2 measures ' }],
     ingredients: [
-      { name: 'Orange juice', measure: null },
-      { name: 'Grenadine', measure: null },
+      { name: 'Orange juice', measure: '' },
+      { name: 'Grenadine', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -5628,9 +5628,9 @@ module.exports = [
     baseAlcohol: [],
     ingredients: [
       { name: 'Coffee', measure: 'black' },
-      { name: 'Sugar', measure: null },
+      { name: 'Sugar', measure: '' },
       { name: 'Cream', measure: ' pods\n' },
-      { name: 'Cardamom', measure: null },
+      { name: 'Cardamom', measure: '' },
     ],
     glassType: 'Highball glass',
     recipe:
@@ -5775,8 +5775,8 @@ module.exports = [
     ingredients: [
       { name: 'Half-and-half', measure: '2 oz ' },
       { name: 'Limeade', measure: '2 oz ' },
-      { name: 'Ice', measure: null },
-      { name: 'Nutmeg', measure: null },
+      { name: 'Ice', measure: '' },
+      { name: 'Nutmeg', measure: '' },
     ],
     glassType: 'White wine glass',
     recipe:
@@ -5802,7 +5802,7 @@ module.exports = [
   {
     name: 'Vodka Russian',
     baseAlcohol: [{ name: 'Vodka', measure: '2 oz ' }],
-    ingredients: [{ name: 'Schweppes Russchian', measure: null }],
+    ingredients: [{ name: 'Schweppes Russchian', measure: '' }],
     glassType: 'Collins Glass',
     recipe: 'Mix it as a ordinary drink .',
     imgPath: 'https://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg',
@@ -5815,7 +5815,7 @@ module.exports = [
       { name: 'Dry Vermouth', measure: '1 1/2 oz ' },
       { name: 'Creme de Cassis', measure: '3/4 oz ' },
     ],
-    ingredients: [{ name: 'Carbonated water', measure: null }],
+    ingredients: [{ name: 'Carbonated water', measure: '' }],
     glassType: 'Highball glass',
     recipe:
       'Stir vermouth and creme de cassis in a highball glass with ice cubes. Fill with carbonated water, stir again, and serve.',
@@ -5842,7 +5842,7 @@ module.exports = [
   {
     name: 'Vodka And Tonic',
     baseAlcohol: [{ name: 'Vodka', measure: '2 oz ' }],
-    ingredients: [{ name: 'Tonic water', measure: null }],
+    ingredients: [{ name: 'Tonic water', measure: '' }],
     glassType: 'Highball glass',
     recipe:
       'Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.',
@@ -5958,7 +5958,7 @@ module.exports = [
       { name: 'Vodka', measure: '2 oz ' },
       { name: 'Coffee liqueur', measure: '1 oz ' },
     ],
-    ingredients: [{ name: 'Light cream', measure: null }],
+    ingredients: [{ name: 'Light cream', measure: '' }],
     glassType: 'Old-fashioned glass',
     recipe:
       'Pour vodka and coffee liqueur over ice cubes in an old-fashioned glass. Fill with light cream and serve.',
@@ -6049,7 +6049,7 @@ module.exports = [
     ingredients: [
       { name: 'Yoghurt', measure: '1 cup ' },
       { name: 'Fruit', measure: '1 cup ' },
-      { name: 'Ice', measure: null },
+      { name: 'Ice', measure: '' },
     ],
     glassType: 'Highball Glass',
     recipe:
@@ -6086,15 +6086,15 @@ module.exports = [
   {
     name: 'Zoksel',
     baseAlcohol: [
-      { name: 'Beer', measure: null },
-      { name: 'Creme de Cassis', measure: null },
+      { name: 'Beer', measure: '' },
+      { name: 'Creme de Cassis', measure: '' },
     ],
     ingredients: [
-      { name: 'Root beer', measure: null },
-      { name: 'Lemonade', measure: null },
+      { name: 'Root beer', measure: '' },
+      { name: 'Lemonade', measure: '' },
       { name: 'Coca-Cola', measure: ' slice\n' },
-      { name: '7-Up', measure: null },
-      { name: 'Lemon', measure: null },
+      { name: '7-Up', measure: '' },
+      { name: 'Lemon', measure: '' },
     ],
     glassType: 'Beer pilsner',
     recipe:
@@ -6374,7 +6374,7 @@ module.exports = [
   {
     name: '410 Gone',
     baseAlcohol: [{ name: 'Peach Vodka', measure: '2-3 oz' }],
-    ingredients: [{ name: 'Coca-Cola', measure: null }],
+    ingredients: [{ name: 'Coca-Cola', measure: '' }],
     glassType: 'Collins Glass',
     recipe: '',
     imgPath: 'https://www.thecocktaildb.com/images/media/drink/xtuyqv1472669026.jpg',
@@ -6397,13 +6397,13 @@ module.exports = [
   {
     name: '501 Blue',
     baseAlcohol: [
-      { name: 'Blue Curacao', measure: null },
-      { name: 'Blueberry schnapps', measure: null },
-      { name: 'Vodka', measure: null },
+      { name: 'Blue Curacao', measure: '' },
+      { name: 'Blueberry schnapps', measure: '' },
+      { name: 'Vodka', measure: '' },
     ],
     ingredients: [
-      { name: 'Sour mix', measure: null },
-      { name: '7-Up', measure: null },
+      { name: 'Sour mix', measure: '' },
+      { name: '7-Up', measure: '' },
     ],
     glassType: 'Collins Glass',
     recipe: 'Mix equal amounts into a glass with ice.',
