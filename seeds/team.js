@@ -1,10 +1,10 @@
 module.exports = [
   {
     name: 'Vitaly',
-    profilePic: '/images/sm/vit.jpg',
+    profilePic: '/images/avatars/vitaly.jpg',
     title: 'The Real MVP',
     bio: 'Vitaly Bio',
-    favoriteDrink: '',
+    favoriteDrink: 'Fuzzy Asshole',
     github: 'https://github.com/gvitaly87',
   },
   {
@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     name: 'Erica Trinh',
-    profilePic: '',
+    profilePic: '/images/avatars/erica.png',
     title: 'One Shot Wonder',
     bio: "Erica's Bio",
     favoriteDrink: '',
@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     name: 'Shivani Patel',
-    profilePic: '',
+    profilePic: '/images/avatars/shivani.jpg',
     title: 'Mojito',
     bio: "Shivani's Bio",
     favoriteDrink: 'Mojito',
