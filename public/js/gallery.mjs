@@ -24,7 +24,7 @@ const getDrinks = async (page, limit) => {
         <p class="alcohol-type">${drink.baseAlcohol[i].name}</p>`;
     }
     output += `
-      <h1 class="drink-name">Whiskey Sour</h1>
+      <h1 class="drink-name">${drink.name}</h1>
       <div class="star-rating">
       <i class="fas fa-star"></i>
       <p class="rating">4.5</p>
