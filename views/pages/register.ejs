@@ -1,4 +1,8 @@
-<img class="blur-hero-image" src="./images/gallery/home-page-hero.jpg" alt="Whiskey being poured into a glass">
+<img
+  class="blur-hero-image"
+  src="./images/gallery/home-page-hero.jpg"
+  alt="Whiskey being poured into a glass"
+/>
 <div class="register-subscribe-container">
   <% if (success == true) { %>
   <p>Thank you for your registration!</p>
@@ -15,16 +19,17 @@
         <span class="placeholder">Enter Email</span>
       </label>
       <label for="password">
-        <input         
-        type="password"
-        name="password"
-        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-        id="password"
-        required/>
+        <input
+          type="password"
+          name="password"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          id="password"
+          required
+        />
         <span class="placeholder">Enter password</span>
       </label>
       <button class="form-btn" type="submit">Register</button>
-      <p class="message">Already registered? <a href="/login">Sign In</a></p>
+      <p class="message">Already registered? <a href="/login"> Sign In</a></p>
     </form>
   </div>
   <div class="sub-container">
