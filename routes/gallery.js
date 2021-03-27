@@ -31,7 +31,9 @@ module.exports = () => {
   router.get('/:name', async (req, res, next) => {
     try {
       const drink = await Drink.findOne({ name: req.params.name });
-      res.render('layout', { pageTitle: `${drink.name}`, template: 'single-item', drink });
+      if (drink)
+        return res.render('layout', { pageTitle: `${drink.name}`, template: 'single-item', drink });
+      return next(new Error("The drink doesn't exist in our database"));
     } catch (err) {
       return next(err);
     }
