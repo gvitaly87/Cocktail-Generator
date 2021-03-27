@@ -12,6 +12,7 @@
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  flex-shrink: 3;
 
   margin: auto;
   margin-top: 2rem;
@@ -25,7 +26,8 @@
 .single-image img {
   margin: 0;
   overflow: hidden;
-  max-width: 25rem;
+  max-width: 100%;
+  width: 25rem;
   max-height: 25rem;
   box-shadow: 6px 6px 29px -12px rgba(0, 0, 0, 0.63);
   border-radius: 16px;
@@ -45,6 +47,8 @@
   text-align: center;
 
   margin-bottom: 0px;
+
+  max-width: 100%;
 }
 
 .column {
