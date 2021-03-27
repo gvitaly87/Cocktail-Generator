@@ -4,13 +4,14 @@
   --clr2: hsl(325, 30%, 90%);
   --clr3: hsla(0, 0%, 27%);
   --clr4: white;
+  --clr5: #8cc0dd;
   --clr-txt: hsl(0, 0%, 50%);
   --clr-error: hsla(0, 65%, 51%, 0.6);
 }
 
 /* Body color for overslow */
 body {
-  background-color: var(--clr2)
+  background-color: var(--clr2);
 }
 
 /* Header */
@@ -172,21 +173,163 @@ footer {
   background-color: #fff;
 }
 /* GALLERY STYLING */
-.generator {
+.gallery-hero {
   display: flex;
+  flex-flow: column wrap;
+  background-color: #f76c6c;
+  border-radius: 100px;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 3rem;
+}
+
+.gallery-title {
+  font-size: 3.25rem;
+  /* color: white; */
+}
+
+.generator,
+.generator-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  margin: auto;
+}
+
+.generator-subtitle {
+  padding: 1rem;
+}
+
+.gallery-message {
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.drink {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
   align-items: center;
   margin: auto;
-  background-color: var(--clr);
-  max-width: 70vw;
 }
-.generator-text {
-  width: 50vw;
-  margin-left: 30px;
+
+.drink-filter ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
-.image img {
+
+.generator-button {
+  margin: 2rem;
+}
+
+.drink-button {
+  border: solid transparent;
+  background-color: var(--clr5);
+  border-radius: 16px;
+  padding: 5px;
+  text-decoration: solid;
+  color: var(--clr3);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.drink-button:hover {
+  color: white;
+}
+
+.recipe-card {
+  background-color: white;
+  box-shadow: 6px 6px 29px -12px rgba(0, 0, 0, 0.63);
+  border-radius: 16px;
+  width: 20rem;
+  min-height: 30rem;
+  margin: 2rem;
+}
+.recipe-card figure {
+  width: 100%;
   margin: 0;
+  height: 13rem;
   overflow: hidden;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.gallery-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.recipe-data {
+  padding: 1rem 1rem;
+}
+.alcohol-type {
+  background-color: #f76c6c;
+  color: white;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  margin: 0.5rem;
+  width: fit-content;
+}
+
+.drink-name {
+  font-weight: 700;
+  font-size: 2.25rem;
+  padding-top: 1.5rem;
+}
+
+.star-rating {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  padding-top: 1.5rem;
+}
+/* .rating {
+  padding-left: 1rem;
+} */
+
+.drinks-nav {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.drinks-nav li {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.25rem;
+  padding: 0px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+select#entries {
+  margin-left: 0.25rem;
+  margin-top: 0.1rem;
+  font-size: 1.15rem;
+  border-radius: 100px;
+  padding: 4px;
+}
+
+.next,
+.prev {
+  margin-top: 0.1rem;
+  padding: 4px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 1.5rem;
+  color: var(--clr);
 }

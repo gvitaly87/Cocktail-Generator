@@ -1,5 +1,7 @@
-.login-form, .register-form, .sub-form {
-  min-height: 40vh;  
+.login-form,
+.register-form,
+.sub-form {
+  min-height: 40vh;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -92,12 +94,11 @@ form a {
   background-image: url(../images/forms/martini-glass.svg);
   background-repeat: no-repeat;
   background-size: 50rem 45rem;
-  
 
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  flex-shrink: 2;
   margin: auto;
-
 
   width: 50rem;
   height: 45rem;
@@ -109,7 +110,7 @@ form a {
   display: flex;
   flex-flow: row wrap;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .register-container {
@@ -123,6 +124,8 @@ form a {
 
   justify-content: center;
   margin: auto;
+  margin-bottom: 1rem;
+  padding: 0px;
 }
 
 .sub-container {
@@ -138,9 +141,8 @@ form a {
   margin: auto;
 }
 
-
 .login-title {
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.75rem;
 }
@@ -153,19 +155,23 @@ form a {
 .search-form {
   display: flex;
   flex-direction: column;
-  width: 12rem;
+  width: 16rem;
   height: 4rem;
   padding-top: 1.5rem;
-
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .search-label {
-display: flex;
-flex-direction: row;
-padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  margin-top: 1rem;
 }
 
-.search-button, .search-input {
+.search-button,
+.search-input {
   background-repeat: no-repeat;
   height: 2rem;
   width: 8rem;
@@ -181,7 +187,7 @@ padding-top: 0px;
 }
 
 .search-title {
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1rem;
 }
@@ -192,4 +198,3 @@ padding-top: 0px;
   border: none;
   transition: border-color 0.3s ease;
 }
-

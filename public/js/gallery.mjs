@@ -15,7 +15,7 @@ const getDrinks = async (page, limit) => {
     output += `
     <div class="recipe-card">
     <figure>
-    <img src="${drink.imgPath}" alt="${drink.name}">
+    <img class="gallery-image" src="${drink.imgPath}" alt="${drink.name}">
     </figure>
     <div class="recipe-data">`;
 
@@ -24,10 +24,9 @@ const getDrinks = async (page, limit) => {
         <p class="alcohol-type">${drink.baseAlcohol[i].name}</p>`;
     }
     output += `
-      <h1 class="drink-name">${drink.name}</h1>
+      <h2 class="drink-name">${drink.name}</h2>
       <div class="star-rating">
-      <i class="fas fa-star"></i>
-      <p class="rating">4.5</p>
+      <p class="rating">4.5<i class="fas fa-star"></i></p>
       </div>
     </div>
     </div>`;

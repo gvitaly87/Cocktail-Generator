@@ -1,35 +1,40 @@
-<div class="generator">
-  <div class="generator-text">
-    <h1 class="login-title">Thirsty but don't know where to start?</h1>
-    <p class="message">Our drink generator will help you decide!</p>
-    <div class="generator-button">
-      <a href="/gallery?random=true" class="drink-button">Fetch me a Drink!!</a>
+<div class="gallery-hero">
+  <h2 class="gallery-title">Welcome to the Mixr Coctail Gallery!</h2>
+  <div class="generator">
+    <div class="generator-text">
+      <div class="generator-subtitle">
+        <h1 class="login-title">Thirsty but don't know where to start?</h1>
+        <p class="message gallery-message">Our drink generator will help you decide!</p>
+        <div class="generator-button">
+          <a href="/gallery?random=true" class="drink-button">Fetch me a Drink!!</a>
+        </div>
+      </div>
+      <div class="search-form">
+        <p class="search-title">Looking for something specific?</p>
+        <p class="search-title">Search by Cocktail name</p>
+        <label class="search-label" for="search">
+          <input
+            class="search-input"
+            type="search-box"
+            name="search"
+            id="search"
+            placeholder="Search..."
+          />
+          <button class="search-button"></button>
+        </label>
+      </div>
     </div>
-    <form class="search-form" method="" action="">
-      <p class="search-title">Looking for something specific?</p>
-      <label class="search-label" for="search">
-        <input
-          class="search-input"
-          type="search-box"
-          name="search"
-          id="search"
-          placeholder="Search..."
-        />
-        <button class="search-button"></button>
-      </label>
-    </form>
-  </div>
-  <div class="image">
-    <img src="/images/gallery/pexels-charlotte-may-5947019.jpg" alt="pink drink" />
   </div>
 </div>
-
+<div class="drink">
+  <!--All gallery.mjs data goes here-->
+</div>
 <nav class="drinks-nav">
   <ul>
-    <li><button class="prev">Previous Page</button></li>
+    <li><button class="prev"><i class="fas fa-chevron-left"></i></button></li>
     <li><span class="page"></span></li>
     <li>
-      <label for="entries">Drinks per page:</label>
+      <label for="entries" class="entries">Drinks per page:</label>
       <select name="entries" id="entries" value="12">
         <option value="6">6</option>
         <option value="12" selected>12</option>
@@ -38,9 +43,6 @@
         <option value="96">96</option>
       </select>
     </li>
-    <li><button class="next">Next Page</button></li>
+    <li><button class="next"><i class="fas fa-chevron-right"></i></button></li>
   </ul>
 </nav>
-<div class="drink">
-  <!--All gallery.mjs data goes here-->
-</div>
