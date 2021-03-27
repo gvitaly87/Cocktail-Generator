@@ -114,7 +114,14 @@ footer {
 
 /* team page starts here */
 .team-profile {
+  display: flex;
   background-color: lightcoral;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+  width: fit-content;
+  border-radius: 16px;
 }
 .team-profile .team {
   padding: 50px 0px;
@@ -124,6 +131,7 @@ footer {
 
 .team-profile .member {
   text-align: center;
+  margin: auto;
 }
 
 .team-profile .member .card {
@@ -332,4 +340,9 @@ select#entries {
 .fa-chevron-right {
   font-size: 1.5rem;
   color: var(--clr);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr1);
 }
