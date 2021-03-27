@@ -39,11 +39,21 @@
 
 - Cocktail Images by [Geraud Pfeiffer](https://www.pexels.com/@geraud-pfeiffer)
 
+- Cocktail pictures from API [The Cocktail DB](https://www.thecocktaildb.com/api.php)
+
+---
+
+### Icons
+
+- [Font Awesome License](https://fontawesome.com/license) Used: chevron left & right, star, GH icons
+
 ---
 
 ### Content/text
 
 - [Google Fonts](https://fonts.google.com/?preview.text_type=custom) used: Monsterrat & Roboto, [Privacy Policy](https://policies.google.com/privacy?hl=en)
+
+- [Cocktail API](https://www.thecocktaildb.com/api.php)
 
 # Work Done
 
