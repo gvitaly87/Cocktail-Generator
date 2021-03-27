@@ -12,7 +12,7 @@ const getDrinks = async (page, limit) => {
 
   let output = ``;
   drinkGenerator.forEach(function (drink) {
-    output += `
+    output += `<a href="/gallery/${drink.name}">
     <div class="recipe-card">
     <figure>
     <img class="gallery-image" src="${drink.imgPath}" alt="${drink.name}">
@@ -23,13 +23,15 @@ const getDrinks = async (page, limit) => {
       output += `
         <p class="alcohol-type">${drink.baseAlcohol[i].name}</p>`;
     }
+    // Rounds a random num form 1 to 5 to the nearest decimal
+    const rating = Math.round((Math.random() * 4 + 1) * 10) / 10;
     output += `
       <h2 class="drink-name">${drink.name}</h2>
       <div class="star-rating">
-      <p class="rating">4.5<i class="fas fa-star"></i></p>
+      <p class="rating">${rating}<i class="fas fa-star"></i></p>
       </div>
     </div>
-    </div>`;
+    </div></a>`;
   });
   document.querySelector('.drink').innerHTML = output;
 };
