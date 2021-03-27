@@ -1,9 +1,14 @@
 const mongoose = require('./_connection');
 require('dotenv').config();
 const express = require('express');
+
+const session = require('express-session');
+const flash = require('express-flash');
+
 const app = express();
 const path = require('path');
 const routes = require('./routes');
+
 const auth = require('./lib/auth');
 const { Server } = require('http');
 const PORT = process.env.PORT || 3000;
@@ -15,6 +20,14 @@ app.use(express.static(path.join(__dirname, './public')));
 app.get('/favicon.ico', (req, res) => res.sendStatus(204));
 //set ejs as the view engine for express
 app.set('view engine', 'ejs');
+app.use(flash());
+app.use(
+  session({
+    secret: 'very secret 456123',
+    resave: false,
+    saveUninitialized: false,
+  })
+);
 
 // Setting up passport auth
 app.use(auth.initialize);
@@ -36,15 +49,13 @@ app.use((req, res, next) => {
 });
 
 // Catch all the errors that might have occurred
+// Displays the full error in the console while providing the user with a pretty error page
 app.use((err, req, res, next) => {
   res.locals.message = err.message;
-  // Save the error, but not display it to the user.
   console.error(err);
-  // Default to a DB error
   const status = err.status || 500;
   res.locals.status = status;
   res.status(status);
-  // Render the error page using the default layout
   res.render('layout', { pageTitle: `Error ${status}`, template: 'error' });
 });
 

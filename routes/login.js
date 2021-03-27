@@ -1,5 +1,5 @@
 const express = require('express');
-
+const passport = require('passport');
 const router = express.Router();
 
 // Export as a function so we can pass it args
@@ -11,11 +11,16 @@ module.exports = () => {
     });
   });
 
-  router.post('/', (req, res) => {
-    // Placeholder
-    console.log(req.body);
-    res.send('logged in...');
-  });
+  router.use(express.urlencoded({ extended: true }));
+
+  router.post(
+    '/',
+    passport.authenticate('local', {
+      successRedirect: '/',
+      failureRedirect: '/login',
+      failureFlash: true,
+    })
+  );
 
   return router;
 };
