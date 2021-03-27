@@ -33,7 +33,7 @@
 }
 
 .single-name {
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 3rem;
 
@@ -91,12 +91,12 @@
 li {
   list-style-type: disc;
   padding-top: 0.5rem;
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
 }
 
 h3 {
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 2rem;
   text-align: center;
@@ -112,7 +112,7 @@ h3 {
 }
 
 p {
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   display: flex;
   flex-wrap: wrap;
