@@ -60,3 +60,11 @@ document.querySelector('.next').addEventListener('click', () => {
     getDrinks(page, entriesPerPage);
   }
 });
+
+const entriesSelect = document.querySelector('#entries');
+entriesSelect.addEventListener('change', () => {
+  page = 1;
+  entriesPerPage = entriesSelect.value;
+  deleteDrinks();
+  getDrinks(page, entriesPerPage);
+});
