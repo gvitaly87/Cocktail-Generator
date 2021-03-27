@@ -110,6 +110,7 @@ a.login {
       width: 375px;
       height: 100%;
       background-color: #f76c6c; /*Change background color matching to your theme or background image*/
+      
       position: fixed;
       top: 0;
       right: -375px;
