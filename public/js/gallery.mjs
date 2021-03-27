@@ -68,3 +68,10 @@ entriesSelect.addEventListener('change', () => {
   deleteDrinks();
   getDrinks(page, entriesPerPage);
 });
+
+/**************Search Button **************/
+document.querySelector('.search-button').addEventListener('click', () => {
+  const searchValue = document.querySelector('#search').value;
+  console.log(searchValue);
+  document.location.href = `/gallery/${searchValue}`;
+});

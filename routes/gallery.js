@@ -5,12 +5,14 @@ const Drink = require('../models/DrinkModel');
 // Export as a function so we can pass it args
 module.exports = () => {
   router.get('/', async (req, res, next) => {
-    const { random = false } = req.query;
-    if (!random) {
+    const { random = false, search } = req.query;
+    if (!random && !search) {
       res.render('layout', {
         pageTitle: 'Gallery',
         template: 'gallery',
       });
+    } else if (search) {
+      res.redirect(`/gallery/${search}`);
     } else {
       try {
         const count = await Drink.countDocuments();
