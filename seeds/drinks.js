@@ -6160,20 +6160,6 @@ module.exports = [
     height: 700,
   },
   {
-    name: 'Zipperhead',
-    baseAlcohol: [
-      { name: 'Chambord raspberry liqueur', measure: '1 shot ' },
-      { name: 'Vodka', measure: '1 shot ' },
-    ],
-    ingredients: [{ name: 'Soda water', measure: 'Fill with ' }],
-    glassType: 'Whiskey sour glass',
-    recipe:
-      'Fill glass with rocks, add straw before putting in liquor. Then add the ingredients in order, trying to keep layered as much as possible (i.e. Chambord on bottom, then Vodka, Then soda on top).',
-    imgPath: 'https://www.thecocktaildb.com/images/media/drink/r2qzhu1485620235.jpg',
-    width: 700,
-    height: 700,
-  },
-  {
     name: 'Zima Blaster',
     baseAlcohol: [
       { name: 'Zima', measure: '12 oz ' },
