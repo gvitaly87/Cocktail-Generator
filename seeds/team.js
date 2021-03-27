@@ -11,7 +11,7 @@ module.exports = [
     name: 'Kyle',
     profilePic: '/images/avatars/kyle.jpg',
     title: 'Drink Tester',
-    bio: "25 year old SAIT student, advid fan of the Adult Beverages.",
+    bio: "25 year old SAIT student, avid fan of the Adult Beverages.",
     favoriteDrink: 'Scotch on the Rocks',
     github: 'https://github.com/Kylewwelsh',
   },
