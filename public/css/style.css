@@ -19,14 +19,16 @@ a:hover {
   background-color: #9e4646;
 }
 
+main {
+  min-height: calc(100vh - 34px);
+}
+
 /* Footer */
 footer {
-  position: absolute;
-
+  
   display: flex;
   justify-content: center;
 
   min-width: 100vw;
-
   margin-top: 1rem;
 }
