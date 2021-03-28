@@ -1,9 +1,9 @@
 import getRequest from '/js/get-json.mjs';
-
 import deleteDrinks from '/js/delete-items.mjs';
-//Default for the gallery to start on page 1 and have 12 items per page
+
 let pageCount;
 
+// Get drinks requests a drinks list from the api, and inserts them on the gallery page.
 const getDrinks = async (page, limit) => {
   const data = await getRequest(`/api/v0/gallery?page=${page}&limit=${limit}`);
   const drinkGenerator = data.drinkList;

@@ -34,6 +34,16 @@
 - **'/api/v0/subscribers'** - Serves subscriber object list
 - **'/api/v0/members'** - Serves the team member objects
 
+## Fancy Feature
+
+- A login with authentication is done in the '/login' route.
+- Need to register first in '/register'
+- Invalid User name and password get rejected
+- A successful login is met with a custom greeting on the homepage.
+- The passport authentication for the special feature is done in /lib/auth
+- The bcrypt password hashing is applied as a method on the UserModel Schema
+- express-session and express-flash are incorporated as middlewares in server.js
+
 ---
 
 ### Dependencies
@@ -96,7 +106,7 @@
 - Created special Features - Pagination, Log-in, authentication
 - Refactored some ejs/front-end js
 
-## Shivani 
+## Shivani
 
 - Hamburger Menu.
 - ejs file
@@ -110,4 +120,4 @@
 - Organized due dates and schedule for group
 - Made SVG's for the login, register and subscribe forms; as well as search magnifying glass
 - Refactored some ejs/mjs
-- Mobile Friendliness 
+- Mobile Friendliness
