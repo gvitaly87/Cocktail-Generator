@@ -32,7 +32,9 @@ module.exports = () => {
       // If there is no user
       return next(new Error('Failed to save user'));
     } catch (err) {
-      return next(err);
+      req.flash('error', 'The user name or email is already in use');
+      console.log(err);
+      return res.redirect('register');
     }
   });
 

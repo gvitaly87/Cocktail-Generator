@@ -27,7 +27,9 @@ module.exports = () => {
       // In case it failed to save create a custom error.
       return next(new Error('Failed to subscribe for an unknown reason'));
     } catch (err) {
-      return next(err);
+      req.flash('error', 'The user name or email is already in use');
+      console.log(err);
+      return res.redirect('register');
     }
   });
 
