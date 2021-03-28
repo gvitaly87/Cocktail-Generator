@@ -127,4 +127,8 @@ A cocktail generator that gives out new recipes for each day of the week, and al
 
 ## Erica
 
--
+- CSS Styling with Kyle
+- Home page, gallery page, team page, error page
+- Logo and error SVG/PNG's, and found pictures
+- Edit images
+- Helped with ejs files
