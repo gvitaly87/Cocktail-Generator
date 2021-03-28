@@ -25,7 +25,7 @@ module.exports = () => {
       if (savedUser) {
         req.flash(
           'success',
-          `Thank you ${req.body.name} you are successfully Registered with ${req.body.email}`
+          `Thank you ${req.body.username} you are successfully Registered with ${req.body.email}`
         );
         return res.redirect('/register');
       }
