@@ -1,0 +1,43 @@
+.error-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+}
+.error-title {
+  font-family: var(--ff1);
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+.error-message {
+  font-family: var(--ff2);
+  font-weight: 300;
+  font-size: 1.25rem;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+.error-image {
+  max-width: 30rem;
+  max-height: 30rem;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+.error-button {
+  border: solid transparent;
+  background-color: var(--clr6);
+  border-radius: 16px;
+  padding: 5px;
+  text-decoration: solid;
+  color: var(--clr4);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
