@@ -96,6 +96,13 @@
 - Created special Features - Pagination, Log-in, authentication
 - Refactored some ejs/front-end js
 
+## Shivani 
+
+- Hamburger Menu.
+- ejs file
+- fetch
+- js files
+
 > ## March 15th, 2021:
 
 - All: Divided up tasks
