@@ -3,7 +3,7 @@ const util = require('util');
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
-const drinksArr = require('./drinks');
+const drinksArr = require('../data/drinks');
 const jsonPath = './drinks.json';
 
 const getDrinks = async () => {

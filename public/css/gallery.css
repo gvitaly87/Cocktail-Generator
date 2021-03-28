@@ -224,6 +224,13 @@ a {
   border: none;
   transition: border-color 0.3s ease;
 }
+.error {
+  margin: auto;
+  font-size: 1rem;
+  font-family: var(-ff1);
+
+  background-color: rgb(255, 232, 22);
+}
 
 /* Media Queries */
 @media screen and (max-width: 535px) {
