@@ -2,7 +2,10 @@ const express = require('express');
 
 const router = express.Router();
 const Drink = require('../models/DrinkModel');
+
+const getRandomEntry = require('../services/getRandomEntry');
 // Export as a function so we can pass it args
+
 module.exports = () => {
   router.get('/', async (req, res, next) => {
     const { random = false, search } = req.query;
@@ -15,9 +18,7 @@ module.exports = () => {
       res.redirect(`/gallery/${search}`);
     } else {
       try {
-        const count = await Drink.countDocuments();
-        const random = Math.floor(Math.random() * count);
-        const randDrink = await Drink.findOne().skip(random).exec();
+        const randDrink = await getRandomEntry(Drink);
         res.render('layout', {
           pageTitle: 'Random Drink',
           template: 'single-item',

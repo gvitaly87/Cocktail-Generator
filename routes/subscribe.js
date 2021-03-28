@@ -13,8 +13,6 @@ module.exports = () => {
     });
   });
 
-  router.use(express.urlencoded({ extended: true }));
-
   router.post('/', async (req, res, next) => {
     try {
       const subscriber = new Subscriber(req.body);

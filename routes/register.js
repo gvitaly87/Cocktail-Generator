@@ -2,8 +2,6 @@ const express = require('express');
 const UserModel = require('../models/UserModel');
 const router = express.Router();
 
-router.use(express.urlencoded({ extended: true }));
-
 // Export as a function so we can pass it args
 module.exports = () => {
   router.get('/', (req, res) => {
