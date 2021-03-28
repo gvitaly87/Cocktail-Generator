@@ -16,7 +16,7 @@ const getTeam = async () => {
           <p class="fav-drink">Favorite Drink: ${item.favoriteDrink} </p>
           <p class="bio">Bio: ${item.bio} </p>
           <div class="social-links">
-            <a href="#" ${item.github} ><i class="fab fa-github"></i></a> 
+            <a href="${item.github}" ><i class="fab fa-github"></i></a> 
           </div>
         </div>
       </div>`;
