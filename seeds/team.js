@@ -26,8 +26,8 @@ module.exports = [
   {
     name: 'Shivani Patel',
     profilePic: '/images/avatars/shivani.jpg',
-    title: 'Mojito',
-    bio: "Shivani's Bio",
+    title: 'teetotaler',
+    bio: "An Electronics engineer trying to learn Web-Designing.. A teetotaler.",
     favoriteDrink: 'Mojito',
     github: 'https://github.com/Shi-stack',
   },
