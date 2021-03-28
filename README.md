@@ -14,6 +14,8 @@
 
 ### Context
 
+A cocktail generator that gives out new recipes for each day of the week, and allows for a quick and easy browsing of drinks. The site offers a subscription and a registration feature as well as personalization on log in.
+
 ---
 
 ### Routes
