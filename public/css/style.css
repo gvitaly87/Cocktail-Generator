@@ -14,6 +14,10 @@
   --ff2: 'Roboto', sans-serif;
 }
 
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 
 a:hover {
   background-color: #9e4646;
