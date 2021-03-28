@@ -82,7 +82,7 @@
 
 - [Cocktail API](https://www.thecocktaildb.com/api.php)
 
-# Work Done
+# Group Charter
 
 ---
 
