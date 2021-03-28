@@ -123,3 +123,4 @@ A cocktail generator that gives out new recipes for each day of the week, and al
 - Made SVG's for the login, register and subscribe forms; as well as search magnifying glass
 - Refactored some ejs/mjs
 - Mobile Friendliness
+- Made group charter

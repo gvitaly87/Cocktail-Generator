@@ -29,123 +29,122 @@ a.login {
 
 /* Media Queries */
 
-  @media screen and (max-width: 1135px) {
-    /*Hamburger Style Goes Here*/
-    nav.primary {
-      background-image: none;
-    }
+@media screen and (max-width: 1135px) {
+  /*Hamburger Style Goes Here*/
+  nav.primary {
+    background-image: none;
+  }
 
-    .wrapper{
-      grid-template-rows: 1fr 29px;
-    }
-    .nav-list {
-      text-align: left;
-    }
-    nav.primary {
-      background-image: none;
-      background-color: var(--clr6);
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      height: auto;
-    }
-    .primary a {
-      padding: 1rem;
-    }
+  .wrapper {
+    grid-template-rows: 1fr 29px;
+  }
+  .nav-list {
+    text-align: left;
+  }
+  nav.primary {
+    background-image: none;
+    background-color: var(--clr6);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+  }
+  .primary a {
+    padding: 1rem;
+  }
 
-    .primary a.login {
-      background-color: hsl(0, 90%, 90%);
-      color: hsl(0, 90%, 70%);
-      border-top-right-radius: 20px;
-      border-bottom-left-radius: 20px;
-    }
-    .hamburger-menu {
-      width: 45px;
-      height: 40px;
-      position: fixed;
-      top: 5px;
-      right: 15px;
-      cursor: pointer;
-      /*Making hamburger Menu Flex*/
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      z-index: 2;
-    }
+  .primary a.login {
+    background-color: hsl(0, 90%, 90%);
+    color: hsl(0, 90%, 70%);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .hamburger-menu {
+    width: 45px;
+    height: 40px;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    /*Making hamburger Menu Flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 2;
+  }
 
-    header {
-      height: 1px;
-    }
+  header {
+    height: 1px;
+  }
 
-    /*To display that 3 Lines in Hamburger Menu we have to work on class=line*/
+  /*To display that 3 Lines in Hamburger Menu we have to work on class=line*/
 
-    .line {
-      width: 45px;
-      height: 4px;
-      background-color: var(--clr);
-      transition: all 0.8s;
-    }
+  .line {
+    width: 45px;
+    height: 4px;
+    background-color: var(--clr);
+    transition: all 0.8s;
+  }
 
-    /*Giving 3D effect to Hamburger Menu*/
+  /*Giving 3D effect to Hamburger Menu*/
 
-    .change .line-1 {
-      transform: rotateZ(-50deg) translate(-10px, 9px);
-    }
+  .change .line-1 {
+    transform: rotateZ(-50deg) translate(-10px, 9px);
+  }
 
-    .change .line-2 {
-      opacity: 0;
-    }
+  .change .line-2 {
+    opacity: 0;
+  }
 
-    .change .line-3 {
-      transform: rotateZ(50deg) translate(-10px, -9px);
-    }
+  .change .line-3 {
+    transform: rotateZ(50deg) translate(-10px, -9px);
+  }
 
-    /*Designing and styling Nav ..moving it to right*/
+  /*Designing and styling Nav ..moving it to right*/
 
-    .primary {
-      width: 375px;
-      height: 100%;
-      background-color: #f76c6c; /*Change background color matching to your theme or background image*/
-      
-      position: fixed;
-      top: 0;
-      right: -375px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 20% 0 0 50%;
-      transition: right 0.8s cubic-bezier(1, 0, 0, 1);
-      z-index: 1;
-    }
+  .primary {
+    width: 375px;
+    height: 100%;
+    background-color: #f76c6c; /*Change background color matching to your theme or background image*/
 
-    .change {
-      right: 0;
-    }
-    /*Designing Nav Item making it to right*/
+    position: fixed;
+    top: 0;
+    right: -375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20% 0 0 50%;
+    transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+    z-index: 1;
+  }
 
-    /* .nav-list {
+  .change {
+    right: 0;
+  }
+  /*Designing Nav Item making it to right*/
+
+  /* .nav-list {
       text-align: right;
     } */
 
-    /*In side nav items designing*/
+  /*In side nav items designing*/
 
-    .nav-items {
-      list-style: none;
-      margin: 30px;
-    }
-
-    .nav-link {
-      text-decoration: none;
-      font-family: var(--ff1)'Montserrat', sans-serif;
-      font-size: 10px;
-      font-weight: 500;
-      color: var(--clr4);
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-
-    .nav-link:hover {
-      background-color: #9e4646;
-    }
+  .nav-items {
+    list-style: none;
+    margin: 30px;
   }
 
+  .nav-link {
+    text-decoration: none;
+    font-family: var(--ff1) 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--clr4);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .nav-link:hover {
+    background-color: #9e4646;
+  }
+}
