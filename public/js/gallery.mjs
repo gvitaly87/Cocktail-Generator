@@ -25,7 +25,7 @@ const getDrinks = async (page, limit) => {
         <p class="alcohol-type">${drink.baseAlcohol[i].name}</p>`;
     }
     // Rounds a random num form 1 to 5 to the nearest decimal
-    const rating = Math.round((Math.random() * 4 + 1) * 10) / 10;
+    const rating = Math.round((Math.random() * 2.5 + 2.5) * 10) / 10;
     output += `
       <a href="/gallery/${drink.name}"><h2 class="drink-name">${drink.name}</h2></a>
       <div class="star-rating">
