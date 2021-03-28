@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <%- include('../partials/head'); %>
-</head>
-<body>
-  <div class="background">
-    <div class="home-wrapper">
-      <%- include('../partials/nav'); %>
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body>
+    <div class="background">
+      <div class="home-wrapper"><%- include('../partials/nav'); %></div>
+      <div class="home-header"><%-include('../partials/header'); %></div>
+      <footer><%- include('../partials/footer'); %></footer>
     </div>
-    <div class="home-header">
-      <%- include('../partials/header'); %>
-    </div>
-    <footer><%- include('../partials/footer'); %></footer>
-  </div>
-</body>
+  </body>
 </html>

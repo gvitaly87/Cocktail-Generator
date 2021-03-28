@@ -1,5 +1,8 @@
 <div class="home-header">
-  <h2 class="home-title">Discover your new favorite <span class="cocktail">cocktail</span></h2>
+  <h2 class="home-title">
+    <% if (messages.success) { %> <%=messages.success%>, <% } %> Discover your new favorite
+    <span class="cocktail">cocktail</span>
+  </h2>
   <h2 class="home-subtitle">mixr up, pour, sip, enjoy.</h2>
   <a class="browse-recipies" href="/gallery">Browse Recipes</a>
 </div>

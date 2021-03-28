@@ -17,7 +17,13 @@ module.exports = () => {
     try {
       const subscriber = new Subscriber(req.body);
       const savedSubscriber = await subscriber.save();
-      if (savedSubscriber) return res.redirect('/register?success=true');
+      if (savedSubscriber) {
+        req.flash(
+          'success',
+          `Thank you ${req.body.name} you are successfully subscribed with ${req.body.email}`
+        );
+        return res.redirect('/register');
+      }
       // In case it failed to save create a custom error.
       return next(new Error('Failed to subscribe for an unknown reason'));
     } catch (err) {

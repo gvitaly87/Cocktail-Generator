@@ -1,18 +1,18 @@
-    <form class="login-form" method="POST" action="/login">
-      <h1 class="login-title">Login to your Mixr Account</h1>
-      <% if (messages.error) { %>
-      <div><p><%=messages.error%></p></div>
-      <% } %>
-      <label for="email">
-        <input type="email" name="email" id="email" required />
-        <span class="placeholder">Enter Email</span>
-      </label>
+<% if (messages.error) { %>
+<div class="error"><%=messages.error%></div>
+<%}%>
+<form class="login-form" method="POST" action="/login">
+  <h1 class="login-title">Login to your Mixr Account</h1>
+  <label for="email">
+    <input type="email" name="email" id="email" required />
+    <span class="placeholder">Enter Email</span>
+  </label>
 
-      <label for="password">
-        <input type="password" name="password" id="password" required />
-        <span class="placeholder">Enter password</span>
-      </label>
-      <button class="form-btn" type="submit">Sign in</button>
-      <p class="message">Not registered?</p>
-      <p class="message"><a href="/register">Create account</a></p>
-    </form>
+  <label for="password">
+    <input type="password" name="password" id="password" required />
+    <span class="placeholder">Enter password</span>
+  </label>
+  <button class="form-btn" type="submit">Sign in</button>
+  <p class="message">Not registered?</p>
+  <p class="message"><a href="/register">Create account</a></p>
+</form>

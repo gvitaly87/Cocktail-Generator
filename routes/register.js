@@ -22,7 +22,13 @@ module.exports = () => {
       });
       // Mongodb functionality provided for save
       const savedUser = await user.save();
-      if (savedUser) return res.redirect('/register?success=true');
+      if (savedUser) {
+        req.flash(
+          'success',
+          `Thank you ${req.body.name} you are successfully Registered with ${req.body.email}`
+        );
+        return res.redirect('/register');
+      }
       // If there is no user
       return next(new Error('Failed to save user'));
     } catch (err) {

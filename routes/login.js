@@ -17,6 +17,7 @@ module.exports = () => {
       successRedirect: '/',
       failureRedirect: '/login',
       failureFlash: true,
+      successFlash: true,
     })
   );
 
