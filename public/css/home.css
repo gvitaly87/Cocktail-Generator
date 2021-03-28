@@ -1,4 +1,12 @@
 /* Home Page CSS */
+body {
+  background-image: url(../images/gallery/home-page-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+}
 
 /* Header */
 .home-wrapper {
@@ -39,4 +47,32 @@
   box-shadow: 0.25rem 0.5rem hsl(0, 39%, 75%);
 }
 
+/* Media Queries */
+@media screen and (max-width: 1099px) {
+  body {
+    background-image: url(../images/gallery/home-page-hero-b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-width: 100%;
+  }
+
+  .home-header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(68, 68, 68, 0.7);
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 651px) {
+  body {
+    background-image: url(../images/gallery/home-page-hero-b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-width: 100%;
+  }
+}
 

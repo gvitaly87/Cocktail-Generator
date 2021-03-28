@@ -1,0 +1,60 @@
+/* team page starts here */
+.team-profile {
+  background-color: lightcoral;
+}
+.team-profile .team {
+  padding: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-profile .member {
+  text-align: center;
+}
+
+.team-profile .member .card {
+  padding: 30px;
+  background-color: #fff;
+  margin: 30px;
+  max-width: 300px;
+}
+
+.team-profile .profile-image {
+  max-width: 170px;
+  border-radius: 50%;
+}
+
+.team-profile .name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 8px;
+  color: #f76c6c;
+}
+
+.team-profile .role {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #8cc0dd;
+}
+
+.team-profile .bio {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+}
+
+.team-profile .social-links {
+  font-size: 24px;
+}
+.team-profile .social-links a {
+  color: #f76c6c;
+  margin: 0 10px;
+}
+.team-profile .social-links a:hover {
+  color: #f8e276;
+  background-color: #fff;
+}

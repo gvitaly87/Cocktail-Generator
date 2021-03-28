@@ -1,0 +1,255 @@
+/* GALLERY STYLING */
+body {
+  background-color: var(--clr2);
+}
+
+
+.gallery-hero {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: hsla(0, 90%, 70%, 60%);
+  border-radius: 100px;
+  text-align: center;
+  padding: 3rem;
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.gallery-title {
+  font-size: 3.25rem;
+}
+
+.generator,
+.generator-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  margin: auto;
+}
+
+.generator-subtitle {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.gallery-message {
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.drink {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.drink-filter ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.generator-button {
+  margin: 2rem;
+}
+
+.drink-button {
+  border: solid transparent;
+  background-color: var(--clr6);
+  border-radius: 16px;
+  padding: 5px;
+  text-decoration: solid;
+  color: var(--clr4);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.drink-button:hover {
+  color: white;
+}
+
+.recipe-card {
+  background-color: white;
+  box-shadow: 6px 6px 29px -12px rgba(0, 0, 0, 0.63);
+  border-radius: 16px;
+  width: 20rem;
+  min-height: 30rem;
+  margin: 2rem;
+}
+.recipe-card figure {
+  width: 100%;
+  margin: 0;
+  height: 13rem;
+  overflow: hidden;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.recipe-data {
+  padding: 1rem 1rem;
+}
+.alcohol-type {
+  background-color: #f76c6c;
+  color: white;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  margin: 0.5rem;
+  width: fit-content;
+}
+
+.drink-name {
+  font-weight: 700;
+  font-size: 2.25rem;
+  padding-top: 1.5rem;
+}
+
+.star-rating {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  padding-top: 1.5rem;
+}
+/* .rating {
+  padding-left: 1rem;
+} */
+
+.drinks-nav {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.drinks-nav li {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.25rem;
+  padding: 0px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+select#entries {
+  margin-left: 0.25rem;
+  margin-top: 0.1rem;
+  font-size: 1.15rem;
+  border-radius: 100px;
+  padding: 4px;
+}
+
+.next,
+.prev {
+  margin-top: 0.1rem;
+  padding: 4px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 1.5rem;
+  color: var(--clr);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr1);
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  height: 4rem;
+  padding-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.search-label {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  margin-top: 1rem;
+}
+
+.search-button,
+.search-input {
+  background-repeat: no-repeat;
+  height: 2rem;
+  width: 8rem;
+  border: none;
+  background-color: var(--clr2);
+  border-radius: 0px;
+}
+
+.search-button {
+  background-image: url(../images/forms/search-button.svg);
+  width: 2rem;
+  cursor: pointer;
+}
+
+.search-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/* overwtie for the above focus,valid,invalid */
+.search-form input:focus,
+.search-form input:valid {
+  background-color: var(--clr2);
+  border: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Media Queries */
+@media screen and (max-width: 535px) {
+  .gallery-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .gallery-hero, .generator-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1.login-title {
+    font-size: 1.5rem;
+  }
+
+  .drink-button {
+    font-size: 1rem;
+  }
+}
+
+/* @media screen and (max-width: 445px) {
+  .generator-subtitle {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+} */

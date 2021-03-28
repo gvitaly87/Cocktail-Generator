@@ -1,3 +1,7 @@
+body {
+  background-color: var(--clr2);
+}
+
 .single-title {
   font-family: 'Roboto', sans-serif;
   font-size: clamp(1.75rem, 3vw, 3rem);
@@ -13,6 +17,7 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 3;
+  padding: 1rem;
 
   margin: auto;
   margin-top: 2rem;
@@ -127,4 +132,20 @@ p {
 
 .single-drink li {
   max-width: 25ch;
+}
+
+.refresh-drink {
+  border: solid transparent;
+  background-color: var(--clr5);
+  border-radius: 16px;
+  padding: 5px;
+  text-decoration: solid;
+  color: var(--clr3);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.refresh-drink:hover {
+  color: white;
 }

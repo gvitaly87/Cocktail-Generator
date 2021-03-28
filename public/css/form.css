@@ -1,3 +1,12 @@
+body {
+  background-image: url(../images/gallery/home-page-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+}
+
 form {
   background-position: top center;
   background-repeat: no-repeat;
@@ -121,6 +130,7 @@ form a {
   font-size: 1.75rem;
   text-align: center;
   width: 400px;
+  color: white;
 }
 
 .message {
@@ -128,51 +138,23 @@ form a {
   font-size: 0.85rem;
 }
 
-.search-form {
-  display: flex;
-  flex-direction: column;
-  width: 16rem;
-  height: 4rem;
-  padding-top: 1.5rem;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+@media screen and (max-width: 1099px) {
+  body {
+    background-image: url(../images/gallery/home-page-hero-b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-width: 100%;
+  }
 }
-
-.search-label {
-  display: flex;
-  flex-direction: row;
-  padding-top: 0px;
-  margin-top: 1rem;
-}
-
-.search-button,
-.search-input {
-  background-repeat: no-repeat;
-  height: 2rem;
-  width: 8rem;
-  border: none;
-  background-color: var(--clr2);
-  border-radius: 0px;
-}
-
-.search-button {
-  background-image: url(../images/forms/search-button.svg);
-  width: 2rem;
-  cursor: pointer;
-}
-
-.search-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-}
-/* overwtie for the above focus,valid,invalid */
-.search-form input:focus,
-.search-form input:valid {
-  background-color: var(--clr2);
-  border: none;
-  transition: border-color 0.3s ease;
+@media screen and (max-width: 651px) {
+  body {
+    background-image: url(../images/gallery/home-page-hero-b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-width: 100%;
+  }
 }
 
 @media screen and (max-width: 639px) {
