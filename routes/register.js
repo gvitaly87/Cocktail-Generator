@@ -22,10 +22,9 @@ module.exports = () => {
         email: req.body.email,
         password: req.body.password,
       });
-      // TODO: check if user already exists in db
       // Mongodb functionality provided for save
       const savedUser = await user.save();
-      if (savedUser) return res.redirect('/registration?success=true');
+      if (savedUser) return res.redirect('/register?success=true');
       // If there is no user
       return next(new Error('Failed to save user'));
     } catch (err) {

@@ -1,15 +1,15 @@
 <img
   class="blur-hero-image"
-  src="./images/gallery/home-page-hero.jpg"
+  src="/images/gallery/home-page-hero.jpg"
   alt="Whiskey being poured into a glass"
 />
 <div class="register-subscribe-container">
-  <% if (success == true) { %>
-  <p>Thank you for your registration!</p>
-  <%}%>
   <div class="register-container">
     <form class="register-form" method="POST" action="/register">
       <h1 class="login-title">Register Below</h1>
+      <% if (success === 'true') { %>
+      <p>Thank you for your registration!</p>
+      <%}%>
       <label for="username">
         <input type="text" name="username" id="username" required />
         <span class="placeholder">Enter User Name</span>

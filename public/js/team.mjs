@@ -1,15 +1,5 @@
 import getRequest from '/js/get-json.mjs';
-// <div class="card">
-//   <img src="" alt="a person" class="profile-image" />
-//   <h2 class="name"> </h2>
-//   <p class="role"> </p>
-//   <p class="bio"> </p>
-//   <div class="social-links">
-//     <a href="#">
-//       <i class="fab fa-github"></i>
-//     </a>
-//   </div>
-// </div>;
+
 const getTeam = async () => {
   const data = await getRequest('/api/v0/members');
   const teamMember = data;
