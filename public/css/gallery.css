@@ -1,22 +1,23 @@
 /* GALLERY STYLING */
 body {
-  background-color: var(--clr2);
+  background-color: hsla(0, 90%, 70%, 50%);;
 }
 
 .gallery-hero {
   display: flex;
   flex-flow: column wrap;
-  background-color: hsla(0, 90%, 70%, 60%);
-  border-radius: 100px;
+  /* background-color: hsla(0, 90%, 70%, 50%); */
+  border-top-left-radius: 35.5px;
   text-align: center;
   padding: 3rem;
-  max-width: 90vw;
+  max-width: 100vw;
   margin: auto;
-  margin-top: 1rem;
 }
 
 .gallery-title {
   font-size: 3.25rem;
+  color: white;
+  font-weight: 600;
 }
 
 .generator,
@@ -113,6 +114,7 @@ body {
   font-weight: 700;
   font-size: 2.25rem;
   padding-top: 1.5rem;
+  text-transform: capitalize;
 }
 
 .star-rating {
@@ -240,6 +242,12 @@ a {
 
   .drink-button {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .entries {
+    display: none;
   }
 }
 
