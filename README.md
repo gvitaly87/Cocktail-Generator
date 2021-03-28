@@ -28,6 +28,12 @@
 - **'/subscribe'** - Adds the same functionality as the subscribe option in the register page, but added for the assignment requirements
 - **'/admin'** - Lists all the subscribed users and emails.
 
+#### API's
+
+- **'/api/v0/gallery'** - Serves drinks objects with enabled pagination
+- **'/api/v0/subscribers'** - Serves subscriber object list
+- **'/api/v0/members'** - Serves the team member objects
+
 ---
 
 ### Dependencies
