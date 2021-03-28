@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const emailValidator = require('email-validator');
 const bcrypt = require('bcrypt');
-
+// TODO: move salt rounds to env.
 const SALT_ROUNDS = 15;
 
 const UserSchema = mongoose.Schema({

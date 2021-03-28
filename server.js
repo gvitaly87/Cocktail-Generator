@@ -23,6 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.set('view engine', 'ejs');
 app.use(flash());
+// TODO: update and move secret to env
 app.use(
   session({
     secret: 'very secret 456123',
