@@ -29,6 +29,7 @@ module.exports = () => {
       }
     }
   });
+
   router.get('/:name', async (req, res, next) => {
     try {
       const drink = await Drink.findOne({ name: req.params.name });
