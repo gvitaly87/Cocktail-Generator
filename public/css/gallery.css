@@ -3,7 +3,6 @@ body {
   background-color: var(--clr2);
 }
 
-
 .gallery-hero {
   display: flex;
   flex-flow: column wrap;
@@ -227,7 +226,8 @@ a {
     text-align: center;
   }
 
-  .gallery-hero, .generator-text {
+  .gallery-hero,
+  .generator-text {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -243,13 +243,11 @@ a {
   }
 }
 
-/* @media screen and (max-width: 445px) {
+@media screen and (max-width: 460px) {
+  .generator,
+  .generator-text,
   .generator-subtitle {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
-} */
+}
