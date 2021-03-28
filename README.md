@@ -103,12 +103,11 @@
 - fetch
 - js files
 
-> ## March 15th, 2021:
+> ## Kyle
 
-- All: Divided up tasks
-- All: Set due dates for tasks.
-- Kyle: Set up index html page, linked style sheets, coded nav in html, created fonts.css, added gallery/team/login pages. Google fonts imported. Nav styled, header section started.
-
-## March 16th, 2021:
-
-Kyle: @media's added to css, background added more mobile on text
+- CSS Styling with Erica
+- Helped with populating DB
+- Organized due dates and schedule for group
+- Made SVG's for the login, register and subscribe forms; as well as search magnifying glass
+- Refactored some ejs/mjs
+- Mobile Friendliness 

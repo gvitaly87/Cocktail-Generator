@@ -43,7 +43,7 @@ a.login {
     }
     nav.primary {
       background-image: none;
-      background-color: rgba(247, 108, 108, 0.9);
+      background-color: var(--clr6);
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
@@ -63,8 +63,8 @@ a.login {
       width: 45px;
       height: 40px;
       position: fixed;
-      top: 50px;
-      right: 50px;
+      top: 5px;
+      right: 15px;
       cursor: pointer;
       /*Making hamburger Menu Flex*/
       display: flex;
@@ -82,7 +82,7 @@ a.login {
     .line {
       width: 45px;
       height: 4px;
-      background-color: var(--clr4);
+      background-color: var(--clr);
       transition: all 0.8s;
     }
 
@@ -136,9 +136,9 @@ a.login {
 
     .nav-link {
       text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
+      font-family: var(--ff1)'Montserrat', sans-serif;
       font-size: 10px;
-      font-weight: 300;
+      font-weight: 500;
       color: var(--clr4);
       letter-spacing: 1px;
       text-transform: uppercase;

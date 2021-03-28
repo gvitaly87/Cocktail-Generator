@@ -129,7 +129,7 @@ form a {
   font-weight: 500;
   font-size: 1.75rem;
   text-align: center;
-  width: 400px;
+  width: 500px;
   color: white;
 }
 
@@ -176,7 +176,7 @@ form a {
   }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 1000px) {
   .register-form {
     background-image: none;
     background-repeat: no-repeat;
