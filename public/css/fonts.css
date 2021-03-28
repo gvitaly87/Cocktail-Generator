@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;600;700;800;900&display=swap');
-:root {
-  --main-color: white;
-}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--ff1);
 }
 
 h1,
@@ -12,50 +10,50 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--ff2);
 }
 /* Navigation */
 nav.primary a {
-  font-size: clamp(1rem, 4.25vw, 1.25rem);
-  color: var(--main-color);
+  font-size: 1.25rem;
+  color: var(--clr4);
   text-transform: uppercase;
 }
 
 /* Main Page Title */
 .home-title {
-  font-size: clamp(1rem, 6.5vw, 5.25rem);
-  color: var(--main-color);
+  font-size: 4.25rem;
+  color: var(--clr4);
 }
 
 .cocktail {
-  color: #f76c6c;
+  color: var(--clr);
 }
 
 /* Main Page Subtitle */
 .home-subtitle {
-  font-size: clamp(0.5rem, 3.25vw, 1.5rem);
-  color: var(--main-color);
+  font-size: 1.5rem;
+  color: var(--clr4);
 }
 
 /* Main Page Recipie Link */
 .browse-recipies {
   font-weight: 200;
-  font-size: clamp(1rem, 4.25vw, 1.5rem);
-  color: var(--main-color);
+  font-size: 1.5rem;
+  color: var(--clr4);
 }
 
 /* Footer */
 footer {
   font-weight: 200;
-  font-size: clamp(1rem, 4.25vw, 1.5rem);
-  /* color: var(--main-color); */
+  font-size: 1.75rem;
+  color: var(--clr4);
   text-transform: uppercase;
 }
 
 /* Media Queries */
 @media screen and (max-width: 651px) {
   .home-title {
-    font-size: 3rem;
+    font-size: 3.25rem;
   }
 
   .home-subtitle {

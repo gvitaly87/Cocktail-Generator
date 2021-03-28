@@ -1,5 +1,5 @@
-/* Color Schemes */
 :root {
+  /* Color Schemes */
   --clr: hsl(0, 90%, 70%);
   --clr2: hsl(325, 30%, 90%);
   --clr3: hsla(0, 0%, 27%);
@@ -7,81 +7,15 @@
   --clr5: #8cc0dd;
   --clr-txt: hsl(0, 0%, 50%);
   --clr-error: hsla(0, 65%, 51%, 0.6);
+
+  /* Fonts */
+  --ff1: 'Montserrat', sans-serif;
+  --ff2: 'Roboto', sans-serif;
 }
 
-/* Body color for overslow */
+/* Body color for overflow */
 body {
   background-color: var(--clr2);
-}
-
-/* Header */
-.home-hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  min-height: 100vh;
-  height: 100vh;
-  width: 100vw;
-
-  object-fit: cover;
-  z-index: -1;
-}
-
-.blur-hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  min-height: 100vh;
-  height: 100vh;
-  width: 100vw;
-
-  object-fit: cover;
-  z-index: -1;
-
-  filter: blur(4px);
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 71px 1fr 29px;
-  min-height: 100vh;
-  /* flex-direction: column;
-  align-content: center;
-  justify-content: center; */
-}
-
-.home-header {
-  display: flex;
-  flex-flow: column wrap;
-  align-self: center;
-
-  width: 40vw;
-  padding: 2rem;
-  word-spacing: 0.15rem;
-  text-align: left;
-}
-
-.home-title {
-  padding-bottom: 1rem;
-}
-
-.home-subtitle {
-  padding-bottom: 5vh;
-}
-
-a.browse-recipies {
-  background-color: #f76c6c;
-
-  text-decoration: none;
-
-  width: max-content;
-
-  padding: 1.5rem;
-  border-radius: 1rem;
-  box-shadow: 0.25rem 0.5rem hsl(0, 39%, 75%);
 }
 
 a:hover {
@@ -101,27 +35,9 @@ footer {
   margin-top: 1rem;
 }
 
-/* Media Queries */
-@media screen and (max-width: 650px) {
-  .home-header {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(68, 68, 68, 0.8);
-    padding: 2rem;
-    min-width: 100vw;
-  }
-}
-
 /* team page starts here */
 .team-profile {
-  display: flex;
   background-color: lightcoral;
-  flex-flow: row wrap;
-  align-items: center;
-  margin: auto;
-  margin-top: 5rem;
-  width: fit-content;
-  border-radius: 16px;
 }
 .team-profile .team {
   padding: 50px 0px;
@@ -131,7 +47,6 @@ footer {
 
 .team-profile .member {
   text-align: center;
-  margin: auto;
 }
 
 .team-profile .member .card {

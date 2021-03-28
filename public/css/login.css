@@ -144,7 +144,7 @@ form a {
 }
 
 .login-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--ff1);
   font-weight: 500;
   font-size: 1.75rem;
 }

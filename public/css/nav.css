@@ -3,12 +3,6 @@ nav.primary {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  /* background-color: linear-gradient(rgba(68, 68, 68, 0.8), rgba(68, 68, 68, 0.2));
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  background-image: url(../images/logo/mixrcocktaillogo.svg);
-  background-size: contain;
-  background-repeat: no-repeat; */
   background: left/contain no-repeat url(../images/logo/mixrlogo-text.png),
     linear-gradient(rgba(68, 68, 68, 0.8), rgba(68, 68, 68, 0.3));
   border-top-left-radius: 35.5px;
@@ -24,7 +18,7 @@ nav.primary li {
 nav.primary a {
   text-decoration: none;
   margin: 0rem 2rem 0 0;
-  padding: 1.5rem;
+  padding: 1.2rem;
 }
 
 a.login {
@@ -86,7 +80,7 @@ a.login {
     .line {
       width: 100%;
       height: 4px;
-      background-color: white;
+      background-color: var(--clr4);
       transition: all 0.8s;
     }
 
@@ -142,8 +136,8 @@ a.login {
       text-decoration: none;
       font-family: 'Montserrat', sans-serif;
       font-size: 10px;
-      font-weight: 50px;
-      color: white;
+      font-weight: 300;
+      color: var(--clr4);
       letter-spacing: 1px;
       text-transform: uppercase;
     }
@@ -152,4 +146,4 @@ a.login {
       background-color: #9e4646;
     }
   }
-}
+
