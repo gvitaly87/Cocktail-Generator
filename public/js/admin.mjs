@@ -9,7 +9,7 @@ const getAdmin = async () => {
   for (let i = 0; i < admin.length; i++) {
     output += `
     <tr>
-      <td>${i}</td>
+      <td>${i + 1}</td>
       <td>${admin[i].name}</td>
       <td>${admin[i].email}</td>
     </tr>`;

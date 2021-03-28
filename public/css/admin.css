@@ -1,0 +1,15 @@
+.background {
+  background-size: contain;
+}
+table {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  margin: auto;
+  line-height: 1.5;
+  text-align: center;
+}
+th {
+  background-color: var(--clr3);
+  color: var(--clr4);
+  padding: 2rem;
+}
