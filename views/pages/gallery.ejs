@@ -1,35 +1,36 @@
-<div class="gallery-hero">
-  <h2 class="gallery-title">Welcome to the Mixr Recipe Gallery!</h2>
-  <div class="generator">
-    <div class="generator-text">
-      <div class="generator-subtitle">
-        <h1 class="login-title">Thirsty but don't know where to start?</h1>
-        <p class="message gallery-message">Our drink generator will help you decide!</p>
-        <div class="generator-button">
-          <a href="/gallery?random=true" class="drink-button">Fetch me a Drink!!</a>
+<div class="gallery-wrapper">
+  <div class="gallery-hero">
+    <h2 class="gallery-title">Welcome to the Mixr Recipe Gallery!</h2>
+    <div class="generator">
+      <div class="generator-text">
+        <div class="generator-subtitle">
+          <h1 class="login-title">Thirsty but don't know where to start?</h1>
+          <p class="message gallery-message">Our drink generator will help you decide!</p>
+          <div class="generator-button">
+            <a href="/gallery?random=true" class="drink-button">Fetch me a Drink!!</a>
+          </div>
         </div>
-      </div>
-      <div class="search-form">
-        <p class="search-title">Looking for something specific?</p>
-        <p class="search-title">Search by Cocktail name</p>
-        <label class="search-label" for="search">
-          <input
+        <div class="search-form">
+          <p class="search-title">Want for something specific?</p>
+          <p class="search-title">Search by Cocktail name</p>
+          <label class="search-label" for="search">
+            <input
             class="search-input"
             type="search-box"
             name="search"
             id="search"
             placeholder="Search..."
-          />
-          <button class="search-button"></button>
-        </label>
+            />
+            <button class="search-button"></button>
+          </label>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="drink">
-  <!--All gallery.mjs data goes here-->
-</div>
-<nav class="drinks-nav">
+  <div class="drink">
+    <!--All gallery.mjs data goes here-->
+  </div>
+  <nav class="drinks-nav">
   <ul>
     <li>
       <button class="prev"><i class="fas fa-chevron-left"></i></button>
@@ -49,4 +50,5 @@
       <button class="next"><i class="fas fa-chevron-right"></i></button>
     </li>
   </ul>
-</nav>
+  </nav>
+</div>

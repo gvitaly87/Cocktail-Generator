@@ -18,6 +18,16 @@ body {
   background-color: var(--clr2);
 }
 
+/* Background Image */
+.background {
+  background-image: url(../images/gallery/home-page-hero.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+}
+
 a:hover {
   background-color: #9e4646;
 }
@@ -25,7 +35,6 @@ a:hover {
 /* Footer */
 footer {
   position: absolute;
-  bottom: 0px;
 
   display: flex;
   justify-content: center;
@@ -96,15 +105,19 @@ footer {
   background-color: #fff;
 }
 /* GALLERY STYLING */
+.gallery-wrapper{
+  height: 100%;
+  min-width: 100vw;
+  background-color: var(--clr2);
+}
+
 .gallery-hero {
   display: flex;
   flex-flow: column wrap;
-  background-color: #f76c6c;
+  background-color: hsla(0, 90%, 70%, 60%);
   border-radius: 100px;
-  margin-top: 2rem;
   text-align: center;
-  padding: 1rem;
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .gallery-title {
@@ -260,4 +273,26 @@ select#entries {
 a {
   text-decoration: none;
   color: var(--clr1);
+}
+
+@media screen and (max-width: 466px) {
+  .gallery-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .gallery-hero, .generator-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1.login-title {
+    font-size: 1.5rem;
+  }
+
+  .drink-button {
+    font-size: 1rem;
+  }
 }

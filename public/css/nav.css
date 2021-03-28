@@ -29,13 +29,12 @@ a.login {
 
 /* Media Queries */
 
-@media screen and (max-width: 1175px) {
-  nav.primary {
-    background-image: none;
-  }
-}
   @media screen and (max-width: 1135px) {
     /*Hamburger Style Goes Here*/
+    nav.primary {
+      background-image: none;
+    }
+
     .wrapper{
       grid-template-rows: 1fr 29px;
     }
@@ -63,7 +62,6 @@ a.login {
     .hamburger-menu {
       width: 45px;
       height: 40px;
-      /* background-color: rgb(223, 160, 78); */
       position: fixed;
       top: 50px;
       right: 50px;
@@ -75,10 +73,14 @@ a.login {
       z-index: 2;
     }
 
+    header {
+      height: 1px;
+    }
+
     /*To display that 3 Lines in Hamburger Menu we have to work on class=line*/
 
     .line {
-      width: 100%;
+      width: 45px;
       height: 4px;
       background-color: var(--clr4);
       transition: all 0.8s;

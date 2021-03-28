@@ -1,49 +1,40 @@
-<img
-  class="blur-hero-image"
-  src="/images/gallery/home-page-hero.jpg"
-  alt="Whiskey being poured into a glass"
-/>
-<div class="register-subscribe-container">
-  <div class="register-container">
+  <div class="reg-sub-container">
     <form class="register-form" method="POST" action="/register">
       <h1 class="login-title">Register Below</h1>
       <% if (success === 'true') { %>
-      <p>Thank you for your registration!</p>
-      <%}%>
-      <label for="username">
-        <input type="text" name="username" id="username" required />
-        <span class="placeholder">Enter User Name</span>
-      </label>
-      <label for="email">
-        <input type="email" name="email" id="email" required />
-        <span class="placeholder">Enter Email</span>
-      </label>
-      <label for="password">
-        <!-- TODO: add password restrictions -->
-        <input type="password" name="password" id="password" required />
-        <span class="placeholder">Enter password</span>
-      </label>
-      <!-- TODO: add password confirmation field-->
-      <!-- <label for="conf-psw">
-        <input type="password" name="conf-psw" id="conf-psw" value="" required />
-        <span class="placeholder">Enter password</span>
-      </label> -->
-      <button class="form-btn" type="submit">Register</button>
-      <p class="message">Already registered? <a href="/login"> Sign In</a></p>
-    </form>
-  </div>
-  <div class="sub-container">
-    <form class="sub-form" method="POST" action="/subscribe">
-      <h1 class="login-title">Subscribe For Drink Updates</h1>
-      <label for="firstname">
-        <input type="text" name="name" id="firstname" required />
-        <span class="placeholder">Enter Name</span>
-      </label>
-      <label for="email-subscribe">
-        <input type="email" name="email" id="email-subscribe" required />
-        <span class="placeholder">Enter Email</span>
-      </label>
-      <button class="form-btn" type="submit">Subscribe</button>
-    </form>
-  </div>
-</div>
+        <p>Thank you for your registration!</p>
+        <%}%>
+        <label for="username">
+          <input type="text" name="username" id="username" required />
+          <span class="placeholder">Enter User Name</span>
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" required />
+          <span class="placeholder">Enter Email</span>
+        </label>
+        <label for="password">
+          <!-- TODO: add password restrictions -->
+          <input type="password" name="password" id="password" required />
+          <span class="placeholder">Enter password</span>
+        </label>
+        <!-- TODO: add password confirmation field-->
+        <!-- <label for="conf-psw">
+          <input type="password" name="conf-psw" id="conf-psw" value="" required />
+          <span class="placeholder">Enter password</span>
+        </label> -->
+        <button class="form-btn" type="submit">Register</button>
+        <p class="message">Already registered? <a href="/login"> Sign In</a></p>
+      </form>
+      <form class="sub-form" method="POST" action="/subscribe">
+        <h1 class="login-title">Subscribe For Drink Updates</h1>
+        <label for="firstname">
+          <input type="text" name="name" id="firstname" required />
+          <span class="placeholder">Enter Name</span>
+        </label>
+        <label for="email-subscribe">
+          <input type="email" name="email" id="email-subscribe" required />
+          <span class="placeholder">Enter Email</span>
+        </label>
+        <button class="form-btn" type="submit">Subscribe</button>
+      </form> 
+    </div>
