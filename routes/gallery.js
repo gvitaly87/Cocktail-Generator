@@ -33,9 +33,15 @@ module.exports = () => {
   router.get('/:name', async (req, res, next) => {
     try {
       const drink = await Drink.findOne({ name: req.params.name });
-      if (drink)
+      if (drink) {
         return res.render('layout', { pageTitle: `${drink.name}`, template: 'single-item', drink });
-      return next(new Error("The drink doesn't exist in our database"));
+      } else {
+        req.flash('error', "We're sorry, the drink doesn't exist in our database");
+        return res.render('layout', {
+          pageTitle: 'Gallery',
+          template: 'gallery',
+        });
+      }
     } catch (err) {
       return next(err);
     }
