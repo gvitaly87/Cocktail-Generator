@@ -1,6 +1,6 @@
 /* GALLERY STYLING */
 body {
-  background-color: hsla(0, 90%, 70%, 50%);;
+  background-color: var(--clr2);
 }
 
 .gallery-hero {
@@ -198,7 +198,7 @@ a {
   height: 2rem;
   width: 8rem;
   border: none;
-  background-color: var(--clr2);
+  background-color: hsla(0, 90%, 70%, 50%);
   border-radius: 0px;
 }
 
@@ -216,7 +216,7 @@ a {
 /* overwtie for the above focus,valid,invalid */
 .search-form input:focus,
 .search-form input:valid {
-  background-color: var(--clr2);
+  background-color: hsla(0, 90%, 70%, 50%);;
   border: none;
   transition: border-color 0.3s ease;
 }
