@@ -1,11 +1,19 @@
 /* team page starts here */
-.team-profile {
-  background-color: lightcoral;
+body {
+  background-image: url(../images/gallery/home-page-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
 }
+
 .team-profile .team {
   padding: 50px 0px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 }
 
 .team-profile .member {
@@ -17,6 +25,7 @@
   background-color: #fff;
   margin: 30px;
   max-width: 300px;
+  height: 24rem;
 }
 
 .team-profile .profile-image {
