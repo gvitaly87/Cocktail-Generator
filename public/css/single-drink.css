@@ -47,6 +47,7 @@ body {
   transform: translateY(-103%);
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 16px;
+  text-transform: capitalize;
 
   width: 25rem;
   text-align: center;
@@ -153,4 +154,8 @@ a {
 
 .refresh-drink:hover {
   color: white;
+}
+
+footer {
+  color: black;
 }

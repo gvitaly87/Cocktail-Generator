@@ -124,3 +124,7 @@ A cocktail generator that gives out new recipes for each day of the week, and al
 - Refactored some ejs/mjs
 - Mobile Friendliness
 - Made group charter
+
+## Erica
+
+-
