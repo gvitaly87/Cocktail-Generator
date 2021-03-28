@@ -86,6 +86,15 @@
 
 ---
 
+## Vitaly
+
+- Set Routes
+- Created Schemas
+- Created Seeds
+- Populated DB
+- Created special Features - Pagination, Log-in, authentication
+- Refactored some ejs/front-end js
+
 > ## March 15th, 2021:
 
 - All: Divided up tasks
