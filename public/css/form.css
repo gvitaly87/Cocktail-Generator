@@ -228,3 +228,22 @@ form a {
     width: auto;
   }
 }
+
+.success {
+  position: fixed;
+  font-size: 2rem;
+  font-family: var(-ff1);
+
+  color: white;
+  background-color: hsla(80, 83%, 36%, 50%);
+}
+
+.error {
+  position: fixed;
+  margin: auto;
+  font-size: 2rem;
+  font-family: var(-ff1);
+
+  color: white;
+  background-color: rgba(255, 22, 22, 0.8);
+}
