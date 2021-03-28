@@ -1,4 +1,4 @@
-const mongoose = require('./_connection');
+const mongoose = require('./lib/db');
 require('dotenv').config();
 const express = require('express');
 
@@ -19,6 +19,8 @@ app.use(express.static(path.join(__dirname, './public')));
 
 app.get('/favicon.ico', (req, res) => res.sendStatus(204));
 //set ejs as the view engine for express
+app.use(express.urlencoded({ extended: true }));
+
 app.set('view engine', 'ejs');
 app.use(flash());
 app.use(

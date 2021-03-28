@@ -11,8 +11,6 @@ module.exports = () => {
     });
   });
 
-  router.use(express.urlencoded({ extended: true }));
-
   router.post(
     '/',
     passport.authenticate('local', {

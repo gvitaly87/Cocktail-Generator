@@ -16,11 +16,38 @@
 
 ---
 
+### Routes
+
+- **'/'** - An index hero page with a call to action, navigation and footer
+- **'/gallery'** - A gallery page that also includes a random drink option, page pagination, and search.
+- **'/gallery/:name'** - Getting a detailed page for one of the drink recipes by name
+- **'/gallery?random=true'** - A page generated for one random drink recipe
+- **'/gallery?search=drink_name'** - Redirects to **/gallery/:name**
+- **'/login'** - A fully functional login that uses bcrypt and postman to authenticate the user. Upon successful login the user is redirected back to the homepage, with logout being displayed as an option in the navbar. Invalid user/password messages appear if the wrong credentials are provided.
+- **'/register'** - A registration or subscription page. Any registered user can then log in with the email and password. A user can choose to subscribe instead. In both cases, the user will be given a success/failure message.
+- **'/subscribe'** - Adds the same functionality as the subscribe option in the register page, but added for the assignment requirements
+- **'/admin'** - Lists all the subscribed users and emails.
+
+#### API's
+
+- **'/api/v0/gallery'** - Serves drinks objects with enabled pagination
+- **'/api/v0/subscribers'** - Serves subscriber object list
+- **'/api/v0/members'** - Serves the team member objects
+
+---
+
 ### Dependencies
 
-- [Express](https://www.npmjs.com/package/express) Framework to handle the server side routing
+- [bcrypt](https://www.npmjs.com/package/bcrypt) A library to help you hash passwords.
 - [dotenv](https://www.npmjs.com/package/dotenv) to load environment variables
 - [ejs](https://www.npmjs.com/package/ejs) In order to work with javascript templates to generate dynamic pages
+- [email-validator](https://www.npmjs.com/package/email-validator) A simple module to validate an e-mail address.
+- [express](https://www.npmjs.com/package/express) Framework to handle the server side routing
+- [express-flash](https://www.npmjs.com/package/express-flash) Flash Messages for your Express Application
+- [express-session](https://www.npmjs.com/package/express-session) Creating a session middleware for login
+- [mongoose](https://www.npmjs.com/package/mongoose) Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
+- [passport](https://www.npmjs.com/package/passport) Simple, unobtrusive authentication for Node.js.
+- [passport-local](https://www.npmjs.com/package/passport-local) Local username and password authentication strategy for Passport.
 
 ---
 
