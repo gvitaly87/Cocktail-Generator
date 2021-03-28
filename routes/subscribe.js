@@ -17,7 +17,7 @@ module.exports = () => {
     try {
       const subscriber = new Subscriber(req.body);
       const savedSubscriber = await subscriber.save();
-      if (savedSubscriber) return res.redirect('/subscribe?success=true');
+      if (savedSubscriber) return res.redirect('/register?success=true');
       // In case it failed to save create a custom error.
       return next(new Error('Failed to subscribe for an unknown reason'));
     } catch (err) {
