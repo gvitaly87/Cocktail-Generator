@@ -89,6 +89,7 @@
 ## Vitaly
 
 - Set Routes
+- Created JSON end points
 - Created Schemas
 - Created Seeds
 - Populated DB
