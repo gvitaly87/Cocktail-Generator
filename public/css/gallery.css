@@ -1,6 +1,6 @@
 /* GALLERY STYLING */
 body {
-  background-color: hsla(0, 90%, 70%, 50%);;
+  background-color: hsla(0, 90%, 70%, 50%);
 }
 
 .gallery-hero {
@@ -17,6 +17,7 @@ body {
 .gallery-title {
   font-size: 3.25rem;
   color: white;
+  text-shadow: 5px 5px #9e4646;
   font-weight: 600;
 }
 
