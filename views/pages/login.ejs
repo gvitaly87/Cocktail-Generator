@@ -1,7 +1,7 @@
-<% if (messages.error) { %>
-<div class="error"><%=messages.error%></div>
-<%}%>
 <form class="login-form" method="POST" action="/login">
+  <% if (messages.error) { %>
+  <div class="error"><%=messages.error%></div>
+  <%}%>
   <h1 class="login-title">Login to your Mixr Account</h1>
   <label for="email">
     <input type="email" name="email" id="email" required />
