@@ -16,7 +16,7 @@ module.exports = () => {
   router.get('/', (req, res) => {
     // render calls the view engine
     // looks for the page at the path, passes variable pageTitle
-    res.render('pages/index', { pageTitle: 'Index' });
+    res.render('pages/index', { pageTitle: 'Index', template: 'index' });
   });
 
   router.use('/subscribe', subscribeRoute());
