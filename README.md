@@ -1,4 +1,4 @@
-Cocktail Drink Generator
+# Cocktail Drink Generator
 
 ## General Information
 
