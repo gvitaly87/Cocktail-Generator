@@ -1,4 +1,4 @@
-# CPNT262 - Final Assignment - Cocktail Drink Generator
+Cocktail Drink Generator
 
 ## General Information
 
@@ -9,7 +9,7 @@
   - [Shivani Patel](https://github.com/Shi-stack)
   - [Vitaly Gins](https://github.com/gvitaly87)
 - GitHub Links:
-  - [GH repo](https://github.com/gvitaly87/cpnt262-final)
+  - [GH repo](https://github.com/gvitaly87/Cocktail-Generator)
   - [Deployed Heroku URL](https://cocktail-generator-262-final.herokuapp.com/)
 
 ### Context
